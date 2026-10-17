@@ -6,9 +6,10 @@ backend:
   # GitHub OAuth App 的 Client ID（已在 2026-10-17 创建并填入）
   client_id: Ov23li8laTinERnLyBux
   # 自定义 OAuth 代理：绕过 Decap 默认的 Netlify 网关（api.netlify.com/auth 会 404）
-  # 该 Worker 代码见 workers/oauth-proxy.js，部署步骤见 DECAP_AUTH.md
+  # 使用 Cloudflare Pages Functions（functions/auth.js + functions/callback.js）
+  # 部署与密钥配置步骤见 DECAP_AUTH.md
   # 注意：base_url 末尾不要带斜杠
-  base_url: https://tuanchaye-oauth.zhishuyunqi001.workers.dev
+  base_url: https://tuanchaye.zhishuyunqi001.workers.dev
   auth_endpoint: /auth
 
 # Decap 后台语言（界面）

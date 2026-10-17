@@ -2,7 +2,8 @@
 
 > 问题：Decap CMS 默认通过 Netlify 的 OAuth 网关（`api.netlify.com/auth`）换取 GitHub token。
 > 因为我们没用 Netlify 托管，登录会跳到 `api.netlify.com/auth` 返回 404。
-> 解法：自己部署一个 Cloudflare Worker 作为 OAuth 代理，Decap 走你自己的 Worker。
+> 解法：使用 Cloudflare **Pages Functions**（`functions/auth.js` + `functions/callback.js`）
+> 作为 OAuth 代理，Decap 走你自己的站点地址即可。
 
 ---
 
@@ -11,60 +12,55 @@
 - GitHub OAuth App（已建好，应用名 `Tuanchaye Decap CMS`）
   - **Client ID**：`Ov23li8laTinERnLyBux`
   - **Client Secret**：在 GitHub OAuth App 页面 → Client secrets → Generate a new client secret 生成
-- Worker 代码：`workers/oauth-proxy.js`（本仓库已包含）
-- Decap 配置：`public/admin/config.yml` 已指向 `base_url` + `auth_endpoint`
+- Pages Functions 代码：本仓库的 `functions/auth.js` 和 `functions/callback.js`
+- Decap 配置：`public/admin/config.yml` 已指向站点本身作为 `base_url`
 
 ---
 
-## 二、在 Cloudflare 创建 OAuth 代理 Worker
+## 二、在 Cloudflare Pages 项目中设置环境变量
 
-1. 登录 cloudflare.com → 左侧 **Workers & Pages** → 点 **Create** → 选 **Worker**
-2. **Name** 填：`tuanchaye-oauth`（决定地址 `https://tuanchaye-oauth.<你的子域>.workers.dev`）
-3. 点 **Deploy** 先建一个空 Worker
-4. 进入该 Worker → 点 **Edit code**（或 **Quick edit**）
-5. 把 `workers/oauth-proxy.js` 的全部内容粘贴进去，覆盖默认代码
-6. 点 **Save and Deploy**
+1. 登录 cloudflare.com → 左侧 **Workers & Pages** → 点你的项目 **tuanchaye**
+2. 顶部菜单切到 **Settings**
+3. 左侧找到 **Functions**（或 **Variables** / **Environment variables**）
+4. 添加两个环境变量（Production 环境）：
+   - `GITHUB_CLIENT_ID` = `Ov23li8laTinERnLyBux`
+   - `GITHUB_CLIENT_SECRET` = `06b17d102cd337dd9fcfa15868cd26c9c4df6ea2`
+5. 点 **Save**
 
-### 设置环境变量（关键，否则 Worker 拿不到密钥）
-
-1. 在该 Worker 页面 → 右侧 **Settings** → **Variables**
-2. 在 **Environment Variables** 下点 **Add variable**：
-   - 变量名 `CLIENT_ID`，值 `Ov23li8laTinERnLyBux` → **加密/Encrypt**（可选，建议）
-   - 变量名 `CLIENT_SECRET`，值 `06b17d102cd337dd9fcfa15868cd26c9c4df6ea2` → **加密/Encrypt**（必须）
-3. 保存后 Worker 自动生效
-
-> 你的 workers.dev 子域在创建 Pages 项目时已确定为 `zhishuyunqi001`，
-> 故 Worker 地址为：`https://tuanchaye-oauth.zhishuyunqi001.workers.dev`
-> 若你的子域不同，把 `zhishuyunqi001` 换成实际子域，并同步修改
-> `public/admin/config.yml` 里的 `base_url`。
+> 若 Cloudflare 将变量区分为 **Plain text** / **Secret**，请把 `GITHUB_CLIENT_SECRET` 设为 Secret。
 
 ---
 
 ## 三、更新 GitHub OAuth App 的回调地址
 
-GitHub 的 **Authorization callback URL** 必须指向 Worker 的 `/callback`（不是 Decap 前端）。
+GitHub 的 **Authorization callback URL** 必须指向 Pages Functions 的 `/callback`。
 
 1. GitHub → Settings → Developer settings → OAuth Apps → 点 **Tuanchaye Decap CMS**
 2. 编辑 **Authorization callback URL**，改为：
    ```
-   https://tuanchaye-oauth.zhishuyunqi001.workers.dev/callback
+   https://tuanchaye.zhishuyunqi001.workers.dev/callback
    ```
-   （如果之前填的是 `https://tuanchaye.zhishuyunqi001.workers.dev/admin/`，请替换为上面的 Worker 回调地址；GitHub 新版支持填多个，用回车分行即可，可不删旧的）
+   如果之前填的是 Worker 代理地址或 `https://tuanchaye.zhishuyunqi001.workers.dev/admin/`，请替换为上面的地址。
+   GitHub 新版支持多个 callback URL，用回车分行即可，旧的可保留也可删除。
 3. 点 **Update application**
 
 ---
 
-## 四、推送 Decap 配置更新
+## 四、推送更新到 GitHub
 
-本地改好的 `public/admin/config.yml` 需要推到 GitHub，触发 Cloudflare Pages 重新部署：
+本地改好的 `public/admin/config.yml` 和新增的 `functions/auth.js`、`functions/callback.js` 需要推到 GitHub，触发 Cloudflare Pages 重新部署：
 
 ```bash
 cd "/d/WB/wbhc/AI网创项目建站1/tuanchaye"
-git -c credential.helper= pull origin main   # 先拉取最新
+git -c credential.helper= pull origin main
 git -c credential.helper= push origin main
 ```
 
 （若 token 已过期，到 GitHub → Developer settings → PAT 重新生成一个 scope=repo 的 token 再 push）
+
+推送后 Cloudflare Pages 会自动重新构建。构建日志里应能看到 Functions 被上传：
+- `functions/auth.js`
+- `functions/callback.js`
 
 ---
 
@@ -80,6 +76,11 @@ git -c credential.helper= push origin main
 
 ## 安全提醒
 
-- `CLIENT_SECRET` 已通过聊天发过，仅用于本项目。若担心泄露，可在 GitHub OAuth App 页面
-  **Delete** 该 secret 并重新生成一个，然后同步更新 Worker 的 `CLIENT_SECRET` 环境变量。
-- Worker 的 `CLIENT_SECRET` 务必使用 **Encrypt** 存储，不要明文写在代码里。
+- `GITHUB_CLIENT_SECRET` 已通过聊天明文发过。若担心泄露，可在 GitHub OAuth App 页面
+  **Delete** 该 secret 并重新生成一个，然后同步更新 Cloudflare Pages 项目的
+  `GITHUB_CLIENT_SECRET` 环境变量。
+- `GITHUB_CLIENT_SECRET` 在 Cloudflare 后台必须设为 **Secret/Encrypted**，不要写在代码或
+  配置文件里。
+- 绑定 `tuanchaye.com` 自定义域后，需同步修改：
+  - `public/admin/config.yml` 里的 `base_url`
+  - GitHub OAuth App 里的 callback URL
