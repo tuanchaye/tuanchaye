@@ -63,15 +63,21 @@ export default {
 <script>
   (function () {
     var token = ${JSON.stringify(accessToken)};
+    var origin = window.location.origin;
     if (!window.opener) {
       document.body.innerHTML = '<h1>Error: window.opener is null</h1><p>Please close this window and try again.</p>';
       return;
     }
-    window.opener.postMessage({ type: 'authorizing:github', token: token }, '*');
-    // 延迟关闭，确保 postMessage 送达
+    var payload = { type: 'authorizing:github', token: token };
+    // 连续发送 3 次，确保 Decap 父窗口收到
+    window.opener.postMessage(payload, origin);
     setTimeout(function () {
+      window.opener.postMessage(payload, origin);
+    }, 200);
+    setTimeout(function () {
+      window.opener.postMessage(payload, origin);
       window.close();
-    }, 1000);
+    }, 500);
   })();
 </script>
 </body>
