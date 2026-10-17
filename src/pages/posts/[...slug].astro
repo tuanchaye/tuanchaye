@@ -50,6 +50,33 @@ const share = {
         <button class="share-btn copy" data-url={url}>Copy link</button>
       </div>
     </div>
+
+    <!-- 互动区：点赞 / 收藏 / 评论 -->
+    <section class="engage" data-slug={post.slug}>
+      <div class="engage-stats">
+        <button class="engage-btn like" data-act="like" aria-pressed="false">
+          <span class="ico">♥</span><span class="lbl">Like</span>
+          <span class="cnt" data-count="like">0</span>
+        </button>
+        <button class="engage-btn fav" data-act="fav" aria-pressed="false">
+          <span class="ico">★</span><span class="lbl">Save</span>
+          <span class="cnt" data-count="fav">0</span>
+        </button>
+      </div>
+
+      <div class="comments">
+        <h2 class="comments-title">Comments (<span id="cmt-total">0</span>)</h2>
+        <form class="comment-form" id="comment-form">
+          <input type="text" id="cmt-name" maxlength="40" placeholder="Your name" autocomplete="name" />
+          <textarea id="cmt-content" maxlength="1000" rows="3" placeholder="Share your thought (no contact info, please)"></textarea>
+          <div class="comment-actions">
+            <span class="comment-hint" id="cmt-hint"></span>
+            <button type="submit" class="cmt-submit">Post comment</button>
+          </div>
+        </form>
+        <ul class="comment-list" id="comment-list"></ul>
+      </div>
+    </section>
   </article>
 </Layout>
 
@@ -66,4 +93,131 @@ const share = {
       }
     });
   });
+
+  (function () {
+    var section = document.querySelector('.engage');
+    if (!section) return;
+    var slug = section.getAttribute('data-slug');
+    var likeBtn = section.querySelector('[data-act="like"]');
+    var favBtn = section.querySelector('[data-act="fav"]');
+    var likeCnt = section.querySelector('[data-count="like"]');
+    var favCnt = section.querySelector('[data-count="fav"]');
+    var LK = 'tea_like_' + slug, FK = 'tea_fav_' + slug;
+
+    function setPressed(btn, on) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.classList.toggle('active', on);
+    }
+
+    // 读取计数
+    fetch('/api/likes?slug=' + encodeURIComponent(slug)).then(function (r) { return r.json(); })
+      .then(function (d) { likeCnt.textContent = d.likes || 0; }).catch(function () {});
+    fetch('/api/favorites?slug=' + encodeURIComponent(slug)).then(function (r) { return r.json(); })
+      .then(function (d) { favCnt.textContent = d.favorites || 0; }).catch(function () {});
+
+    // 本地已点赞/收藏状态
+    setPressed(likeBtn, localStorage.getItem(LK) === '1');
+    setPressed(favBtn, localStorage.getItem(FK) === '1');
+
+    likeBtn.addEventListener('click', function () {
+      if (localStorage.getItem(LK) === '1') return;
+      fetch('/api/likes?slug=' + encodeURIComponent(slug), { method: 'POST' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) { likeCnt.textContent = d.likes || 0; setPressed(likeBtn, true); localStorage.setItem(LK, '1'); })
+        .catch(function () {});
+    });
+    favBtn.addEventListener('click', function () {
+      if (localStorage.getItem(FK) === '1') return;
+      fetch('/api/favorites?slug=' + encodeURIComponent(slug), { method: 'POST' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) { favCnt.textContent = d.favorites || 0; setPressed(favBtn, true); localStorage.setItem(FK, '1'); })
+        .catch(function () {});
+    });
+
+    // 评论
+    var listEl = document.getElementById('comment-list');
+    var totalEl = document.getElementById('cmt-total');
+    var form = document.getElementById('comment-form');
+    var nameEl = document.getElementById('cmt-name');
+    var contentEl = document.getElementById('cmt-content');
+    var hintEl = document.getElementById('cmt-hint');
+    var submitEl = form.querySelector('.cmt-submit');
+
+    function timeAgo(ts) {
+      var s = Math.floor((Date.now() - ts) / 1000);
+      if (s < 60) return 'just now';
+      if (s < 3600) return Math.floor(s / 60) + ' min ago';
+      if (s < 86400) return Math.floor(s / 3600) + ' h ago';
+      return Math.floor(s / 86400) + ' d ago';
+    }
+
+    function loadComments() {
+      fetch('/api/comments?slug=' + encodeURIComponent(slug)).then(function (r) { return r.json(); })
+        .then(function (d) {
+          var cs = d.comments || [];
+          totalEl.textContent = cs.length;
+          listEl.innerHTML = '';
+          cs.forEach(function (c) {
+            var li = document.createElement('li');
+            li.className = 'comment-item';
+            var h = document.createElement('div');
+            h.className = 'comment-head';
+            h.innerHTML = '<span class="comment-author"></span><span class="comment-time"></span>';
+            h.querySelector('.comment-author').textContent = c.author;
+            h.querySelector('.comment-time').textContent = timeAgo(c.created_at);
+            var p = document.createElement('p');
+            p.className = 'comment-body';
+            p.textContent = c.content;
+            li.appendChild(h); li.appendChild(p);
+            listEl.appendChild(li);
+          });
+          if (cs.length === 0) {
+            listEl.innerHTML = '<li class="comment-empty">Be the first to comment.</li>';
+          }
+        }).catch(function () {});
+    }
+    loadComments();
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      hintEl.textContent = '';
+      hintEl.className = 'comment-hint';
+      var name = nameEl.value.trim();
+      var content = contentEl.value.trim();
+      if (!name) { hintEl.textContent = 'Please enter your name.'; hintEl.classList.add('err'); return; }
+      if (!content) { hintEl.textContent = 'Please write something.'; hintEl.classList.add('err'); return; }
+      // 客户端预过滤提示
+      if (/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/.test(content) ||
+          /\b\d{7,15}\b/.test(content) ||
+          /(微信|wechat|qq|www\.|https?:\/\/)/i.test(content)) {
+        hintEl.textContent = '请勿在评论中留下电话/邮箱/微信/QQ/链接等联系方式。';
+        hintEl.classList.add('err');
+        return;
+      }
+      submitEl.disabled = true;
+      submitEl.textContent = 'Posting...';
+      fetch('/api/comments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug: slug, author: name, content: content })
+      }).then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+        .then(function (res) {
+          if (res.ok && res.d.ok) {
+            contentEl.value = '';
+            hintEl.textContent = 'Thanks! Your comment is published.';
+            hintEl.classList.add('ok');
+            loadComments();
+          } else {
+            hintEl.textContent = (res.d && res.d.reason) || (res.d && res.d.error) || 'Failed to post.';
+            hintEl.classList.add('err');
+          }
+        }).catch(function () {
+          hintEl.textContent = 'Network error, please retry.';
+          hintEl.classList.add('err');
+        }).finally(function () {
+          submitEl.disabled = false;
+          submitEl.textContent = 'Post comment';
+        });
+    });
+  })();
 </script>

@@ -16,3 +16,14 @@ GITHUB_CLIENT_ID = "Ov23li8laTinERnLyBux"
 [assets]
 directory = "./dist"
 binding = "ASSETS"
+
+# 点赞 / 收藏计数（全局聚合计数）
+[[kv_namespaces]]
+binding = "TEAKV"
+id = "207c5c3f840f4119ab61287be5471bfd"
+
+# 评论存储（含内容过滤后落库）
+[[d1_databases]]
+binding = "TEADB"
+database_name = "tuanchaye-db"
+database_id = "deefb693-c521-450c-b723-e34c5af18fe1"

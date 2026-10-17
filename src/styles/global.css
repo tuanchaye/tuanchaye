@@ -375,3 +375,51 @@ a { color: var(--accent); }
 .share-btn.facebook { background: #1877f2; color: #fff; border-color: #1877f2; }
 .share-btn.pinterest { background: #bd081c; color: #fff; border-color: #bd081c; }
 .share-btn.whatsapp { background: #25d366; color: #fff; border-color: #25d366; }
+
+/* 互动区：点赞 / 收藏 / 评论 */
+.engage { margin: 2.5rem 0; padding: 1.4rem; border: 1px solid var(--line); border-radius: 10px; background: var(--card-bg); }
+.engage-stats { display: flex; gap: 1rem; margin-bottom: 1.6rem; }
+.engage-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.55rem 1.1rem; border-radius: 24px; cursor: pointer;
+  border: 1.5px solid var(--line); background: #fff; color: var(--fg);
+  font-family: inherit; font-size: 0.9rem; font-weight: 600; transition: all .15s;
+}
+.engage-btn .ico { font-size: 1.1rem; line-height: 1; }
+.engage-btn .cnt { background: var(--bg); border-radius: 12px; padding: 0 0.45rem; font-size: 0.8rem; color: var(--muted); }
+.engage-btn:hover { border-color: var(--accent); }
+.engage-btn.active { border-color: var(--accent); background: #eaf5ee; color: var(--accent); }
+.engage-btn.like.active .ico { color: #e23b5a; }
+.engage-btn.fav.active .ico { color: #e0a52e; }
+
+.comments-title { font-size: 1.1rem; margin: 0 0 1rem; color: var(--fg); }
+.comment-form { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.4rem; }
+.comment-form input, .comment-form textarea {
+  width: 100%; padding: 0.6rem 0.8rem; border: 1px solid var(--line);
+  border-radius: 8px; font-family: inherit; font-size: 0.9rem; background: #fff; color: var(--fg);
+}
+.comment-form textarea { resize: vertical; }
+.comment-actions { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.comment-hint { font-size: 0.8rem; color: var(--muted); flex: 1; }
+.comment-hint.err { color: #c0392b; }
+.comment-hint.ok { color: var(--accent); }
+.cmt-submit {
+  padding: 0.55rem 1.3rem; border: none; border-radius: 20px; cursor: pointer;
+  background: var(--accent); color: #fff; font-family: inherit; font-weight: 600; font-size: 0.9rem;
+}
+.cmt-submit:disabled { opacity: 0.6; cursor: default; }
+.cmt-submit:hover:not(:disabled) { background: var(--accent-light); }
+
+.comment-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1rem; }
+.comment-item { padding: 0.9rem 1rem; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.comment-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.4rem; }
+.comment-author { font-weight: 600; color: var(--accent); font-size: 0.9rem; }
+.comment-time { font-size: 0.75rem; color: var(--muted); }
+.comment-body { margin: 0; white-space: pre-wrap; word-break: break-word; line-height: 1.6; }
+.comment-empty { color: var(--muted); font-size: 0.9rem; padding: 0.5rem 0; }
+
+@media (max-width: 600px) {
+  .engage-stats { flex-wrap: wrap; }
+  .comment-actions { flex-direction: column; align-items: stretch; }
+  .comment-actions .cmt-submit { width: 100%; }
+}
