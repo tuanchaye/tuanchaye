@@ -1,12 +1,15 @@
-// Cloudflare Workers Static Assets 站点 Worker
-// 为 Decap CMS 提供 GitHub OAuth 代理，同时把其他请求代理到静态资源。
+// Cloudflare Worker：为 Decap CMS 提供 GitHub OAuth 代理
+// 同时把其他所有请求代理到静态资源（ASSETS）。
+//
+// 部署方式：Cloudflare 项目通过 npx wrangler deploy 读取仓库根目录 wrangler.toml，
+// 其中 main 指向本文件，assets directory 指向 ./dist。
 //
 // 需要的环境变量（在 Cloudflare 项目 → Settings → Variables 中设置）：
 //   GITHUB_CLIENT_ID     —— GitHub OAuth App 的 Client ID
-//   GITHUB_CLIENT_SECRET —— GitHub OAuth App 的 Client Secret
+//   GITHUB_CLIENT_SECRET —— GitHub OAuth App 的 Client Secret（必须设为 Secret）
 
 export default {
-  async fetch(request, env, ctx) {
+  async fetch(request, env) {
     const url = new URL(request.url);
 
     // 1) OAuth 授权入口：重定向到 GitHub

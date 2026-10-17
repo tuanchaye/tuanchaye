@@ -1,0 +1,14 @@
+# Cloudflare Workers Static Assets 配置
+# Astro 保持纯静态构建（output: static），构建产物 dist 作为静态资源。
+# Worker 入口为 worker/index.js，负责处理 /auth、/callback 以及回退到静态资源。
+
+name = "tuanchaye"
+main = "worker/index.js"
+compatibility_date = "2024-10-17"
+
+[observability]
+enabled = true
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"

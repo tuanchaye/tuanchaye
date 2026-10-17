@@ -2,8 +2,8 @@
 
 > 问题：Decap CMS 默认通过 Netlify 的 OAuth 网关（`api.netlify.com/auth`）换取 GitHub token。
 > 因为我们没用 Netlify 托管，登录会跳到 `api.netlify.com/auth` 返回 404。
-> 解法：使用 Cloudflare **Workers Static Assets** 的站点 Worker（`public/_worker.js`）
-> 处理 `/auth` 和 `/callback`，Decap 走自己的站点地址即可。
+> 解法：使用 Cloudflare **Workers Static Assets**，通过 `wrangler.toml` + `worker/index.js`
+> 部署自定义 Worker，处理 `/auth` 和 `/callback`，并把其他请求代理到 Astro 静态资源。
 
 ---
 
@@ -12,7 +12,8 @@
 - GitHub OAuth App（已建好，应用名 `Tuanchaye Decap CMS`）
   - **Client ID**：`Ov23li8laTinERnLyBux`
   - **Client Secret**：在 GitHub OAuth App 页面 → Client secrets → Generate a new client secret 生成
-- 站点 Worker 代码：`public/_worker.js`
+- Worker 代码：`worker/index.js`
+- Wrangler 配置：`wrangler.toml`
 - Decap 配置：`public/admin/config.yml` 已指向站点本身作为 `base_url`
 
 ---
@@ -41,9 +42,11 @@
 
 ---
 
-## 四、推送 `_worker.js` 到 GitHub
+## 四、推送到 GitHub 触发部署
 
-本地改好的 `public/_worker.js` 和 `public/admin/config.yml` 需要推到 GitHub，触发 Cloudflare 重新部署：
+本地改好的 `wrangler.toml`、`worker/index.js`、`public/admin/config.yml` 需要推到 GitHub。
+Cloudflare 检测到 `wrangler.toml` 后会按其中的 `main` 和 `assets.directory` 部署，不再自动注入
+`@astrojs/cloudflare` adapter。
 
 ```bash
 cd "/d/WB/wbhc/AI网创项目建站1/tuanchaye"
