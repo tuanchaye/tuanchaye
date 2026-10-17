@@ -63,10 +63,15 @@ export default {
 <script>
   (function () {
     var token = ${JSON.stringify(accessToken)};
-    if (window.opener) {
-      window.opener.postMessage({ type: 'authorizing:github', token: token }, '*');
+    if (!window.opener) {
+      document.body.innerHTML = '<h1>Error: window.opener is null</h1><p>Please close this window and try again.</p>';
+      return;
     }
-    window.close();
+    window.opener.postMessage({ type: 'authorizing:github', token: token }, '*');
+    // 延迟关闭，确保 postMessage 送达
+    setTimeout(function () {
+      window.close();
+    }, 1000);
   })();
 </script>
 </body>
