@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<Layout title={post.data.title} description={post.data.description}>
+  <article>
+    <h1>{post.data.title}</h1>
+    <p class="meta">
+      {post.data.pubDate.toISOString().slice(0, 10)}
+      {post.data.category ? ` · ${post.data.category}` : ''}
+    </p>
+    <Content />
+
+    <!--
+      AdSense ad slot: after your site is approved by Google AdSense,
+      paste the <ins> ad unit code here. Repeat in-loop across articles.
+    -->
+    <div class="ad-slot" aria-label="Advertisement">
+      <!-- Google AdSense code goes here -->
+    </div>
+  </article>
+</Layout>
