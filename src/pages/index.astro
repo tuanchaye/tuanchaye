@@ -6,15 +6,18 @@ const posts = (await getCollection('posts')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
+
 <Layout
   title="TuanChaYe - Chinese Tea Knowledge for Global Readers"
   description="Discover Chinese tea: types, brewing methods, culture and buying guides. Written for tea lovers worldwide."
 >
-  <h1>Chinese Tea Knowledge, Made Simple</h1>
-  <p>
-    TuanChaYe (团茶叶) is a Chinese-tea knowledge platform for global readers.
-    Explore tea types, brewing guides, culture and how to choose your tea.
-  </p>
+  <section class="hero">
+    <h1>Chinese Tea Knowledge, Made Simple</h1>
+    <p>
+      TuanChaYe (团茶叶) is a Chinese-tea knowledge platform for global readers.
+      Explore tea types, brewing guides, culture and how to choose your tea.
+    </p>
+  </section>
 
   <h2>Latest Articles</h2>
   <ul class="post-list">
@@ -25,4 +28,10 @@ const posts = (await getCollection('posts')).sort(
       </li>
     ))}
   </ul>
+
+  <div class="section-ornament" aria-hidden="true">&#x2767;</div>
+
+  <p class="meta" style="text-align: center;">
+    New guides are added regularly. Brew a cup and explore.
+  </p>
 </Layout>
