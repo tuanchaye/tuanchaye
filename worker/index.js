@@ -78,7 +78,19 @@ export default {
       });
     }
 
-    // 3) 其他请求：交给 Cloudflare 静态资源（ASSETS 绑定）
+    // 3) 临时调试用：查看 env 里有哪些变量（不暴露具体值）
+    if (url.pathname === '/debug-env') {
+      return new Response(
+        JSON.stringify({
+          keys: Object.keys(env),
+          hasClientId: !!env.GITHUB_CLIENT_ID,
+          hasClientSecret: !!env.GITHUB_CLIENT_SECRET,
+        }, null, 2),
+        { headers: { 'Content-Type': 'application/json' } }
+      );
+    }
+
+    // 4) 其他请求：交给 Cloudflare 静态资源（ASSETS 绑定）
     return env.ASSETS.fetch(request);
   },
 };
