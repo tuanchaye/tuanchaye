@@ -3,11 +3,12 @@ backend:
   # 仓库名已改为你的真实 GitHub（上线指引第 2 步建好同名仓库后生效）
   repo: tuanchaye/tuanchaye
   branch: main
-  # 在 GitHub 创建 OAuth App 后，把它的 Client ID 填到这里（见上线指引第 4 步）
-  # 创建位置：GitHub → Settings → Developer settings → OAuth Apps → New OAuth App
-  # Homepage URL 与 Authorization callback URL 都填：https://tuanchaye.com/admin/
-  # （上线前若自定义域未生效，可先用 https://<你的pages.dev地址>/admin/）
-  client_id: YOUR_OAUTH_CLIENT_ID
+  # GitHub OAuth App 的 Client ID（已在 2026-10-17 创建并填入）
+  # OAuth App 位置：GitHub → Settings → Developer settings → OAuth Apps
+  # Homepage URL: https://tuanchaye.zhishuyunqi001.workers.dev
+  # Authorization callback URL: https://tuanchaye.zhishuyunqi001.workers.dev/admin/
+  # 绑定 tuanchaye.com 后，回调地址需同步改为 https://tuanchaye.com/admin/
+  client_id: Ov23li8laTinERnLyBux
 
 # Decap 后台语言（界面）
 locale: en
