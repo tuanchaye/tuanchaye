@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES, canonicalCategory, getCategory } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((c) => ({
+    params: { name: c.slug },
+    props: { cat: c },
+  }));
+}
+
+const { cat } = Astro.props;
+const posts = (await getCollection('posts'))
+  .filter((p) => canonicalCategory(p.data.category) === cat.slug)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout title={`${cat.name} · TuanChaYe`} description={cat.description}>
+  <nav class="breadcrumb">
+    <a href="/">Home</a> <span aria-hidden="true">/</span> <span>{cat.name}</span>
+  </nav>
+
+  <div class="page-hero cat-page-hero" style={`background:${cat.gradient}`}>
+    <h1>{cat.name}</h1>
+    <p>{cat.description}</p>
+  </div>
+
+  <h2>Articles in {cat.name}</h2>
+  <div class="cat-post-grid">
+    {
+      posts.map((p) => (
+        <a class="cat-post-card" href={`/posts/${p.slug}`}>
+          <h3>{p.data.title}</h3>
+          <p class="meta">{p.data.pubDate.toISOString().slice(0, 10)}</p>
+          <p class="cat-post-excerpt">{p.data.description}</p>
+        </a>
+      ))
+    }
+  </div>
+</Layout>

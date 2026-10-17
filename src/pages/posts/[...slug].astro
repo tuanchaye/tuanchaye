@@ -12,7 +12,17 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+const site = 'https://tuanchaye.com';
+const url = `${site}/posts/${post.slug}`;
+const share = {
+  twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(post.data.title)}`,
+  facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
+  pinterest: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&description=${encodeURIComponent(post.data.title)}`,
+  whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title + ' ' + url)}`,
+};
 ---
+
 <Layout title={post.data.title} description={post.data.description}>
   <article>
     <h1>{post.data.title}</h1>
@@ -29,5 +39,31 @@ const { Content } = await post.render();
     <div class="ad-slot" aria-label="Advertisement">
       <!-- Google AdSense code goes here -->
     </div>
+
+    <div class="share-box">
+      <span class="share-label">Share this article</span>
+      <div class="share-btns">
+        <a class="share-btn twitter" href={share.twitter} target="_blank" rel="noopener">Twitter</a>
+        <a class="share-btn facebook" href={share.facebook} target="_blank" rel="noopener">Facebook</a>
+        <a class="share-btn pinterest" href={share.pinterest} target="_blank" rel="noopener">Pinterest</a>
+        <a class="share-btn whatsapp" href={share.whatsapp} target="_blank" rel="noopener">WhatsApp</a>
+        <button class="share-btn copy" data-url={url}>Copy link</button>
+      </div>
+    </div>
   </article>
 </Layout>
+
+<script is:inline>
+  document.querySelectorAll('.share-btn.copy').forEach(function (btn) {
+    btn.addEventListener('click', async function () {
+      try {
+        await navigator.clipboard.writeText(btn.getAttribute('data-url'));
+        var old = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = old; }, 1500);
+      } catch (e) {
+        btn.textContent = 'Copy failed';
+      }
+    });
+  });
+</script>

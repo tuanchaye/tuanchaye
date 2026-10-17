@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Search · TuanChaYe"
+  description="Search Chinese tea articles, brewing guides and tea culture on TuanChaYe."
+>
+  <h1>Search</h1>
+  <p class="meta">Find articles by keyword — types, brewing, culture, buying and more.</p>
+  <div id="search"></div>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', function () {
+      if (typeof window.PagefindUI === 'undefined') return;
+      new window.PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        queryParam: 'q',
+      });
+    });
+  </script>
+</Layout>

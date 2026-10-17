@@ -29,5 +29,15 @@ collections:
       - { name: title, label: "Title", widget: string }
       - { name: description, label: "Meta Description", widget: string }
       - { name: pubDate, label: "Publish Date", widget: datetime, required: false }
-      - { name: category, label: "Category", widget: string, required: false }
+      - name: category
+        label: "Category"
+        widget: select
+        required: false
+        options:
+          - "Tea Basics"
+          - "Tea Types"
+          - "Brewing"
+          - "Culture"
+          - "Buying Guide"
+          - "Care & Wellbeing"
       - { name: body, label: "Body (Markdown)", widget: markdown }
