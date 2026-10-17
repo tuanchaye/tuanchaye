@@ -1,0 +1,122 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Comment Moderation · TuanChaYe"
+  description="Admin panel to moderate user comments on TuanChaYe."
+>
+  <h1>Comment Moderation</h1>
+  <p class="meta">Review and delete comments that slipped through the filter.</p>
+
+  <section class="admin-login" id="admin-login">
+    <label for="admin-token">Admin Token</label>
+    <div class="token-row">
+      <input type="password" id="admin-token" placeholder="Enter your admin token" autocomplete="off" />
+      <button id="load-comments">Load comments</button>
+    </div>
+    <p class="admin-hint" id="auth-hint"></p>
+  </section>
+
+  <section class="admin-results" id="admin-results" style="display:none;">
+    <p id="stats" class="meta"></p>
+    <ul class="admin-list" id="admin-list"></ul>
+  </section>
+</Layout>
+
+<script is:inline>
+  (function () {
+    var tokenInput = document.getElementById('admin-token');
+    var loadBtn = document.getElementById('load-comments');
+    var authHint = document.getElementById('auth-hint');
+    var results = document.getElementById('admin-results');
+    var stats = document.getElementById('stats');
+    var list = document.getElementById('admin-list');
+    var saved = localStorage.getItem('tea_admin_token');
+    if (saved) { tokenInput.value = saved; }
+
+    function fmtDate(ts) {
+      var d = new Date(ts);
+      return d.toISOString().slice(0, 10) + ' ' + d.toTimeString().slice(0, 5);
+    }
+
+    function setHint(text, err) {
+      authHint.textContent = text;
+      authHint.className = 'admin-hint' + (err ? ' err' : '');
+    }
+
+    function loadComments() {
+      var token = tokenInput.value.trim();
+      if (!token) { setHint('Please enter the admin token.', true); return; }
+      setHint('Loading…', false);
+      fetch('/api/admin/comments', {
+        headers: { 'Authorization': 'Bearer ' + token }
+      }).then(function (r) {
+        if (r.status === 401) throw new Error('Invalid admin token');
+        if (!r.ok) throw new Error('Error ' + r.status);
+        return r.json();
+      }).then(function (d) {
+        localStorage.setItem('tea_admin_token', token);
+        var comments = d.comments || [];
+        stats.textContent = 'Total comments: ' + comments.length;
+        results.style.display = 'block';
+        list.innerHTML = '';
+        if (comments.length === 0) {
+          list.innerHTML = '<li class="admin-empty">No comments yet.</li>';
+          setHint('', false);
+          return;
+        }
+        comments.forEach(function (c) {
+          var li = document.createElement('li');
+          li.className = 'admin-item';
+          li.dataset.id = c.id;
+          li.innerHTML = '<div class="admin-head">' +
+            '<span class="admin-slug">' + escapeHtml(c.slug) + '</span>' +
+            '<span class="admin-author">' + escapeHtml(c.author) + '</span>' +
+            '<span class="admin-time">' + fmtDate(c.created_at) + '</span>' +
+            '</div>' +
+            '<p class="admin-body">' + escapeHtml(c.content) + '</p>' +
+            '<button class="admin-delete">Delete</button>';
+          list.appendChild(li);
+        });
+        setHint('', false);
+      }).catch(function (e) {
+        setHint(e.message || 'Failed to load.', true);
+        results.style.display = 'none';
+      });
+    }
+
+    function deleteComment(id, li) {
+      if (!confirm('Delete this comment?')) return;
+      var token = tokenInput.value.trim();
+      fetch('/api/admin/comments?id=' + encodeURIComponent(id), {
+        method: 'DELETE',
+        headers: { 'Authorization': 'Bearer ' + token }
+      }).then(function (r) {
+        if (!r.ok) throw new Error('Delete failed: ' + r.status);
+        return r.json();
+      }).then(function () {
+        li.remove();
+        var cnt = list.querySelectorAll('.admin-item').length;
+        stats.textContent = 'Total comments: ' + cnt;
+      }).catch(function (e) { alert(e.message); });
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"']/g, function (m) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
+      });
+    }
+
+    loadBtn.addEventListener('click', loadComments);
+    tokenInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') loadComments();
+    });
+    list.addEventListener('click', function (e) {
+      if (e.target.classList.contains('admin-delete')) {
+        var li = e.target.closest('.admin-item');
+        deleteComment(li.dataset.id, li);
+      }
+    });
+  })();
+</script>

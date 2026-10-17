@@ -61,13 +61,16 @@ nav a {
 nav a:hover { color: var(--accent); }
 
 main {
-  max-width: 760px;
+  max-width: 840px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
+main.wide {
+  max-width: 1180px;
+}
 
 footer {
-  max-width: 760px;
+  max-width: 1180px;
   margin: 3rem auto;
   padding: 1rem;
   text-align: center;
@@ -459,3 +462,33 @@ a { color: var(--accent); }
   .post-thumb { flex: none; width: 100%; }
   .post-thumb img { width: 100%; height: 160px; }
 }
+
+/* 评论管理后台 */
+.admin-login { margin: 1.5rem 0; padding: 1.2rem; background: var(--card-bg); border: 1px solid var(--line); border-radius: 10px; }
+.admin-login label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+.token-row { display: flex; gap: 0.6rem; }
+.token-row input {
+  flex: 1; padding: 0.6rem 0.8rem; border: 1px solid var(--line); border-radius: 8px;
+  font-family: inherit; font-size: 0.95rem;
+}
+#load-comments {
+  padding: 0.6rem 1.1rem; border: none; border-radius: 8px; background: var(--accent); color: #fff;
+  font-family: inherit; font-weight: 600; cursor: pointer;
+}
+#load-comments:hover { background: var(--accent-light); }
+.admin-hint { margin: 0.6rem 0 0; font-size: 0.85rem; color: var(--muted); min-height: 1.2em; }
+.admin-hint.err { color: #c0392b; }
+.admin-results { margin-top: 1.5rem; }
+.admin-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1rem; }
+.admin-item { padding: 1rem; background: var(--card-bg); border: 1px solid var(--line); border-radius: 8px; }
+.admin-head { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; margin-bottom: 0.6rem; font-size: 0.85rem; color: var(--muted); }
+.admin-slug { font-weight: 700; color: var(--accent); }
+.admin-author { font-weight: 600; color: var(--fg); }
+.admin-time { margin-left: auto; }
+.admin-body { margin: 0 0 0.8rem; white-space: pre-wrap; word-break: break-word; line-height: 1.6; }
+.admin-delete {
+  padding: 0.35rem 0.9rem; border: 1px solid #c0392b; border-radius: 6px; background: #fff; color: #c0392b;
+  cursor: pointer; font-family: inherit; font-weight: 600; font-size: 0.85rem;
+}
+.admin-delete:hover { background: #c0392b; color: #fff; }
+.admin-empty { color: var(--muted); padding: 0.5rem 0; }

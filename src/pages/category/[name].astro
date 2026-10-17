@@ -16,7 +16,7 @@ const posts = (await getCollection('posts'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<Layout title={`${cat.name} · TuanChaYe`} description={cat.description}>
+<Layout title={`${cat.name} · TuanChaYe`} description={cat.description} wide={true}>
   <nav class="breadcrumb">
     <a href="/">Home</a> <span aria-hidden="true">/</span> <span>{cat.name}</span>
   </nav>

@@ -305,7 +305,38 @@ export default {
       return json({ error: 'not found' }, 404);
     }
 
-    // 4) 其他请求：交给 Cloudflare 静态资源（ASSETS 绑定）
+    // 4) 管理后台 API：评论列表 / 删除（需 ADMIN_TOKEN 鉴权）
+    if (url.pathname === '/api/admin/comments') {
+      const auth = request.headers.get('Authorization') || '';
+      const token = auth.replace(/^Bearer\s+/i, '');
+      if (!env.ADMIN_TOKEN || token !== env.ADMIN_TOKEN) {
+        return json({ error: 'unauthorized' }, 401);
+      }
+
+      if (request.method === 'GET') {
+        await ensureCommentsTable(env);
+        const { results } = await env.TEADB.prepare(
+          'SELECT id, slug, author, content, created_at FROM comments ORDER BY created_at DESC'
+        ).all();
+        return json({ comments: results || [] });
+      }
+
+      if (request.method === 'DELETE') {
+        const id = url.searchParams.get('id');
+        if (!id || !/^\d+$/.test(id)) {
+          return json({ error: 'missing or invalid id' }, 400);
+        }
+        await ensureCommentsTable(env);
+        const { changes } = await env.TEADB.prepare(
+          'DELETE FROM comments WHERE id = ?'
+        ).bind(parseInt(id, 10)).run();
+        return json({ ok: true, deleted: changes });
+      }
+
+      return json({ error: 'method not allowed' }, 405);
+    }
+
+    // 5) 其他请求：交给 Cloudflare 静态资源（ASSETS 绑定）
     return env.ASSETS.fetch(request);
   },
 };

@@ -3,8 +3,9 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description: string;
+  wide?: boolean;
 }
-const { title, description } = Astro.props;
+const { title, description, wide = false } = Astro.props;
 const site = 'https://tuanchaye.com';
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -57,7 +58,7 @@ const jsonLd = {
         <a href="/contact">Contact</a>
       </nav>
     </header>
-    <main>
+    <main class={wide ? 'wide' : ''}>
       <slot />
     </main>
     <footer>
