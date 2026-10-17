@@ -1,7 +1,31 @@
 # tuanchaye.com — 出海中国茶叶内容站 上线与运营指引
 
-> 技术栈：Astro（静态站） + Cloudflare Pages（免费托管） + Decap CMS（网页后台）
+> 技术栈：Astro（静态站） + Cloudflare Workers（静态资源托管 + Worker API） + Decap CMS（网页后台）
 > 特点：0 服务器成本、免备案、海外访问快、有图形后台、你日常写文章即可自动上线。
+
+---
+
+## ✅ 当前站点状态（已上线）
+
+- 正式域名：**https://tuanchaye.com**（HTTP 会自动 301 跳 HTTPS）
+- 后台：https://tuanchaye.com/admin/（GitHub OAuth 登录）
+- 内容：30 篇英文原创 + 全站茶叶主题配图（SVG 封面，零版权）
+- 文章页功能：封面大图、点赞 / 收藏、评论（服务端严格过滤）、社媒分享
+- 全站：首页 6 分类图文入口（3×2）、分类二级页、Pagefind 站内搜索
+
+### 自动部署（已启用 ✅）
+
+仓库已配置 GitHub Actions：`.github/workflows/deploy.yml`
+
+- 触发条件：**任何推送到 `main`**（包括 Decap 后台发文产生的提交）
+- 流程：`npm ci` → `npm run build`（Astro + Pagefind 索引）→ `npx wrangler deploy`
+- 依赖的两个仓库 Secrets（已配置完成）：
+  - `CLOUDFLARE_API_TOKEN`
+  - `CLOUDFLARE_ACCOUNT_ID`
+- `GITHUB_CLIENT_SECRET`（Decap OAuth 用）已设在 Cloudflare 后台，CI 部署自动继承，无需在 GitHub 重复配置
+
+> **结论：你在后台点 Publish 之后，几分钟内自动上线，不用再手动跑任何命令。**
+> 若想手动跑一次：`npm run build && npx wrangler deploy`
 
 ---
 
