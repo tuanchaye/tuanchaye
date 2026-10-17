@@ -1,8 +1,13 @@
 backend:
   name: github
-  # 上线前把下面两行改成你的 GitHub 用户名和仓库名
-  repo: YOUR_GITHUB_USERNAME/tuanchaye
+  # 仓库名已改为你的真实 GitHub（上线指引第 2 步建好同名仓库后生效）
+  repo: tuanchaye/tuanchaye
   branch: main
+  # 在 GitHub 创建 OAuth App 后，把它的 Client ID 填到这里（见上线指引第 4 步）
+  # 创建位置：GitHub → Settings → Developer settings → OAuth Apps → New OAuth App
+  # Homepage URL 与 Authorization callback URL 都填：https://tuanchaye.com/admin/
+  # （上线前若自定义域未生效，可先用 https://<你的pages.dev地址>/admin/）
+  client_id: YOUR_OAUTH_CLIENT_ID
 
 # Decap 后台语言（界面）
 locale: en
