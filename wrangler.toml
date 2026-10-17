@@ -9,6 +9,10 @@ compatibility_date = "2024-10-17"
 [observability]
 enabled = true
 
+[vars]
+# GitHub OAuth App 的 Client ID（公开，可写在此处）
+GITHUB_CLIENT_ID = "Ov23li8laTinERnLyBux"
+
 [assets]
 directory = "./dist"
 binding = "ASSETS"
