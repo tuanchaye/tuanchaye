@@ -55,7 +55,11 @@ export default {
         );
       }
 
-      // 通过 postMessage 把 token 传回 Decap 打开的 popup 的父窗口
+      // 通过 postMessage 把 token 传回 Decap 打开的 popup 的父窗口。
+      // Decap CMS 的 GitHub OAuth 需要两步握手：
+      // 1) popup 发送字符串 "authorizing:github"
+      // 2) Decap 父窗口回复 acknowledgment
+      // 3) popup 发送字符串 "authorization:github:success:{"token":"...","provider":"github"}"
       const html = `<!doctype html>
 <html>
 <head><meta charset="utf-8"><title>Authorizing...</title></head>
@@ -63,21 +67,22 @@ export default {
 <script>
   (function () {
     var token = ${JSON.stringify(accessToken)};
-    var origin = window.location.origin;
+    var content = JSON.stringify({ token: token, provider: 'github' });
     if (!window.opener) {
       document.body.innerHTML = '<h1>Error: window.opener is null</h1><p>Please close this window and try again.</p>';
       return;
     }
-    var payload = { type: 'authorizing:github', token: token };
-    // 连续发送 3 次，确保 Decap 父窗口收到
-    window.opener.postMessage(payload, origin);
-    setTimeout(function () {
-      window.opener.postMessage(payload, origin);
-    }, 200);
-    setTimeout(function () {
-      window.opener.postMessage(payload, origin);
-      window.close();
-    }, 500);
+
+    function receiveMessage(e) {
+      window.opener.postMessage('authorization:github:success:' + content, e.origin);
+      window.removeEventListener('message', receiveMessage);
+      setTimeout(function () {
+        window.close();
+      }, 500);
+    }
+
+    window.addEventListener('message', receiveMessage, false);
+    window.opener.postMessage('authorizing:github', '*');
   })();
 </script>
 </body>
