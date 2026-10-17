@@ -3,6 +3,7 @@ title: "5 Common Tea Myths (and What's Actually True)"
 description: "New tea drinkers hear a lot of conflicting advice. We debunk five persistent myths about brewing, health, and quality."
 pubDate: 2026-10-17
 category: "Tea Basics"
+cover: /images/covers/overview.svg
 ---
 
 Starting tea can be confusing because so much advice is contradictory. Here are five common myths — and the practical truth.

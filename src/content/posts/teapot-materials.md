@@ -3,6 +3,7 @@ title: "Teapot Materials Compared: Porcelain, Clay, Glass, Cast Iron"
 description: "The material of your teapot changes the taste. Compare porcelain, Yixing clay, glass, and cast iron to choose the right vessel."
 pubDate: 2026-10-17
 category: "Brewing"
+cover: /images/covers/brewing.svg
 ---
 
 The vessel you brew in is not just a container — its material subtly shapes flavor, heat, and ritual. Here is how the main options compare.

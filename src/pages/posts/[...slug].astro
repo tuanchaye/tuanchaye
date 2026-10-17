@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { postCover } from '../../lib/categories';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -12,6 +13,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+const cover = postCover(post.data.category, post.data.cover);
 
 const site = 'https://tuanchaye.com';
 const url = `${site}/posts/${post.slug}`;
@@ -25,6 +27,7 @@ const share = {
 
 <Layout title={post.data.title} description={post.data.description}>
   <article>
+    <img class="post-cover" src={cover} alt={post.data.title} width="800" height="450" />
     <h1>{post.data.title}</h1>
     <p class="meta">
       {post.data.pubDate.toISOString().slice(0, 10)}

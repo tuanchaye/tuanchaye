@@ -3,6 +3,7 @@ title: "Does Tea Have Caffeine? A Practical Guide"
 description: "Tea contains caffeine, but less and gentler than coffee. Learn how much is in each tea type and how to reduce it if you are sensitive."
 pubDate: 2026-10-17
 category: "Tea & Health"
+cover: /images/covers/health.svg
 ---
 
 Yes — tea contains caffeine. But the story is more nuanced (and more reassuring) than many people expect.

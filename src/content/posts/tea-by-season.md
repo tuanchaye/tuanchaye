@@ -3,6 +3,7 @@ title: "What to Drink by Season: A Chinese Approach to Tea"
 description: "Many Chinese tea drinkers shift teas with the seasons. Learn the simple logic behind spring greens, summer whites, autumn oolongs, and winter pu-erh."
 pubDate: 2026-10-17
 category: "Lifestyle"
+cover: /images/covers/seasons.svg
 ---
 
 In China it is common to drink tea by the season — not as a rule, but as a gentle rhythm that matches weather and mood. Here is a practical way to follow it.

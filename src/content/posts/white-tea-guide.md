@@ -3,6 +3,7 @@ title: "White Tea: The Gentlest, Least-Processed Tea"
 description: "White tea is made with almost no processing. Discover why it is so delicate, how to brew it, and why many people enjoy aging it."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/white.svg
 ---
 
 White tea (白茶) is the closest thing to tea leaves in their natural state. It skips rolling and pan-firing almost entirely — the leaves are simply **withered** in fresh air and then dried. That minimal handling is exactly why white tea tastes so subtle.

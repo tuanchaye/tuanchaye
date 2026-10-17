@@ -3,6 +3,7 @@ title: "How to Taste Tea Like a Pro (Even as a Beginner)"
 description: "Tasting tea is a skill you build with attention. Learn to read color, aroma, and mouthfeel so you can judge any tea with confidence."
 pubDate: 2026-10-17
 category: "Tea Basics"
+cover: /images/covers/tasting.svg
 ---
 
 You do not need a trained palate to taste tea well — you need *attention*. Here is a simple framework anyone can use.

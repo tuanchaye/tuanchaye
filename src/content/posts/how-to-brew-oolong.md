@@ -3,6 +3,7 @@ title: "How to Brew Oolong Tea: A Step-by-Step Guide"
 description: "Oolong rewards short, repeated steeps. Learn the gaiwan method, water temperature, and leaf amounts for the best oolong cup."
 pubDate: 2026-10-17
 category: "Brewing"
+cover: /images/covers/brewing.svg
 ---
 
 Oolong is one of the most rewarding teas to brew properly — but the method is different from a Western mug. The secret is **small amounts of leaf, short steeps, many infusions**.

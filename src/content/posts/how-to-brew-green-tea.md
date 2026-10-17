@@ -3,6 +3,7 @@ title: "How to Brew Green Tea Without Bitterness"
 description: "The most common mistake with green tea is using boiling water. Learn the right temperature, ratio and time for a smooth cup."
 pubDate: 2026-10-17
 category: "Brewing Guides"
+cover: /images/covers/green.svg
 ---
 
 Green tea is delicate. Use boiling water and you will scald the leaves,

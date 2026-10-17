@@ -3,6 +3,7 @@ title: "How to Choose Tea as a Gift (Without Getting Ripped Off)"
 description: "Tea is a thoughtful gift in Chinese culture. Learn which teas make good presents, how to judge quality, and packaging traps to avoid."
 pubDate: 2026-10-17
 category: "Buying Guide"
+cover: /images/covers/gift.svg
 ---
 
 In Chinese culture, tea is one of the most common and appreciated gifts. But the gift-tea market is full of overpriced tins. Here is how to give well without overspending.

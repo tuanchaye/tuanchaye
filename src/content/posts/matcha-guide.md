@@ -3,6 +3,7 @@ title: "Matcha: The Powdered Green Tea, Explained"
 description: "Matcha is finely ground green tea whisked with water. Learn how it differs from leaf tea, how to choose it, and how to prepare it properly."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/matcha.svg
 ---
 
 Matcha (抹茶) is green tea in its most concentrated form: whole leaves, shade-grown, de-stemmed, and stone-ground into a fine powder that you whisk and drink entirely.

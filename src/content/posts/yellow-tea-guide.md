@@ -3,6 +3,7 @@ title: "Yellow Tea: The Rarest of the Six Major Types"
 description: "Yellow tea is a seldom-seen Chinese tea with a unique 'sealing yellow' step. Learn what makes it special and the famous varieties to try."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/yellow.svg
 ---
 
 Yellow tea (黄茶) is the rarest and least known of China's six major tea types. If you have never tasted it, you are not alone — even in China it is hard to find.

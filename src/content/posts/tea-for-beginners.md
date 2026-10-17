@@ -3,6 +3,7 @@ title: "A Beginner's Roadmap to Chinese Tea (Start Here)"
 description: "Overwhelmed by Chinese tea? Follow this simple 5-step roadmap to go from zero to confident drinker without buying too much gear."
 pubDate: 2026-10-17
 category: "Tea Basics"
+cover: /images/covers/overview.svg
 ---
 
 Chinese tea looks intimidating, but you can enjoy it with almost no equipment. Here is a clear roadmap.

@@ -38,7 +38,7 @@ for (const p of posts) {
               <a
                 class="cat-banner"
                 href={`/category/${cat.slug}`}
-                style={`background:${cat.gradient}`}
+                style={`background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.58)), url(${cat.cover});background-size:cover;background-position:center;`}
               >
                 <span class="cat-banner-name">{cat.name}</span>
               </a>

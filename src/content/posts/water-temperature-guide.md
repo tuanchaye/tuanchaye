@@ -3,6 +3,7 @@ title: "The Tea Water Temperature Guide (By Tea Type)"
 description: "Water temperature is the most overlooked brewing variable. Use this quick chart to stop burning delicate leaves and under-extracting bold ones."
 pubDate: 2026-10-17
 category: "Brewing"
+cover: /images/covers/water.svg
 ---
 
 Ask any tea drinker what ruins a good leaf and you will hear: *wrong water temperature.* Too hot scalds delicate teas bitter; too cool leaves bold teas flat. Here is the practical chart.

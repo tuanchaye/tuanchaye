@@ -3,6 +3,7 @@ title: "How to Choose Your First Teapot: Gaiwan vs Teapot"
 description: "New to brewing Chinese tea? Learn the difference between a gaiwan and a clay teapot, and which one is the better first purchase."
 pubDate: 2026-10-17
 category: "Brewing"
+cover: /images/covers/brewing.svg
 ---
 
 One of the first questions new tea drinkers ask is: *what should I brew with?* The two most common Chinese vessels are the **gaiwan** and the **clay teapot (紫砂壶)**. Here is how to choose.

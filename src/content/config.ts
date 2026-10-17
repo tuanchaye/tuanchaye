@@ -7,6 +7,7 @@ const posts = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     category: z.string().optional(),
+    cover: z.string().optional(),
   }),
 });
 

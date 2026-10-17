@@ -3,6 +3,7 @@ title: "The Six Major Types of Chinese Tea, Explained"
 description: "Chinese tea is grouped into six major categories based on how the leaves are processed. Learn the differences and which one to start with."
 pubDate: 2026-10-17
 category: "Tea Basics"
+cover: /images/covers/types.svg
 ---
 
 If you are new to Chinese tea, the single most useful idea to learn is that all tea comes from the same plant — *Camellia sinensis* — and what makes teas different is **how the leaves are processed**, especially how much they are oxidized.

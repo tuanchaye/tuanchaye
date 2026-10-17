@@ -3,6 +3,7 @@ title: "Cold Brew Tea: The Easiest Summer Method"
 description: "Cold brewing makes smooth, sweet, low-caffeine tea with zero effort. Learn the simple ratio and the best teas for it."
 pubDate: 2026-10-17
 category: "Brewing"
+cover: /images/covers/cup.svg
 ---
 
 When the weather is hot, few things beat a glass of cold brew tea. The best part? It is almost impossible to get wrong, and it needs no kettle, no thermometer, and no timing skill.

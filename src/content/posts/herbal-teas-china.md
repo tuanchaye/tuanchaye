@@ -3,6 +3,7 @@ title: "Chinese Herbal 'Teas' That Aren't Tea (But Belong in Your Cup)"
 description: "Chrysanthemum, goji, and jujube are tisanes enjoyed across China. Learn what they are, how they taste, and how to brew them."
 pubDate: 2026-10-17
 category: "Wellness"
+cover: /images/covers/types.svg
 ---
 
 Strictly speaking, "tea" comes only from the *Camellia sinensis* plant. But across China, people drink many **tisanes** — infusions of flowers, fruits, and herbs — that are part of daily life. Here are three classics.

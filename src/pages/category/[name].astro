@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { CATEGORIES, canonicalCategory, getCategory } from '../../lib/categories';
+import { CATEGORIES, canonicalCategory, getCategory, postCover } from '../../lib/categories';
 
 export async function getStaticPaths() {
   return CATEGORIES.map((c) => ({
@@ -31,6 +31,7 @@ const posts = (await getCollection('posts'))
     {
       posts.map((p) => (
         <a class="cat-post-card" href={`/posts/${p.slug}`}>
+          <img class="cat-post-thumb" src={postCover(p.data.category, p.data.cover)} alt={p.data.title} width="320" height="180" loading="lazy" />
           <h3>{p.data.title}</h3>
           <p class="meta">{p.data.pubDate.toISOString().slice(0, 10)}</p>
           <p class="cat-post-excerpt">{p.data.description}</p>

@@ -3,6 +3,7 @@ title: "Pu-erh Tea: Aged, Fermented, and Worth Knowing"
 description: "Pu-erh is a unique post-fermented Chinese tea that can be aged for decades. Learn the difference between raw and ripe pu-erh and how to start."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/puerh.svg
 ---
 
 Pu-erh (普洱茶) from Yunnan is the most unusual member of the six major tea types. Unlike green or black tea, pu-erh is **post-fermented** — after basic processing, living microbes continue to transform the leaves over years or even decades.

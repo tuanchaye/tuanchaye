@@ -3,6 +3,7 @@ title: "Longjing (Dragon Well): China's Most Famous Green Tea"
 description: "Longjing is the green tea every Chinese tea drinker knows. Learn what makes it special, how to spot quality, and how to brew it."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/green.svg
 ---
 
 Longjing (龙井, "Dragon Well") from Hangzhou is the green tea by which others are judged in China — smooth, flat, and unmistakably elegant.

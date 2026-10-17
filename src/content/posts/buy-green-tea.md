@@ -3,6 +3,7 @@ title: "How to Buy Good Green Tea (Without Overspending)"
 description: "Green tea quality is about freshness and origin, not price. Learn what to look for and the classic varieties worth buying."
 pubDate: 2026-10-17
 category: "Buying Guide"
+cover: /images/covers/buying.svg
 ---
 
 Green tea is the most popular tea in China, but quality varies enormously. The good news: you do not need to spend a fortune to drink well — you need to know what to look for.

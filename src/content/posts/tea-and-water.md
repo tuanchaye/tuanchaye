@@ -3,6 +3,7 @@ title: "Water for Tea: Why It Matters More Than You Think"
 description: "Up to 99% of your cup is water. Learn how mineral content and freshness change tea flavor, and what water to use at home."
 pubDate: 2026-10-17
 category: "Brewing"
+cover: /images/covers/water.svg
 ---
 
 Tea is mostly water — often 95–99% of the cup. Yet water is the most neglected variable in home brewing. Get it right and even humble leaves improve.

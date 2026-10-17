@@ -3,6 +3,7 @@ title: "What Is Oolong Tea? A Beginner's Guide"
 description: "Oolong tea sits between green and black tea. Learn how it is made, its flavor profile, and why it matters in Chinese tea culture."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/oolong.svg
 ---
 
 Oolong (乌龙茶) is a traditional Chinese tea that is partially oxidized —

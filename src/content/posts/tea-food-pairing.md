@@ -3,6 +3,7 @@ title: "Pairing Tea with Food: A Simple Guide"
 description: "Tea can elevate a meal the way wine does. Learn which teas pair with savory, sweet, and spicy foods, and why contrast matters."
 pubDate: 2026-10-17
 category: "Culture"
+cover: /images/covers/pairing.svg
 ---
 
 In much of the world, tea is the default table drink — and for good reason. It cleanses the palate, cuts richness, and adds its own aroma to a meal. Here is a simple way to pair it.

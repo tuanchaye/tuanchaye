@@ -13,13 +13,33 @@
 //   TEADB  —— D1 数据库，存评论（提交前经内容过滤）
 
 // ───────────────────────────────────────────────────────────
-// 评论内容过滤：拦截违法/违背公序良俗 与 泄露个人联系方式
+// 评论内容过滤（最严格）：禁止任何违法/违背公序良俗内容，
+// 禁止任何形式的联系方式漏出（电话/邮箱/微信/QQ/各类社交账号及ID/外链等）
 // ───────────────────────────────────────────────────────────
 const BANNED_WORDS = [
-  // 明显违法/色情/暴力/赌博/毒品等（中英文常见词）
-  'fuck', 'shit', 'bitch', 'porn', 'xxx', 'sex', '赌博', '博彩', '色情',
-  '毒品', '枪支', '诈骗', '洗钱', '代开发票', '办证', '私彩', '鸦片',
-  '海洛因', '冰毒', '大麻', '刀枪', '暴恐', '招嫖', '裸聊',
+  // 色情 / 淫秽
+  'porn', 'xxx', 'sex', 'nude', 'naked', '色情', '裸聊', '约炮', '援交',
+  '招嫖', '成人', '黄片', '性爱', '做爱',
+  // 赌博 / 博彩
+  '赌博', '博彩', '私彩', '彩票私推', '赌场', 'bet365', '赌球', '百家乐',
+  '开元棋牌', '时时彩', '私彩', '澳门赌场',
+  // 毒品 / 违禁药物
+  '毒品', '鸦片', '海洛因', '冰毒', '大麻', '可卡因', '摇头丸', 'K粉', '笑气',
+  '贩毒', '吸毒',
+  // 暴力 / 恐怖主义 / 武器
+  '枪支', '枪械', '炸药', '炸弹', '暴恐', '恐怖袭击', '杀人', '砍人', '武器买卖',
+  // 诈骗 / 违法交易
+  '诈骗', '洗钱', '代开发票', '办证', '刻章', '假币', '走私', '贩卖人口',
+  '招嫖', '外围', '黑客', '入侵', '盗号', '刷单', '返利诈骗',
+  // 违禁医药 / 虚假宣传
+  '壮阳', '迷药', '催情', '偏方治癌', '包治百病', '祖传秘方',
+  // 极端 / 仇恨 / 歧视
+  '种族灭绝', '纳粹', 'jugend', '仇恨言论', '恐怖组织',
+  // 英文脏话 / 辱骂
+  'fuck', 'shit', 'bitch', 'asshole', 'bastard', 'cunt', 'slut', 'whore',
+  'nigger', 'retard', 'idiot', 'stupid', 'scam', 'fraud', 'rape',
+  // 政治敏感（按当地法规保守过滤）
+  '游行', '示威', '颠覆', '分裂', '独立运动',
 ];
 
 function containsBannedWord(text) {
@@ -30,20 +50,51 @@ function containsBannedWord(text) {
   return null;
 }
 
-// 检测泄露联系方式：邮箱 / 电话 / 微信 / QQ / 外链
+// 检测各类联系方式 / 社交账号及 ID 漏出
 function detectContactInfo(text) {
   const t = text.toLowerCase();
-  // 邮箱
+
+  // 1) 邮箱
   if (/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/.test(t)) return '邮箱';
-  // 中国大陆手机号 或 连续 7-15 位数字（含区号）
-  if (/(?<!\d)(?:\+?86[-\s]?)?1[3-9]\d{9}(?!\d)/.test(t)) return '手机号';
-  if (/\b\d{7,15}\b/.test(t)) return '电话号码';
-  // 微信 / 微信号
-  if (/微信|wechat|wx[\s-:]?\w|微信号|加微/.test(t)) return '微信号';
-  // QQ
-  if (/(qq|q\s?q)[\s:：-]?\d{5,12}|qq号/.test(t)) return 'QQ号';
-  // 外链（http/https/www 或可点击域名）
-  if (/https?:\/\/|www\.[a-z0-9.-]+\.|[a-z0-9.-]+\.(com|cn|net|org|info|top|vip|xyz)\b/.test(t)) return '外部链接';
+
+  // 2) 电话号码（手机号 / 固话 / 含区号 / 连续数字串）
+  if (/(?<!\d)(?:\+?\d{1,3}[\s-]?)?(?:\d{3,4}[\s-]?){2,4}(?!\d)/.test(t)) {
+    // 排除纯年份/普通数字：要求至少 7 位连续或带分隔的电话形态
+    if (/(?:\+?\d[\s-]?){7,}/.test(t.replace(/[^\d+\s-]/g, ''))) return '电话';
+  }
+  if (/(?<!\d)1[3-9]\d{9}(?!\d)/.test(t)) return '手机号';
+  if (/(?<!\d)(?:00\d{1,3}|\+?\d{1,3})[\s-]?\d{6,12}(?!\d)/.test(t)) return '电话号码';
+
+  // 3) 微信 / 微信号
+  if (/微信|wechat|wxid|wx[\s:_:-]?[a-z0-9_-]{4,}|微信号|加微|薇信|wei xin/.test(t)) return '微信号';
+
+  // 4) QQ / QQ号 / QQ邮箱
+  if (/q\s?q[\s:_:-]?\d{5,12}|qq号|qq邮箱|@qq\.com/.test(t)) return 'QQ号';
+
+  // 5) 支付宝 / 淘宝 / 银行卡 / 收款码
+  if (/支付宝|alipay|淘宝|taobao|银行卡|卡号|收款码|支付宝账号|微信支付/.test(t)) return '支付/银行账号';
+
+  // 6) 各类社交平台账号及 ID（含 @用户名 形态）
+  const SOCIAL = [
+    'weibo', '微博', 'sina', 'twitter', '推特', 'x\.com', 'telegram', '电报', 'tg[\s:_:-]?',
+    'instagram', 'insta', 'ig[\s:_:-]?', 'tiktok', '抖音', 'douyin', '小红书', 'xiaohongshu',
+    'line', 'whatsapp', 'skype', 'discord', 'facebook', 'fb[\s:_:-]?', '脸书', 'kakaotalk',
+    'snapchat', 'viber', 'signal', 'linkedin', '领英', 'youtube', '油管', 'bilibili', '哔哩哔哩',
+    'reddit', 'quora', 'pinterest', '知乎', '豆瓣', '陌陌', 'soul', '探探',
+  ];
+  const socialRe = new RegExp('(?:' + SOCIAL.join('|') + ')', 'i');
+  if (socialRe.test(t)) return '社交账号';
+  // @用户名 / handle（社交 ID 常见形态，且与茶叶无关时拦截）
+  if (/[@＠][a-z0-9_]{2,}/.test(t)) return '社交账号ID';
+
+  // 7) 外链 / 网址 / 邀请码
+  if (/https?:\/\/|www\.[a-z0-9.-]+\.|[a-z0-9.-]+\.(com|cn|net|org|info|top|vip|xyz|io|co|me)\b/i.test(t)) return '外部链接';
+  if (/[a-z0-9_-]+\.(com|cn|net|org|info|top|vip)\b/i.test(t)) return '外部链接';
+  if (/邀请码|优惠码|折扣码|promo code|referral|我的码|加群|粉丝群|扫码/.test(t)) return '推广信息';
+
+  // 8) 诱导私聊 / 交易话术
+  if (/加我|私聊|私我|联系我|详聊|代购|代卖|招代理|招加盟|兼职|刷单|返利|低价出|出闲置|有需要联系/.test(t)) return '诱导联系方式';
+
   return null;
 }
 
@@ -51,11 +102,14 @@ function detectContactInfo(text) {
 function filterComment(text) {
   const contact = detectContactInfo(text);
   if (contact) {
-    return { ok: false, reason: `评论中不能包含${contact}等联系方式，请删除后重试。` };
+    return {
+      ok: false,
+      reason: `评论中不能包含${contact}等联系方式或社交账号信息，请删除后重试。`,
+    };
   }
   const banned = containsBannedWord(text);
   if (banned) {
-    return { ok: false, reason: '评论包含不被允许的内容，请修改后重试。' };
+    return { ok: false, reason: '评论包含不被允许的内容（违反法律法规或公序良俗），请修改后重试。' };
   }
   return { ok: true };
 }

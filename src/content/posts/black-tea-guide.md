@@ -3,6 +3,7 @@ title: "Black Tea (Hong Cha): A Friendly Beginner's Guide"
 description: "In China black tea is called hong cha, or red tea. Learn how it differs from green tea, how to brew it, and the best everyday varieties."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/black.svg
 ---
 
 In the West, "black tea" means the bold, dark tea in breakfast blends. In China it is called **hong cha (红茶)** — "red tea" — named for its reddish-amber liquor rather than the dark dry leaves.

@@ -3,6 +3,7 @@ title: "A Short History of Tea in China"
 description: "From a legendary discovery to a global commodity, tea shaped Chinese culture for millennia. Here is the essential, readable timeline."
 pubDate: 2026-10-17
 category: "Culture"
+cover: /images/covers/ceremony.svg
 ---
 
 Tea is inseparable from Chinese history. You do not need the details to enjoy a cup, but a quick timeline adds depth to every sip.

@@ -3,6 +3,7 @@ title: "Tie Guan Yin: The 'Iron Goddess' Oolong"
 description: "Tie Guan Yin is one of China's most famous oolongs. Learn its story, flavor, and how to brew this floral, creamy tea."
 pubDate: 2026-10-17
 category: "Tea Types"
+cover: /images/covers/oolong.svg
 ---
 
 Tie Guan Yin (铁观音, "Iron Goddess of Mercy") is arguably the most famous oolong in the world — and a perfect example of why Chinese tea captivates people.

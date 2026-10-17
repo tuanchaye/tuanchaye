@@ -3,6 +3,7 @@ title: "English vs Chinese Tea Culture: What's the Difference?"
 description: "Tea means very different things in England and China. Compare the leaves, the brewing, and the rituals behind two great tea traditions."
 pubDate: 2026-10-17
 category: "Culture"
+cover: /images/covers/ceremony.svg
 ---
 
 Both England and China love tea — but the two cultures approach it in almost opposite ways. Understanding the difference makes both more enjoyable.
