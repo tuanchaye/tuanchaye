@@ -12,6 +12,14 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
+    // 0) 强制 HTTPS：把 http 请求 301 重定向到 https（避免用户访问 http 时浏览器报“不安全”）
+    //    Cloudflare 会终止 TLS，Worker 收到的 url 已是 https，
+    //    原始协议由 x-forwarded-proto 头反映，据此判断是否来自 http 访问。
+    if (request.headers.get('x-forwarded-proto') === 'http') {
+      const secureUrl = `https://${url.host}${url.pathname}${url.search}`;
+      return Response.redirect(secureUrl, 301);
+    }
+
     // 1) OAuth 授权入口：重定向到 GitHub
     if (url.pathname === '/auth') {
       const redirectUri = `${url.origin}/callback`;
@@ -94,19 +102,7 @@ export default {
       });
     }
 
-    // 3) 临时调试用：查看 env 里有哪些变量（不暴露具体值）
-    if (url.pathname === '/debug-env') {
-      return new Response(
-        JSON.stringify({
-          keys: Object.keys(env),
-          hasClientId: !!env.GITHUB_CLIENT_ID,
-          hasClientSecret: !!env.GITHUB_CLIENT_SECRET,
-        }, null, 2),
-        { headers: { 'Content-Type': 'application/json' } }
-      );
-    }
-
-    // 4) 其他请求：交给 Cloudflare 静态资源（ASSETS 绑定）
+    // 3) 其他请求：交给 Cloudflare 静态资源（ASSETS 绑定）
     return env.ASSETS.fetch(request);
   },
 };
