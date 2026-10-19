@@ -67,4 +67,4 @@ collections:
           - { label: "Tasting", value: "/images/covers/tasting.svg" }
           - { label: "Food Pairing", value: "/images/covers/pairing.svg" }
           - { label: "Water", value: "/images/covers/water.svg" }
-      - { name: body, label: "Body (Markdown)", widget: markdown }
+      - { name: body, label: "Body (Markdown)", widget: richtext, modes: [raw, rich_text] }
