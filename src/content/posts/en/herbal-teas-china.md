@@ -2,7 +2,7 @@
 title: "Chinese Herbal 'Teas' That Aren't Tea (But Belong in Your Cup)"
 description: "Chrysanthemum, goji, and jujube are tisanes enjoyed across China. Learn what they are, how they taste, and how to brew them."
 pubDate: 2026-10-17
-category: "Wellness"
+category: "Care & Wellbeing"
 cover: /images/covers/types.svg
 ---
 

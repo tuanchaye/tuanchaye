@@ -2,7 +2,7 @@
 title: "How to Store Tea So It Stays Fresh"
 description: "Tea degrades from light, air, heat, and moisture. Learn the four enemies of tea and the simple way to keep any tea fresh."
 pubDate: 2026-10-17
-category: "Care"
+category: "Care & Wellbeing"
 cover: /images/covers/storage.svg
 ---
 

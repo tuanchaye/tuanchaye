@@ -22,7 +22,7 @@ collections:
   - name: "posts"
     label: "Tea Articles"
     label_singular: "Tea Article"
-    folder: "src/content/posts"
+    folder: "src/content/posts/en"
     create: true
     slug: "{{slug}}"
     fields:

@@ -2,7 +2,7 @@
 title: "An Introduction to Chinese Tea Ceremony (Gongfu Cha)"
 description: "Gongfu Cha is the art of brewing tea with skill and patience. Learn the essentials of this Chinese tea ritual."
 pubDate: 2026-10-17
-category: "Tea Culture"
+category: "Culture"
 cover: /images/covers/ceremony.svg
 ---
 

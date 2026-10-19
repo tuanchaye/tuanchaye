@@ -2,7 +2,7 @@
 title: "How to Clean and Care for Your Tea Ware"
 description: "Simple habits keep your gaiwan, teapot, and cups tasting clean. Learn what to do after every session and how to care for clay pots."
 pubDate: 2026-10-17
-category: "Care"
+category: "Care & Wellbeing"
 cover: /images/covers/cup.svg
 ---
 

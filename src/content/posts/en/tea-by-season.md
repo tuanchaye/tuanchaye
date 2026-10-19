@@ -2,7 +2,7 @@
 title: "What to Drink by Season: A Chinese Approach to Tea"
 description: "Many Chinese tea drinkers shift teas with the seasons. Learn the simple logic behind spring greens, summer whites, autumn oolongs, and winter pu-erh."
 pubDate: 2026-10-17
-category: "Lifestyle"
+category: "Care & Wellbeing"
 cover: /images/covers/seasons.svg
 ---
 
