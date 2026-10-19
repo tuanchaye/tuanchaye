@@ -62,3 +62,11 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # ── 百度普通收录 API 推送：部署完成后把最新 URL 提交给百度 ──
+      - name: Baidu URL push
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        env:
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
+        run: node scripts/baidu-push.mjs

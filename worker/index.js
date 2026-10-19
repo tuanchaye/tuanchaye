@@ -165,6 +165,11 @@ export default {
       return Response.redirect(secureUrl, 301);
     }
 
+    // 0.1) www 统一 301 到主域（SEO 收口；需在 Cloudflare 后台把 www.tuanchaye.com 也绑定为本 Worker 的自定义域）
+    if (url.hostname === 'www.tuanchaye.com') {
+      return Response.redirect(`https://tuanchaye.com${url.pathname}${url.search}`, 301);
+    }
+
     // 0.5) 多语言自动跳转：依据访客 IP 国家（Cloudflare cf.country）或手动 cookie，
     // 给「无语言前缀的 HTML 页面」加上 /{lang}/ 前缀。其余（API / 后台 / 静态资源）跳过。
     if (request.method === 'GET') {
