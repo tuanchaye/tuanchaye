@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { getPostsForLocale, filterByCategory } from '../../../lib/posts';
+import { getPostsForLocale, filterByCategory, sortPostViews } from '../../../lib/posts';
 import { CATEGORIES, canonicalCategory, getCategoryLocalized, postCover } from '../../../lib/categories';
 import { getUI } from '../../../i18n/ui';
 import { LOCALES, type Locale } from '../../../i18n/config';
@@ -17,7 +17,7 @@ const name = Astro.params.name as string;
 const ui = getUI(lang);
 const cat = getCategoryLocalized(name, lang);
 const posts = filterByCategory(
-  (await getPostsForLocale(lang)).sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()),
+  sortPostViews(await getPostsForLocale(lang)),
   name
 );
 ---

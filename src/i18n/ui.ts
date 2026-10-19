@@ -32,6 +32,7 @@ export interface UIStrings {
     errEmpty: string;
     errContact: string;
     networkErr: string;
+    commentsClosed: string;
   };
   footer: string;
   notAvailable: string;
@@ -77,6 +78,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: 'Please write something.',
       errContact: 'Do not leave phone / email / social / links in your comment.',
       networkErr: 'Network error, please retry.',
+      commentsClosed: 'Comments are closed for this article.',
     },
     footer: '© {year} TuanChaYe · Chinese Tea Knowledge for Global Readers',
     notAvailable: 'This article is not yet available in your language. Showing the English version.',
@@ -125,6 +127,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: '请输入评论内容。',
       errContact: '评论中请勿留下电话 / 邮箱 / 社交账号 / 链接。',
       networkErr: '网络错误，请重试。',
+      commentsClosed: '本文已关闭评论。',
     },
     footer: '© {year} 团茶叶 TuanChaYe · 面向全球读者的中国茶知识',
     notAvailable: '本文暂未提供你的语言版本，以下为英文原文。',
@@ -169,6 +172,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: 'Por favor, escribe algo.',
       errContact: 'No dejes teléfono / correo / redes / enlaces en tu comentario.',
       networkErr: 'Error de red, inténtalo de nuevo.',
+      commentsClosed: 'Los comentarios están cerrados en este artículo.',
     },
     footer: '© {year} TuanChaYe · Conocimiento del té chino para lectores de todo el mundo',
     notAvailable: 'Este artículo aún no está disponible en tu idioma. Mostrando la versión en inglés.',
@@ -213,6 +217,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: 'Veuillez écrire quelque chose.',
       errContact: 'N’indiquez pas de téléphone / e-mail / réseau / lien dans votre commentaire.',
       networkErr: 'Erreur réseau, réessayez.',
+      commentsClosed: 'Les commentaires sont fermés pour cet article.',
     },
     footer: '© {year} TuanChaYe · Connaissances sur le thé chinois pour les lecteurs du monde entier',
     notAvailable: 'Cet article n’est pas encore disponible dans votre langue. Version anglaise affichée.',
@@ -257,6 +262,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: 'Bitte schreiben Sie etwas.',
       errContact: 'Keine Telefon- / E-Mail- / Social- / Link-Angaben im Kommentar.',
       networkErr: 'Netzwerkfehler, bitte erneut versuchen.',
+      commentsClosed: 'Die Kommentare sind für diesen Artikel geschlossen.',
     },
     footer: '© {year} TuanChaYe · Chinesisches Teewissen für Leser weltweit',
     notAvailable: 'Dieser Artikel ist noch nicht in Ihrer Sprache verfügbar. Englische Version wird angezeigt.',
@@ -301,6 +307,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: '内容を入力してください。',
       errContact: 'コメントに電話番号・メール・SNS・リンクは入れないでください。',
       networkErr: '通信エラーです。もう一度お試しください。',
+      commentsClosed: 'この記事のコメントは受け付けていません。',
     },
     footer: '© {year} 団茶葉 TuanChaYe · 世界中の読者へ中国茶の知識を',
     notAvailable: 'この記事はまだあなたの言語で利用できません。英語版を表示しています。',
@@ -345,6 +352,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: 'Por favor, escreva algo.',
       errContact: 'Não deixe telefone / e-mail / redes / links no comentário.',
       networkErr: 'Erro de rede, tente novamente.',
+      commentsClosed: 'Os comentários estão encerrados neste artigo.',
     },
     footer: '© {year} TuanChaYe · Conhecimento do chá chinês para leitores de todo o mundo',
     notAvailable: 'Este artigo ainda não está disponível no seu idioma. Exibindo a versão em inglês.',
@@ -389,6 +397,7 @@ export const UI: Record<Locale, UIStrings> = {
       errEmpty: 'Пожалуйста, напишите что-нибудь.',
       errContact: 'Не указывайте телефон / e-mail / соцсети / ссылки в комментарии.',
       networkErr: 'Ошибка сети, попробуйте ещё раз.',
+      commentsClosed: 'Комментарии к этой статье закрыты.',
     },
     footer: '© {year} TuanChaYe · Знания о китайском чае для читателей всего мира',
     notAvailable: 'Эта статья пока недоступна на вашем языке. Показана английская версия.',

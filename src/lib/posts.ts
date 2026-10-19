@@ -10,6 +10,7 @@ export interface PostView {
   cover: string;
   pubDate: Date;
   fallback: boolean; // true=该语言无译文，回退英文
+  pinned: boolean; // 置顶（以英文源文为准）
 }
 
 function baseSlug(slug: string): string {
@@ -38,7 +39,16 @@ export async function getPostsForLocale(locale: Locale): Promise<PostView[]> {
       cover: postCover(src.data.category, src.data.cover),
       pubDate: src.data.pubDate,
       fallback: !tr,
+      pinned: !!en.data.pinned,
     };
+  });
+}
+
+// 列表排序：置顶优先，其余按发布时间倒序（最新在最上）
+export function sortPostViews(posts: PostView[]): PostView[] {
+  return [...posts].sort((a, b) => {
+    if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
+    return b.pubDate.valueOf() - a.pubDate.valueOf();
   });
 }
 

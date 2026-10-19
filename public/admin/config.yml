@@ -25,6 +25,30 @@ collections:
     folder: "src/content/posts/en"
     create: true
     slug: "{{slug}}"
+    # 后台列表可按发布日期/标题排序（点 Sort by 选 pubDate，再点一次切换倒序=最新在最上）
+    sortable_fields:
+      - pubDate
+      - title
+    # 按栏目筛选（Filter 按钮）
+    view_filters:
+      - label: Tea Basics
+        field: category
+        pattern: "Tea Basics"
+      - label: Tea Types
+        field: category
+        pattern: "Tea Types"
+      - label: Brewing
+        field: category
+        pattern: "Brewing"
+      - label: Culture
+        field: category
+        pattern: "Culture"
+      - label: Buying Guide
+        field: category
+        pattern: "Buying Guide"
+      - label: Care & Wellbeing
+        field: category
+        pattern: "Care & Wellbeing"
     fields:
       - { name: title, label: "Title", widget: string }
       - { name: description, label: "Meta Description", widget: string }
@@ -67,4 +91,6 @@ collections:
           - { label: "Tasting", value: "/images/covers/tasting.svg" }
           - { label: "Food Pairing", value: "/images/covers/pairing.svg" }
           - { label: "Water", value: "/images/covers/water.svg" }
+      - { name: pinned, label: "Pin to Top（置顶）", widget: boolean, required: false, default: false }
+      - { name: comments, label: "Allow Comments（开放评论）", widget: boolean, required: false, default: true }
       - { name: body, label: "Body (Markdown)", widget: richtext, modes: [raw, rich_text] }
