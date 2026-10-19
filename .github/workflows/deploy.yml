@@ -5,8 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# 需要 write 权限，以便把自动生成的译文回写仓库
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   deploy:
@@ -23,6 +24,35 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      # ── 自动翻译：仅在配置了翻译 API Key 时执行 ──
+      # 脚本会跳过已存在的译文，因此只有“新增的英文文章”才会被翻译，
+      # 后续每次推送都只翻译新文章，不会重复消耗额度。
+      - name: Auto-translate new articles
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -n "$DEEPSEEK_API_KEY" ] || [ -n "$OPENAI_API_KEY" ]; then
+            echo "🔁 检测到翻译 API Key，开始自动翻译新增文章…"
+            node scripts/translate.mjs
+          else
+            echo "⚠️ 未配置 DEEPSEEK_API_KEY / OPENAI_API_KEY，跳过自动翻译（文章将以英文回退展示）。"
+          fi
+
+      # ── 把本次生成的译文回写仓库（带 [skip ci] 避免触发无限循环）──
+      - name: Commit back generated translations
+        run: |
+          git add src/content/posts
+          if git diff --cached --quiet; then
+            echo "ℹ️ 无新增译文，跳过提交。"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: auto-translate new articles [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - name: Build site
         run: npm run build
