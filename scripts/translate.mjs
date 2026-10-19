@@ -70,6 +70,19 @@ function yamlStr(s) {
   return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"';
 }
 
+// 容错解析：兼容偶发的 ```json 代码围栏包裹，或前后多余文本
+function extractJson(text) {
+  text = String(text).trim();
+  const fence = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  if (fence) text = fence[1].trim();
+  if (!text.startsWith('{')) {
+    const s = text.indexOf('{');
+    const e = text.lastIndexOf('}');
+    if (s !== -1 && e !== -1 && e > s) text = text.slice(s, e + 1);
+  }
+  return JSON.parse(text);
+}
+
 // ─── 调用 LLM ───
 async function translateArticle(md, langName) {
   const url =
@@ -107,8 +120,7 @@ async function translateArticle(md, langName) {
   }
   const data = await resp.json();
   const content = data.choices?.[0]?.message?.content || '{}';
-  const obj = JSON.parse(content);
-  return obj;
+  return extractJson(content);
 }
 
 async function withRetry(fn, n = 3) {
