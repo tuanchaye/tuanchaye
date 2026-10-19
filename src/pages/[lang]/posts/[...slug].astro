@@ -1,22 +1,37 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { postCover } from '../../lib/categories';
+import { postCover } from '../../../lib/categories';
+import { getUI } from '../../../i18n/ui';
+import { LOCALES, type Locale } from '../../../i18n/config';
+import { withLocale } from '../../../i18n/utils';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: { post },
-  }));
+  const all = await getCollection('posts');
+  const enPosts = all.filter((p) => p.slug.startsWith('en/'));
+  const paths: any[] = [];
+  for (const lang of LOCALES) {
+    for (const en of enPosts) {
+      const base = en.slug.split('/').slice(1).join('/');
+      const tr = all.find((p) => p.slug === `${lang}/${base}`);
+      const post = tr || en;
+      paths.push({
+        params: { lang, slug: base },
+        props: { post, fallback: !tr && !!en, base },
+      });
+    }
+  }
+  return paths;
 }
 
-const { post } = Astro.props;
+const lang = Astro.params.lang as Locale;
+const { post, fallback, base } = Astro.props;
+const ui = getUI(lang);
 const { Content } = await post.render();
 const cover = postCover(post.data.category, post.data.cover);
 
 const site = 'https://tuanchaye.com';
-const url = `${site}/posts/${post.slug}`;
+const url = `${site}${withLocale(lang, `/posts/${base}`)}`;
 const share = {
   twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(post.data.title)}`,
   facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
@@ -24,8 +39,12 @@ const share = {
   whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title + ' ' + url)}`,
 };
 ---
-
-<Layout title={post.data.title} description={post.data.description}>
+<Layout
+  title={post.data.title}
+  description={post.data.description}
+  locale={lang}
+  canonicalPath={`/posts/${base}`}
+>
   <article>
     <img class="post-cover" src={cover} alt={post.data.title} width="800" height="450" />
     <h1>{post.data.title}</h1>
@@ -33,48 +52,44 @@ const share = {
       {post.data.pubDate.toISOString().slice(0, 10)}
       {post.data.category ? ` · ${post.data.category}` : ''}
     </p>
+    {fallback && <p class="translate-note">{ui.notAvailable}</p>}
     <Content />
 
-    <!--
-      AdSense ad slot: after your site is approved by Google AdSense,
-      paste the <ins> ad unit code here. Repeat in-loop across articles.
-    -->
     <div class="ad-slot" aria-label="Advertisement">
       <!-- Google AdSense code goes here -->
     </div>
 
     <div class="share-box">
-      <span class="share-label">Share this article</span>
+      <span class="share-label">{ui.article.shareLabel}</span>
       <div class="share-btns">
         <a class="share-btn twitter" href={share.twitter} target="_blank" rel="noopener">Twitter</a>
         <a class="share-btn facebook" href={share.facebook} target="_blank" rel="noopener">Facebook</a>
         <a class="share-btn pinterest" href={share.pinterest} target="_blank" rel="noopener">Pinterest</a>
         <a class="share-btn whatsapp" href={share.whatsapp} target="_blank" rel="noopener">WhatsApp</a>
-        <button class="share-btn copy" data-url={url}>Copy link</button>
+        <button class="share-btn copy" data-url={url}>{ui.article.copy}</button>
       </div>
     </div>
 
-    <!-- 互动区：点赞 / 收藏 / 评论 -->
-    <section class="engage" data-slug={post.slug}>
+    <section class="engage" data-slug={base}>
       <div class="engage-stats">
         <button class="engage-btn like" data-act="like" aria-pressed="false">
-          <span class="ico">♥</span><span class="lbl">Like</span>
+          <span class="ico">♥</span><span class="lbl">{ui.article.like}</span>
           <span class="cnt" data-count="like">0</span>
         </button>
         <button class="engage-btn fav" data-act="fav" aria-pressed="false">
-          <span class="ico">★</span><span class="lbl">Save</span>
+          <span class="ico">★</span><span class="lbl">{ui.article.save}</span>
           <span class="cnt" data-count="fav">0</span>
         </button>
       </div>
 
       <div class="comments">
-        <h2 class="comments-title">Comments (<span id="cmt-total">0</span>)</h2>
+        <h2 class="comments-title">{ui.article.commentsTitle} (<span id="cmt-total">0</span>)</h2>
         <form class="comment-form" id="comment-form">
-          <input type="text" id="cmt-name" maxlength="40" placeholder="Your name" autocomplete="name" />
-          <textarea id="cmt-content" maxlength="1000" rows="3" placeholder="Share your thought (no contact info, please)"></textarea>
+          <input type="text" id="cmt-name" maxlength="40" placeholder={ui.article.yourName} autocomplete="name" />
+          <textarea id="cmt-content" maxlength="1000" rows="3" placeholder={ui.article.commentPlaceholder}></textarea>
           <div class="comment-actions">
             <span class="comment-hint" id="cmt-hint"></span>
-            <button type="submit" class="cmt-submit">Post comment</button>
+            <button type="submit" class="cmt-submit">{ui.article.postComment}</button>
           </div>
         </form>
         <ul class="comment-list" id="comment-list"></ul>
@@ -83,16 +98,16 @@ const share = {
   </article>
 </Layout>
 
-<script is:inline>
+<script is:inline define:vars={{ TEA_UI: ui.article }}>
   document.querySelectorAll('.share-btn.copy').forEach(function (btn) {
     btn.addEventListener('click', async function () {
       try {
         await navigator.clipboard.writeText(btn.getAttribute('data-url'));
         var old = btn.textContent;
-        btn.textContent = 'Copied!';
+        btn.textContent = TEA_UI.copied;
         setTimeout(function () { btn.textContent = old; }, 1500);
       } catch (e) {
-        btn.textContent = 'Copy failed';
+        btn.textContent = TEA_UI.copy;
       }
     });
   });
@@ -112,13 +127,11 @@ const share = {
       btn.classList.toggle('active', on);
     }
 
-    // 读取计数
     fetch('/api/likes?slug=' + encodeURIComponent(slug)).then(function (r) { return r.json(); })
       .then(function (d) { likeCnt.textContent = d.likes || 0; }).catch(function () {});
     fetch('/api/favorites?slug=' + encodeURIComponent(slug)).then(function (r) { return r.json(); })
       .then(function (d) { favCnt.textContent = d.favorites || 0; }).catch(function () {});
 
-    // 本地已点赞/收藏状态
     setPressed(likeBtn, localStorage.getItem(LK) === '1');
     setPressed(favBtn, localStorage.getItem(FK) === '1');
 
@@ -137,7 +150,6 @@ const share = {
         .catch(function () {});
     });
 
-    // 评论
     var listEl = document.getElementById('comment-list');
     var totalEl = document.getElementById('cmt-total');
     var form = document.getElementById('comment-form');
@@ -148,7 +160,7 @@ const share = {
 
     function timeAgo(ts) {
       var s = Math.floor((Date.now() - ts) / 1000);
-      if (s < 60) return 'just now';
+      if (s < 60) return TEA_UI.justNow || 'just now';
       if (s < 3600) return Math.floor(s / 60) + ' min ago';
       if (s < 86400) return Math.floor(s / 3600) + ' h ago';
       return Math.floor(s / 86400) + ' d ago';
@@ -175,7 +187,7 @@ const share = {
             listEl.appendChild(li);
           });
           if (cs.length === 0) {
-            listEl.innerHTML = '<li class="comment-empty">Be the first to comment.</li>';
+            listEl.innerHTML = '<li class="comment-empty">' + TEA_UI.beFirst + '</li>';
           }
         }).catch(function () {});
     }
@@ -187,18 +199,17 @@ const share = {
       hintEl.className = 'comment-hint';
       var name = nameEl.value.trim();
       var content = contentEl.value.trim();
-      if (!name) { hintEl.textContent = 'Please enter your name.'; hintEl.classList.add('err'); return; }
-      if (!content) { hintEl.textContent = 'Please write something.'; hintEl.classList.add('err'); return; }
-      // 客户端预过滤提示
+      if (!name) { hintEl.textContent = TEA_UI.errName; hintEl.classList.add('err'); return; }
+      if (!content) { hintEl.textContent = TEA_UI.errEmpty; hintEl.classList.add('err'); return; }
       if (/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/.test(content) ||
           /\b\d{7,15}\b/.test(content) ||
           /(微信|wechat|qq|www\.|https?:\/\/)/i.test(content)) {
-        hintEl.textContent = '请勿在评论中留下电话/邮箱/微信/QQ/链接等联系方式。';
+        hintEl.textContent = TEA_UI.errContact;
         hintEl.classList.add('err');
         return;
       }
       submitEl.disabled = true;
-      submitEl.textContent = 'Posting...';
+      submitEl.textContent = TEA_UI.posting;
       fetch('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -207,19 +218,19 @@ const share = {
         .then(function (res) {
           if (res.ok && res.d.ok) {
             contentEl.value = '';
-            hintEl.textContent = 'Thanks! Your comment is published.';
+            hintEl.textContent = TEA_UI.thanks;
             hintEl.classList.add('ok');
             loadComments();
           } else {
-            hintEl.textContent = (res.d && res.d.reason) || (res.d && res.d.error) || 'Failed to post.';
+            hintEl.textContent = (res.d && res.d.reason) || (res.d && res.d.error) || TEA_UI.networkErr;
             hintEl.classList.add('err');
           }
         }).catch(function () {
-          hintEl.textContent = 'Network error, please retry.';
+          hintEl.textContent = TEA_UI.networkErr;
           hintEl.classList.add('err');
         }).finally(function () {
           submitEl.disabled = false;
-          submitEl.textContent = 'Post comment';
+          submitEl.textContent = TEA_UI.postComment;
         });
     });
   })();

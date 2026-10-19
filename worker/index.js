@@ -165,6 +165,52 @@ export default {
       return Response.redirect(secureUrl, 301);
     }
 
+    // 0.5) 多语言自动跳转：依据访客 IP 国家（Cloudflare cf.country）或手动 cookie，
+    // 给「无语言前缀的 HTML 页面」加上 /{lang}/ 前缀。其余（API / 后台 / 静态资源）跳过。
+    if (request.method === 'GET') {
+      const accept = request.headers.get('accept') || '';
+      if (accept.includes('text/html')) {
+        const p = url.pathname;
+        const SUPPORTED = ['en', 'zh', 'es', 'fr', 'de', 'ja', 'pt', 'ru'];
+        const hasPrefix = SUPPORTED.some((l) => p === '/' + l || p.startsWith('/' + l + '/'));
+        const skip =
+          p.startsWith('/api/') ||
+          p.startsWith('/admin/') ||
+          p.startsWith('/images/') ||
+          p.startsWith('/pagefind/') ||
+          p.startsWith('/_astro/') ||
+          p === '/auth' || p === '/callback' ||
+          p === '/robots.txt' || p.startsWith('/sitemap') ||
+          p === '/favicon.ico' ||
+          /\.(css|js|svg|png|jpe?g|webp|gif|ico|woff2?|json|xml|txt|webmanifest)$/i.test(p);
+        if (!hasPrefix && !skip) {
+          let lang = 'en';
+          const cookie = request.headers.get('cookie') || '';
+          const m = cookie.match(/(?:^|;\s*)tealang=([a-z]{2})/);
+          if (m && SUPPORTED.includes(m[1])) {
+            lang = m[1];
+          } else {
+            const COUNTRY_MAP = {
+              CN: 'zh', HK: 'zh', TW: 'zh', SG: 'zh', MY: 'zh', MO: 'zh',
+              ES: 'es', MX: 'es', AR: 'es', CO: 'es', CL: 'es', PE: 'es', VE: 'es',
+              EC: 'es', UY: 'es', PY: 'es', BO: 'es', CR: 'es', DO: 'es', PA: 'es',
+              GT: 'es', SV: 'es', HN: 'es', NI: 'es', CU: 'es', PR: 'es', GQ: 'es',
+              FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr', CH: 'fr',
+              DE: 'de', AT: 'de', LI: 'de',
+              JP: 'ja',
+              PT: 'pt', BR: 'pt', AO: 'pt', MZ: 'pt', CV: 'pt', GW: 'pt', ST: 'pt', TL: 'pt',
+              RU: 'ru', BY: 'ru', KZ: 'ru', KG: 'ru', TJ: 'ru', TM: 'ru', UZ: 'ru',
+              AM: 'ru', GE: 'ru', MD: 'ru',
+            };
+            const country = request.cf && request.cf.country;
+            lang = (country && COUNTRY_MAP[country.toUpperCase()]) || 'en';
+          }
+          const dest = '/' + lang + (p === '/' ? '/' : p);
+          return Response.redirect(new URL(dest, url.origin).toString(), 302);
+        }
+      }
+    }
+
     // 1) OAuth 授权入口：重定向到 GitHub
     if (url.pathname === '/auth') {
       const redirectUri = `${url.origin}/callback`;

@@ -36,10 +36,46 @@ header {
   backdrop-filter: blur(4px);
   border-bottom: 1px solid var(--line);
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.5rem 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+/* 语言切换器（右上角） */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+.lang-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+.lang-select {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  background: #fff;
+  color: var(--fg);
+  cursor: pointer;
+  outline: none;
+}
+.lang-select:focus { border-color: var(--accent); }
+
+/* 译文回退提示 */
+.translate-note {
+  background: #fff7e6;
+  border: 1px solid #f0d9a8;
+  color: #8a6d3b;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin: 0 0 1.5rem;
 }
 
 .logo {
@@ -234,6 +270,8 @@ a { color: var(--accent); }
   .hero::after { display: none; }
   header { padding: 1rem; }
   nav a { margin-left: 0.75rem; }
+  .lang-label { display: none; }
+  .lang-switch { margin-left: 0; }
 }
 
 /* 首页分类版块：3 列 × 2 行网格 */

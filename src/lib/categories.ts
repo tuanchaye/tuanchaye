@@ -91,3 +91,12 @@ export function postCover(rawCategory?: string, cover?: string): string {
   if (cover) return cover;
   return getCategory(canonicalCategory(rawCategory)).cover;
 }
+
+// 本地化分类（名称/描述按语言返回，封面与渐变保持原样）
+import { type Locale } from '../i18n/config';
+import { getCatI18n } from '../i18n/categories';
+export function getCategoryLocalized(slug: string, locale: Locale) {
+  const base = getCategory(slug);
+  const t = getCatI18n(slug, locale);
+  return { ...base, name: t.name, description: t.description };
+}

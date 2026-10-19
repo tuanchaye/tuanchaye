@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getUI } from '../../i18n/ui';
+import { ABOUT } from '../../i18n/pages';
+import { LOCALES, type Locale } from '../../i18n/config';
+import { withLocale } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Locale;
+const ui = getUI(lang);
+const paras = ABOUT[lang];
+---
+<Layout title={`${ui.nav.about} · TuanChaYe`} description={paras[0]} locale={lang} canonicalPath="/about">
+  <div class="page-hero">
+    <h1>{ui.nav.about} · TuanChaYe</h1>
+  </div>
+  {paras.map((p) => <p>{p}</p>)}
+  <div class="section-ornament" aria-hidden="true">&#x2767;</div>
+  <p class="meta">{ui.nav.contact}: <a href={withLocale(lang, '/contact')}>{ui.nav.contact}</a></p>
+</Layout>

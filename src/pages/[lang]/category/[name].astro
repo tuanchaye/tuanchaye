@@ -1,0 +1,53 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getPostsForLocale, filterByCategory } from '../../../lib/posts';
+import { CATEGORIES, canonicalCategory, getCategoryLocalized, postCover } from '../../../lib/categories';
+import { getUI } from '../../../i18n/ui';
+import { LOCALES, type Locale } from '../../../i18n/config';
+import { withLocale } from '../../../i18n/utils';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) =>
+    CATEGORIES.map((c) => ({ params: { lang, name: c.slug } }))
+  );
+}
+
+const lang = Astro.params.lang as Locale;
+const name = Astro.params.name as string;
+const ui = getUI(lang);
+const cat = getCategoryLocalized(name, lang);
+const posts = filterByCategory(
+  (await getPostsForLocale(lang)).sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()),
+  name
+);
+---
+<Layout
+  title={`${cat.name} · TuanChaYe`}
+  description={cat.description}
+  wide={true}
+  locale={lang}
+  canonicalPath={`/category/${name}`}
+>
+  <nav class="breadcrumb">
+    <a href={withLocale(lang, '/')}>{ui.category.home}</a> <span aria-hidden="true">/</span> <span>{cat.name}</span>
+  </nav>
+
+  <div class="page-hero cat-page-hero" style={`background:${CATEGORIES.find((c) => c.slug === name)?.gradient}`}>
+    <h1>{cat.name}</h1>
+    <p>{cat.description}</p>
+  </div>
+
+  <h2>{ui.category.articlesIn} {cat.name}</h2>
+  <div class="cat-post-grid">
+    {
+      posts.map((p) => (
+        <a class="cat-post-card" href={withLocale(lang, `/posts/${p.base}`)}>
+          <img class="cat-post-thumb" src={p.cover} alt={p.title} width="320" height="180" loading="lazy" />
+          <h3>{p.title}</h3>
+          <p class="meta">{p.pubDate.toISOString().slice(0, 10)}</p>
+          <p class="cat-post-excerpt">{p.description}</p>
+        </a>
+      ))
+    }
+  </div>
+</Layout>

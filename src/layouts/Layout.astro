@@ -1,12 +1,22 @@
 ---
 import '../styles/global.css';
+import { getUI } from '../i18n/ui';
+import { LOCALES, LOCALE_NAMES, type Locale, DEFAULT_LOCALE } from '../i18n/config';
+import { stripLocale, withLocale } from '../i18n/utils';
+
 interface Props {
   title: string;
   description: string;
   wide?: boolean;
+  locale?: Locale; // 公开页面传入；不传则为英文后台（不显示切换器）
+  canonicalPath?: string; // 用于 hreflang，默认取当前路径去掉语言前缀
 }
-const { title, description, wide = false } = Astro.props;
+const { title, description, wide = false, locale, canonicalPath } = Astro.props;
+const loc: Locale = locale ?? DEFAULT_LOCALE;
+const ui = getUI(loc);
 const site = 'https://tuanchaye.com';
+const can = canonicalPath ?? stripLocale(Astro.url.pathname || '/');
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -14,13 +24,13 @@ const jsonLd = {
   url: site,
   potentialAction: {
     '@type': 'SearchAction',
-    target: `${site}/search?q={search_term_string}`,
+    target: `${site}/en/search?q={search_term_string}`,
     'query-input': 'required name=search_term_string',
   },
 };
 ---
 <!doctype html>
-<html lang="en">
+<html lang={loc}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,36 +43,73 @@ const jsonLd = {
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+    <!-- hreflang 多语言 SEO -->
+    {LOCALES.map((l) => (
+      <link rel="alternate" hreflang={l} href={`${site}${withLocale(l, can)}`} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={`${site}${withLocale(DEFAULT_LOCALE, can)}`} />
   </head>
   <body>
     <header>
-      <a href="/" class="logo">团茶叶 · TuanChaYe</a>
-      <form class="search-form" action="/search" method="get" role="search">
+      <a href={withLocale(loc, '/')} class="logo">团茶叶 · TuanChaYe</a>
+      <nav>
+        <a href={withLocale(loc, '/')}>{ui.nav.home}</a>
+        <a href={withLocale(loc, '/posts')}>{ui.nav.articles}</a>
+        <a href={withLocale(loc, '/about')}>{ui.nav.about}</a>
+        <a href={withLocale(loc, '/contact')}>{ui.nav.contact}</a>
+      </nav>
+      <form class="search-form" action={withLocale(loc, '/search')} method="get" role="search">
         <input
           type="search"
           name="q"
-          placeholder="Search articles…"
-          aria-label="Search articles"
+          placeholder={ui.search.placeholder}
+          aria-label={ui.search.aria}
         />
-        <button type="submit" aria-label="Search">
+        <button type="submit" aria-label={ui.search.aria}>
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
             <circle cx="11" cy="11" r="7"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
         </button>
       </form>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/posts">Articles</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-      </nav>
+      {locale && (
+        <div class="lang-switch" data-current={loc}>
+          <label class="lang-label" for="lang-select">{ui.languageLabel}</label>
+          <select id="lang-select" class="lang-select" aria-label={ui.languageLabel}>
+            {LOCALES.map((l) => (
+              <option value={l} selected={l === loc}>{LOCALE_NAMES[l]}</option>
+            ))}
+          </select>
+        </div>
+      )}
     </header>
     <main class={wide ? 'wide' : ''}>
       <slot />
     </main>
     <footer>
-      <p>&copy; {new Date().getFullYear()} TuanChaYe · Chinese Tea Knowledge for Global Readers</p>
+      <p>{ui.footer.replace('{year}', String(new Date().getFullYear()))}</p>
     </footer>
+    {locale && (
+      <script is:inline define:vars={{ currentLocale: loc }}>
+        (function () {
+          var sel = document.getElementById('lang-select');
+          if (!sel) return;
+          sel.addEventListener('change', function () {
+            var target = sel.value;
+            var path = window.location.pathname;
+            var parts = path.split('/');
+            // 去掉已有的语言前缀
+            if (parts[1] && ['en','zh','es','fr','de','ja','pt','ru'].indexOf(parts[1]) !== -1) {
+              parts.splice(1, 1);
+            }
+            var can = parts.join('/');
+            if (can === '' || can === '/') can = '/';
+            var next = '/' + target + (can === '/' ? '/' : can);
+            document.cookie = 'tealang=' + target + ';path=/;max-age=31536000;samesite=lax';
+            window.location.pathname = next;
+          });
+        })();
+      </script>
+    )}
   </body>
 </html>
