@@ -68,7 +68,7 @@ collections:
         label: "Cover Image (optional)"
         widget: image
         required: false
-        comment: "Upload your own cover image (landscape, ~1600px wide recommended). If left empty, a category default is used automatically."
+        comment: "Upload your own cover image (landscape, ~1600px wide recommended). NOTE: the preview here shows broken until you click Save and CI finishes deploying (~2-3 min) - this is normal for static-site CMS. If left empty, a category default is used automatically."
       - { name: pinned, label: "Pin to Top（置顶）", widget: boolean, required: false, default: false }
       - { name: comments, label: "Allow Comments（开放评论）", widget: boolean, required: false, default: true }
       - { name: body, label: "Body (Markdown)", widget: richtext, modes: [raw, rich_text] }
