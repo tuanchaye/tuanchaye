@@ -27,7 +27,7 @@ category: "Tea Types"
 
 为了充分欣赏其精致的蜜露般甜味，最好在玻璃器皿或[盖碗](<>)中冲泡。多孔的陶土茶壶可能会吸收其微妙、短暂的香气。
 
-![](https://s.coze.cn/image/IX43y2V0EdI/)
+![](/images/mirrored/ee2816c1f0ef1e6b.jpg)
 
 ## 白牡丹：均衡的混合
 
@@ -77,7 +77,7 @@ category: "Tea Types"
 
 为了在制备过程中保留这些有益化合物，使用热但未完全沸腾的水。将水温保持在175°F至185°F左右，确保提取甜味氨基酸而不会带出过多的苦味。
 
-![](https://s.coze.cn/image/u2ujH_bh750/)
+![](/images/mirrored/95a656252921bbef.jpg)
 
 ## 白茶陈化的艺术
 

@@ -27,7 +27,7 @@ La investigación dirigida por el investigador Lin Zhi en el Instituto de Invest
 
 Para apreciar plenamente su dulzura delicada, similar al melón, es ideal prepararlo en un recipiente de vidrio o un [gaiwan](<>). Las teteras de arcilla porosa podrían absorber sus notas aromáticas sutiles y fugaces.
 
-![](https://s.coze.cn/image/IX43y2V0EdI/)
+![](/images/mirrored/ee2816c1f0ef1e6b.jpg)
 
 ## Peonía Blanca: la mezcla equilibrada
 
@@ -77,7 +77,7 @@ Por el contrario, las hojas maduras del Shou Mei proporcionan beneficios diferen
 
 Para preservar estos compuestos beneficiosos durante la preparación, use agua que esté caliente pero no hirviendo. Mantener la temperatura del agua alrededor de 175 °F a 185 °F asegura que extraiga los aminoácidos dulces sin sacar un exceso de amargor.
 
-![](https://s.coze.cn/image/u2ujH_bh750/)
+![](/images/mirrored/95a656252921bbef.jpg)
 
 ## El arte de envejecer el té blanco
 

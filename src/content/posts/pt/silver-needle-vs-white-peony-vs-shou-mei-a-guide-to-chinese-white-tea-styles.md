@@ -27,7 +27,7 @@ Pesquisa liderada pelo pesquisador Lin Zhi no Instituto de Pesquisa de Chá da A
 
 Para apreciar plenamente sua doçura delicada, semelhante a melão, a infusão em um recipiente de vidro ou um [gaiwan](<>) é ideal. Bules de barro poroso podem absorver suas notas aromáticas sutis e fugazes.
 
-![](https://s.coze.cn/image/IX43y2V0EdI/)
+![](/images/mirrored/ee2816c1f0ef1e6b.jpg)
 
 ## Peônia Branca: A Mistura Equilibrada
 
@@ -77,7 +77,7 @@ Por outro lado, as folhas maduras do Shou Mei proporcionam benefícios diferente
 
 Para preservar esses compostos benéficos durante o preparo, use água quente, mas não fervente. Manter a temperatura da água em torno de 175°F a 185°F garante que você extraia os aminoácidos doces sem extrair amargor excessivo.
 
-![](https://s.coze.cn/image/u2ujH_bh750/)
+![](/images/mirrored/95a656252921bbef.jpg)
 
 ## A Arte de Envelhecer o Chá Branco
 

@@ -27,7 +27,7 @@ Des recherches menées par le chercheur Lin Zhi à l'Institut de recherche sur l
 
 Pour apprécier pleinement sa douceur délicate rappelant le melon, l'infusion dans un récipient en verre ou un [gaiwan](<>) est idéale. Les théières en argile poreuse pourraient absorber ses notes aromatiques subtiles et éphémères.
 
-![](https://s.coze.cn/image/IX43y2V0EdI/)
+![](/images/mirrored/ee2816c1f0ef1e6b.jpg)
 
 ## La Pivoine Blanche : l'assemblage équilibré
 
@@ -77,7 +77,7 @@ Inversement, les feuilles matures du Shou Mei offrent des bienfaits différents,
 
 Pour préserver ces composés bénéfiques lors de la préparation, utilisez de l'eau chaude mais pas tout à fait bouillante. Maintenir la température de l'eau autour de 80 à 85 °C (175-185 °F) garantit l'extraction des acides aminés sucrés sans faire ressortir une amertume excessive.
 
-![](https://s.coze.cn/image/u2ujH_bh750/)
+![](/images/mirrored/95a656252921bbef.jpg)
 
 ## L'art du vieillissement du thé blanc
 

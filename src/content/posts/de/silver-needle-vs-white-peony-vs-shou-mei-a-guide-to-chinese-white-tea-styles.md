@@ -27,7 +27,7 @@ Forschung unter der Leitung von Forscher Lin Zhi am Tea Research Institute der C
 
 Um seine zarte, honigmelonenartige Süße voll zu schätzen, ist das Brühen in einem Glasgefäß oder einem [Gaiwan](<>) ideal. Poröse Tonteekannen könnten seine subtilen, flüchtigen Aromanoten absorbieren.
 
-![](https://s.coze.cn/image/IX43y2V0EdI/)
+![](/images/mirrored/ee2816c1f0ef1e6b.jpg)
 
 ## Weiße Pfingstrose: Die ausgewogene Mischung
 
@@ -77,7 +77,7 @@ Umgekehrt bieten die reifen Blätter von Shou Mei andere Vorteile, wie die Polys
 
 Um diese wertvollen Verbindungen während der Zubereitung zu erhalten, verwenden Sie Wasser, das heiß, aber nicht ganz kochend ist. Eine Wassertemperatur von etwa 80 bis 85 °C stellt sicher, dass Sie die süßen Aminosäuren extrahieren, ohne übermäßige Bitterkeit herauszulösen.
 
-![](https://s.coze.cn/image/u2ujH_bh750/)
+![](/images/mirrored/95a656252921bbef.jpg)
 
 ## Die Kunst der Weißtee-Reifung
 

@@ -54,6 +54,25 @@ jobs:
             git push origin HEAD:main
           fi
 
+      # ── 外链图片自动转存：把正文里的第三方图床/生图空间图片下载进本站并改写链接 ──
+      # 防止外部图床（如 s.coze.cn / bytemimg 签名链接，约 1 年有效期）到期后全站图片失效。
+      - name: Mirror external images into the repo
+        continue-on-error: true
+        run: node scripts/mirror-images.mjs
+
+      # ── 把本次转存的图片与链接改写回写仓库（带 [skip ci] 避免无限循环）──
+      - name: Commit back mirrored images
+        run: |
+          git add src/content/posts public/images/mirrored
+          if git diff --cached --quiet; then
+            echo "ℹ️ 无新转存图片，跳过提交。"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: mirror external images into repo [skip ci]"
+            git push origin HEAD:main
+          fi
+
       - name: Build site
         run: npm run build
 

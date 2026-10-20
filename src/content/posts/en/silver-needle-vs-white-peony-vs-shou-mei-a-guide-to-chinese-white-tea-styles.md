@@ -31,7 +31,7 @@ Research led by Researcher Lin Zhi at the Tea Research Institute of the Chinese 
 
 To fully appreciate its delicate, honeydew-like sweetness, brewing in a glass vessel or a [gaiwan](<>) is ideal. Porous clay teapots might absorb its subtle, fleeting aromatic notes.
 
-![](https://s.coze.cn/image/IX43y2V0EdI/)
+![](/images/mirrored/ee2816c1f0ef1e6b.jpg)
 
 ## White Peony: The Balanced Blend
 
@@ -81,7 +81,7 @@ Conversely, the mature leaves of Shou Mei provide different benefits, such as th
 
 To preserve these beneficial compounds during preparation, use water that is hot but not quite boiling. Keeping the water temperature around 175°F to 185°F ensures you extract the sweet amino acids without drawing out excessive bitterness.
 
-![](https://s.coze.cn/image/u2ujH_bh750/)
+![](/images/mirrored/95a656252921bbef.jpg)
 
 ## The Art of Aging White Tea
 
