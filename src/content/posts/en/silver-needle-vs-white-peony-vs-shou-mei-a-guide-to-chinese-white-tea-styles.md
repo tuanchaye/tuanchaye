@@ -6,6 +6,8 @@ description: Silver Needle, White Peony or Shou Mei? Compare the three Chinese
   confidence.
 pubDate: 2026-10-20T14:23:00.000+08:00
 category: Tea Types
+# Upload your own cover image (landscape, ~1600px wide recommended). If left empty, a category default is used automatically.
+cover: /images/uploads/cover-white-tea-styles.jpg
 pinned: false
 comments: true
 ---
