@@ -41,12 +41,14 @@ for (const p of posts) {
         CATEGORIES.map((cat) => {
           const t = getCategoryLocalized(cat.slug, lang);
           const latest = latestByCat.get(cat.slug);
+          // 分类 banner 优先用该分类最新文章的封面图（自动适配裁剪），无文章时回退分类默认图
+          const bannerImg = latest ? latest.cover : cat.cover;
           return (
             <div class="cat-card">
               <a
                 class="cat-banner"
                 href={withLocale(lang, `/category/${cat.slug}`)}
-                style={`background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.58)), url(${cat.cover});background-size:cover;background-position:center;`}
+                style={`background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.58)), url(${bannerImg});background-size:cover;background-position:center;`}
               >
                 <span class="cat-banner-name">{t.name}</span>
               </a>

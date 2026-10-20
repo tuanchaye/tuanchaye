@@ -66,31 +66,9 @@ collections:
           - "Care & Wellbeing"
       - name: cover
         label: "Cover Image (optional)"
-        widget: select
+        widget: image
         required: false
-        comment: "Pick a cover illustration. If left empty, a category default is used automatically."
-        options:
-          - { label: "Auto (by category)", value: "" }
-          - { label: "Tea Basics", value: "/images/covers/overview.svg" }
-          - { label: "Tea Types", value: "/images/covers/types.svg" }
-          - { label: "Green Tea", value: "/images/covers/green.svg" }
-          - { label: "Black Tea", value: "/images/covers/black.svg" }
-          - { label: "White Tea", value: "/images/covers/white.svg" }
-          - { label: "Oolong", value: "/images/covers/oolong.svg" }
-          - { label: "Pu-erh", value: "/images/covers/puerh.svg" }
-          - { label: "Matcha", value: "/images/covers/matcha.svg" }
-          - { label: "Yellow Tea", value: "/images/covers/yellow.svg" }
-          - { label: "Brewing", value: "/images/covers/brewing.svg" }
-          - { label: "Tea Cup", value: "/images/covers/cup.svg" }
-          - { label: "Ceremony / Culture", value: "/images/covers/ceremony.svg" }
-          - { label: "Buying Guide", value: "/images/covers/buying.svg" }
-          - { label: "Storage", value: "/images/covers/storage.svg" }
-          - { label: "Health", value: "/images/covers/health.svg" }
-          - { label: "Seasons", value: "/images/covers/seasons.svg" }
-          - { label: "Gift", value: "/images/covers/gift.svg" }
-          - { label: "Tasting", value: "/images/covers/tasting.svg" }
-          - { label: "Food Pairing", value: "/images/covers/pairing.svg" }
-          - { label: "Water", value: "/images/covers/water.svg" }
+        comment: "Upload your own cover image (landscape, ~1600px wide recommended). If left empty, a category default is used automatically."
       - { name: pinned, label: "Pin to Top（置顶）", widget: boolean, required: false, default: false }
       - { name: comments, label: "Allow Comments（开放评论）", widget: boolean, required: false, default: true }
       - { name: body, label: "Body (Markdown)", widget: richtext, modes: [raw, rich_text] }
