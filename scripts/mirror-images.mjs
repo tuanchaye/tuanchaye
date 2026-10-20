@@ -17,6 +17,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync, statSy
 import { join, dirname, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import sharp from 'sharp';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const POSTS_DIR = join(ROOT, 'src', 'content', 'posts');
@@ -59,6 +60,30 @@ function collect(file) {
   return found;
 }
 
+// 压缩图片：限制最大宽度 1600px，重编码减小体积（生图软件原图常达数百 KB～数 MB）
+// 返回 { buf, ext }（ext 可能与原始不同，如 svg 原样跳过）
+async function compress(buf, ext) {
+  // 小于 150KB 的图不压（收益小，避免二次有损）
+  if (buf.length < 150 * 1024) return { buf, ext };
+  const img = sharp(buf, { failOn: 'none' }).rotate(); // 按 EXIF 自动转向
+  const meta = await img.metadata();
+  if (!meta.width || !meta.height) return { buf, ext };
+  let pipeline = img;
+  if (meta.width > 1600) pipeline = pipeline.resize({ width: 1600, withoutEnlargement: true });
+  if (ext === '.jpg') {
+    const out = await pipeline.jpeg({ quality: 78, progressive: true, mozjpeg: true }).toBuffer();
+    if (out.length < buf.length) return { buf: out, ext };
+  } else if (ext === '.png') {
+    const out = await pipeline.png({ compressionLevel: 9, palette: true, quality: 80 }).toBuffer();
+    if (out.length < buf.length) return { buf: out, ext };
+  } else if (ext === '.webp') {
+    const out = await pipeline.webp({ quality: 78 }).toBuffer();
+    if (out.length < buf.length) return { buf: out, ext };
+  }
+  // gif/avif/svg 等原样保存
+  return { buf, ext };
+}
+
 async function download(url) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -97,15 +122,22 @@ for (const e of entries) {
   if (!urlCache.has(e.url)) {
     const hash = createHash('sha1').update(e.url).digest('hex').slice(0, 16);
     try {
-      const { buf, ext } = await download(e.url);
-      const name = `${hash}${ext}`;
-      const outPath = join(OUT_DIR, name);
-      if (!existsSync(outPath)) {
-        mkdirSync(OUT_DIR, { recursive: true });
-        writeFileSync(outPath, buf);
-      }
-      urlCache.set(e.url, `${LOCAL_PREFIX}${name}`);
-      console.log(`  ✔ ${e.url} -> ${LOCAL_PREFIX}${name} (${(buf.length / 1024).toFixed(0)}KB)`);
+    const { buf: raw, ext } = await download(e.url);
+    let buf = raw, finalExt = ext;
+    try {
+      ({ buf, ext: finalExt } = await compress(raw, ext));
+    } catch (cErr) {
+      console.warn(`  ⚠ 压缩失败（用原图保存）: ${cErr.message}`);
+    }
+    const name = `${hash}${finalExt}`;
+    const outPath = join(OUT_DIR, name);
+    if (!existsSync(outPath)) {
+      mkdirSync(OUT_DIR, { recursive: true });
+      writeFileSync(outPath, buf);
+    }
+    urlCache.set(e.url, `${LOCAL_PREFIX}${name}`);
+    const saved = raw.length === buf.length ? '' : `，压缩 ${(raw.length / 1024).toFixed(0)}KB→${(buf.length / 1024).toFixed(0)}KB`;
+    console.log(`  ✔ ${e.url} -> ${LOCAL_PREFIX}${name} (${(buf.length / 1024).toFixed(0)}KB${saved})`);
     } catch (err) {
       urlCache.set(e.url, null);
       console.warn(`  ✖ ${e.url} 下载失败（保留原链接，下次部署重试）: ${err.message}`);
