@@ -22,7 +22,7 @@ Sem chaleira com controle de temperatura? Depois que a chaleira ferver, despeje 
 
 Chá fraco é quase sempre um problema de proporção, não de qualidade. Para o preparo no estilo ocidental, um ponto de partida prático é cerca de **2–3 gramas de chá — aproximadamente uma colher de chá cheia de folhas inteiras — por 240 ml (8 oz) de água**. Folhas densas e torcidas comprimem mais do que botões volumosos, então uma balança de cozinha elimina qualquer adivinhação. O preparo tradicional gongfu inverte a proporção, usando muitas folhas com vasilhames pequenos e infusões curtas. O erro é ficar no meio-termo: poucas folhas para uma caneca grande, infundidas por tempo demais. Escolha um método e comprometa-se com ele.
 
-![](https://s.coze.cn/image/Px2wHpGBYKc/)
+![](/images/mirrored/b847887258bc538e.jpg)
 
 ## 3. Infundir pelo tempo errado
 
@@ -40,7 +40,7 @@ O chá é quase todo água, e água que tem gosto de cloro, minerais ou de nada 
 
 Chás de folha inteira — especialmente oolong enrolado — incham dramaticamente ao se desenrolarem, muitas vezes dobrando de tamanho. Apertadas em um infusor esférico minúsculo ou em um sachê apertado, as folhas não conseguem se expandir e abrir, então a água não circula e o preparo sai fraco. Dê espaço às folhas: um infusor de cesto espaçoso, um filtro grande o suficiente para se expandir, ou — a ferramenta mais versátil de todas — um [gaiwan ou bule pequeno](<>), que é essencialmente feito para isso.
 
-![](https://s.coze.cn/image/OJH-UgmK2u8/)
+![](/images/mirrored/daeae0271aeed7ef.jpg)
 
 ## 7. Esquecer o básico de armazenamento e higiene
 

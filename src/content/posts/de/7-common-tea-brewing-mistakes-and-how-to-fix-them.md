@@ -22,7 +22,7 @@ Kein Wasserkocher mit Temperatureinstellung? Nachdem der Wasserkocher gekocht ha
 
 Schwacher Tee ist fast immer ein Verhältnisproblem, kein Qualitätsproblem. Für die westliche Aufbrühmethode ist ein praktischer Ausgangspunkt etwa **2–3 Gramm Tee – ungefähr ein gehäufter Teelöffel ganze Blätter – pro 240 ml Wasser**. Dichte, gedrehte Blätter komprimieren mehr als voluminöse Knospen, daher nimmt eine Küchenwaage alles Raten. Traditionelles Gongfu-Aufbrühen kehrt das Verhältnis um: viel Blatt in kleinen Gefäßen und kurze Aufgüsse. Der Fehler ist, dazwischen zu bleiben: zu wenig Blatt für eine große Tasse, viel zu lange gezogen. Wählen Sie eine Methode und bleiben Sie dabei.
 
-![](https://s.coze.cn/image/Px2wHpGBYKc/)
+![](/images/mirrored/b847887258bc538e.jpg)
 
 ## 3. Zu lange oder zu kurz ziehen lassen
 
@@ -40,7 +40,7 @@ Tee besteht hauptsächlich aus Wasser, und Wasser, das nach Chlor, Mineralien od
 
 Ganzblatt-Tees – besonders gerollter Oolong – quellen beim Entfalten dramatisch auf und verdoppeln oft ihre Größe. In einem kleinen Kugelsieb oder einem engen Teebeutel gepackt, können sich die Blätter nicht ausdehnen und öffnen, sodass das Wasser nicht zirkulieren kann und der Aufguss schwach wird. Geben Sie den Blättern Raum: ein geräumiges Korbsieb, einen Filter, der groß genug zum Ausdehnen ist, oder – das vielseitigste Werkzeug überhaupt – einen [Gaiwan oder eine kleine Teekanne](<>), die im Grunde genau dafür gemacht sind.
 
-![](https://s.coze.cn/image/OJH-UgmK2u8/)
+![](/images/mirrored/daeae0271aeed7ef.jpg)
 
 ## 7. Die Grundlagen der Lagerung und Hygiene vergessen
 

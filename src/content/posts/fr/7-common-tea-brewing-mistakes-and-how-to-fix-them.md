@@ -22,7 +22,7 @@ Pas de bouilloire à température réglable ? Après l'ébullition, versez l'eau
 
 Un thé faible est presque toujours un problème de ratio, pas de qualité. Pour une préparation à l'occidentale, un point de départ pratique est d'environ **2–3 grammes de thé — à peu près une cuillère à café bombée de feuilles entières — pour 240 ml (8 oz) d'eau**. Les feuilles denses et torsadées se compressent plus que les bourgeons volumineux, donc une balance de cuisine élimine toute approximation. La préparation traditionnelle gongfu inverse le ratio, en utilisant beaucoup de feuilles avec de petits récipients et des infusions courtes. L'erreur consiste à rester entre les deux : trop peu de feuilles pour une grande tasse, infusées beaucoup trop longtemps. Choisissez une méthode et tenez-vous-y.
 
-![](https://s.coze.cn/image/Px2wHpGBYKc/)
+![](/images/mirrored/b847887258bc538e.jpg)
 
 ## 3. Infuser pendant une durée incorrecte
 
@@ -40,7 +40,7 @@ Le thé est principalement de l'eau, et une eau qui a un goût de chlore, de min
 
 Les thés en feuilles entières — surtout l'oolong roulé — gonflent considérablement en se déployant, souvent en doublant de taille. Tassées dans une petite boule infuseuse ou un sachet étroit, les feuilles ne peuvent pas s'étendre ni s'ouvrir, l'eau ne peut donc pas circuler et l'infusion est faible. Laissez de la place aux feuilles : un infuseur panier spacieux, un filtre assez grand pour s'y déployer, ou — l'outil le plus polyvalent de tous — un [gaiwan ou une petite théière](<>), qui est essentiellement conçu pour cela.
 
-![](https://s.coze.cn/image/OJH-UgmK2u8/)
+![](/images/mirrored/daeae0271aeed7ef.jpg)
 
 ## 7. Oublier les bases du stockage et de l'hygiène
 

@@ -22,7 +22,7 @@ Esta es la causa número uno del té verde y blanco amargo. El agua que sale dir
 
 El té débil casi siempre es un problema de proporción, no de calidad. Para la preparación al estilo occidental, un punto de partida práctico es de aproximadamente **2–3 gramos de té —más o menos una cucharadita colmada de hojas enteras— por cada 240 ml (8 oz) de agua**. Las hojas densas y retorcidas se comprimen más que los brotes voluminosos, así que una balanza de cocina elimina toda conjetura. La preparación tradicional gongfu invierte la proporción: usa mucha hoja con recipientes pequeños e infusiones cortas. El error es quedarse en un punto intermedio: muy poca hoja para una taza grande, infusionada durante demasiado tiempo. Elige un método y apuesta por él.
 
-![](https://s.coze.cn/image/Px2wHpGBYKc/)
+![](/images/mirrored/b847887258bc538e.jpg)
 
 ## 3. Infusionar durante el tiempo equivocado
 
@@ -40,7 +40,7 @@ El té es en su mayoría agua, y el agua que sabe a cloro, a minerales o a nada 
 
 Los tés de hoja entera —especialmente el oolong enrollado— se hinchan de forma notable al desplegarse, a menudo duplicando su tamaño. Apretadas en un infusor esférico diminuto o en una bolsita estrecha, las hojas no pueden expandirse ni abrirse, así que el agua no puede circular y la infusión sale débil. Dale espacio a las hojas: un infusor de cesta amplio, un filtro lo bastante grande para que se expandan o —la herramienta más versátil de todas— un [gaiwan o una tetera pequeña](<>), que está esencialmente diseñado para esto.
 
-![](https://s.coze.cn/image/OJH-UgmK2u8/)
+![](/images/mirrored/daeae0271aeed7ef.jpg)
 
 ## 7. Olvidar lo básico del almacenamiento y la higiene
 

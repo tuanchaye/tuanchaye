@@ -26,7 +26,7 @@ No variable kettle? After the kettle boils, pour the water into an empty cup or 
 
 Weak tea is almost always a ratio problem, not a quality problem. For Western-style brewing, a practical starting point is about **2–3 grams of tea — roughly one heaped teaspoon of whole leaves — per 240 ml (8 oz) of water**. Dense, twisted leaves compress more than bulky buds, so a kitchen scale removes all guesswork. Traditional gongfu brewing flips the ratio, using lots of leaf with tiny vessels and short infusions. The mistake is staying in between: too little leaf for a big mug, brewed for far too long. Pick one method and commit to it.
 
-![](https://s.coze.cn/image/Px2wHpGBYKc/)
+![](/images/mirrored/b847887258bc538e.jpg)
 
 ## 3. Steeping for the wrong length of time
 
@@ -44,7 +44,7 @@ Tea is mostly water, and water that tastes of chlorine, minerals, or nothing wil
 
 Whole-leaf teas — especially rolled oolong — swell dramatically as they unfurl, often doubling in size. Packed into a tiny ball infuser or a cramped tea bag, the leaves cannot expand and open, so the water cannot circulate and the brew comes out weak. Give leaves room: a roomy basket infuser, a filter large enough to expand into, or — the most versatile tool of all — a [gaiwan or small teapot](<>), which is essentially purpose-built for this.
 
-![](https://s.coze.cn/image/OJH-UgmK2u8/)
+![](/images/mirrored/daeae0271aeed7ef.jpg)
 
 ## 7. Forgetting the basics of storage and hygiene
 
