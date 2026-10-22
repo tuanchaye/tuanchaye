@@ -19,14 +19,27 @@ const can = canonicalPath ?? stripLocale(Astro.url.pathname || '/');
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'TuanChaYe - Chinese Tea Knowledge',
-  url: site,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: `${site}/en/search?q={search_term_string}`,
-    'query-input': 'required name=search_term_string',
-  },
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      // 站名必须是纯品牌名（不带宣传语），Google SERP 的站点名称取自这里
+      name: 'TuanChaYe',
+      alternateName: ['团茶叶', 'TuanChaYe Tea'],
+      url: site,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${site}/en/search?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      name: 'TuanChaYe',
+      url: site,
+      // Google 品牌头像兜底数据源（Organization logo，须 ≥112px 正方形）
+      logo: `${site}/favicon-512.png`,
+    },
+  ],
 };
 ---
 <!doctype html>
@@ -40,8 +53,14 @@ const jsonLd = {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={site} />
+    <meta property="og:site_name" content="TuanChaYe" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <!-- favicon 套图：Google 要求 ≥48px，ico 兜底老抓取器 -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/favicon-180.png" />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
     <!-- hreflang 多语言 SEO -->
     {LOCALES.map((l) => (

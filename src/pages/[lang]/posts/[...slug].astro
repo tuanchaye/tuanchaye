@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { postCover } from '../../../lib/categories';
+import { postCover, canonicalCategory, getCategoryLocalized } from '../../../lib/categories';
 import { getUI } from '../../../i18n/ui';
 import { LOCALES, type Locale } from '../../../i18n/config';
 import { withLocale } from '../../../i18n/utils';
@@ -43,6 +43,40 @@ const share = {
   pinterest: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&description=${encodeURIComponent(post.data.title)}`,
   whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title + ' ' + url)}`,
 };
+
+// 文章页结构化数据：Article（作者/发布者/首图/日期）+ BreadcrumbList（SERP 显示"首页 › 分类 › 标题"而非裸路径）
+const catSlug = canonicalCategory(post.data.category);
+const catName = getCategoryLocalized(catSlug, lang)?.name ?? 'Articles';
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: post.data.title,
+      description: post.data.description,
+      image: `${site}${cover}`,
+      datePublished: post.data.pubDate.toISOString(),
+      dateModified: post.data.pubDate.toISOString(),
+      inLanguage: lang,
+      author: { '@type': 'Organization', name: 'TuanChaYe', url: site },
+      publisher: {
+        '@type': 'Organization',
+        name: 'TuanChaYe',
+        url: site,
+        logo: { '@type': 'ImageObject', url: `${site}/favicon-512.png` },
+      },
+      mainEntityOfPage: url,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: ui.nav.home ?? 'Home', item: `${site}${withLocale(lang, '/')}` },
+        { '@type': 'ListItem', position: 2, name: catName, item: `${site}${withLocale(lang, `/category/${catSlug}`)}` },
+        { '@type': 'ListItem', position: 3, name: post.data.title, item: url },
+      ],
+    },
+  ],
+};
 ---
 <Layout
   title={post.data.title}
@@ -50,6 +84,7 @@ const share = {
   locale={lang}
   canonicalPath={`/posts/${base}`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(articleLd)} />
   <article>
     <img class="post-cover" src={cover} alt={post.data.title} width="800" height="450" />
     <h1>{post.data.title}</h1>
