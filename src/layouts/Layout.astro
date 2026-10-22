@@ -56,6 +56,8 @@ const jsonLd = {
     <meta property="og:site_name" content="TuanChaYe" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <!-- 规范地址：与最终 200 URL（无尾斜杠）一致，避免斜杠变体重复收录 -->
+    <link rel="canonical" href={`${site}${withLocale(loc, can)}`} />
     <!-- favicon 套图：Google 要求 ≥48px，ico 兜底老抓取器 -->
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

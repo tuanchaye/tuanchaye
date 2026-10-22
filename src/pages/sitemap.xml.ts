@@ -14,8 +14,9 @@ export async function GET() {
 
   const paths: string[] = ['/'];
   for (const lang of LOCALES) {
+    // 全站统一无尾斜杠（与 html_handling=drop-trailing-slash 的最终 200 地址一致）
     paths.push(
-      `/${lang}/`,
+      `/${lang}`,
       `/${lang}/posts`,
       `/${lang}/about`,
       `/${lang}/contact`,

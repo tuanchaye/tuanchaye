@@ -16,6 +16,9 @@ GITHUB_CLIENT_ID = "Ov23li8laTinERnLyBux"
 [assets]
 directory = "./dist"
 binding = "ASSETS"
+# SEO：无尾斜杠地址直接 200 返回（与 sitemap/canonical 一致）；
+# 带斜杠目录地址 301 到无斜杠，避免 307 临时重定向稀释排名信号
+html_handling = "drop-trailing-slash"
 
 # 点赞 / 收藏计数（全局聚合计数）
 [[kv_namespaces]]

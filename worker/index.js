@@ -210,7 +210,7 @@ export default {
             const country = request.cf && request.cf.country;
             lang = (country && COUNTRY_MAP[country.toUpperCase()]) || 'en';
           }
-          const dest = '/' + lang + (p === '/' ? '/' : p);
+          const dest = '/' + lang + (p === '/' ? '' : p);
           return Response.redirect(new URL(dest, url.origin).toString(), 302);
         }
       }

@@ -16,7 +16,7 @@ export function stripLocale(pathname: string): string {
 // withLocale('en', '/') -> '/en/'
 export function withLocale(locale: Locale, pathname: string): string {
   const can = stripLocale(pathname);
-  if (can === '/') return `/${locale}/`;
+  if (can === '/') return `/${locale}`;
   return `/${locale}${can}`;
 }
 
