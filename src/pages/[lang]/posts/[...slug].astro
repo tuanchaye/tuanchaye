@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { postCover, canonicalCategory, getCategoryLocalized } from '../../../lib/categories';
+import { getPostsForLocale, sortPostViews } from '../../../lib/posts';
 import { getUI } from '../../../i18n/ui';
 import { LOCALES, type Locale } from '../../../i18n/config';
 import { withLocale } from '../../../i18n/utils';
@@ -44,9 +45,14 @@ const share = {
   whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title + ' ' + url)}`,
 };
 
-// 文章页结构化数据：Article（作者/发布者/首图/日期）+ BreadcrumbList（SERP 显示"首页 › 分类 › 标题"而非裸路径）
+// 相关文章：同分类优先（置顶+时间倒序），不足 4 篇用全站最新文章补齐，排除自身
 const catSlug = canonicalCategory(post.data.category);
 const catName = getCategoryLocalized(catSlug, lang)?.name ?? 'Articles';
+const allViews = sortPostViews(await getPostsForLocale(lang));
+const sameCat = allViews.filter((p) => p.base !== base && canonicalCategory(p.category) === catSlug);
+const others = allViews.filter((p) => p.base !== base && canonicalCategory(p.category) !== catSlug);
+const related = [...sameCat, ...others].slice(0, 4);
+
 const articleLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -94,6 +100,22 @@ const articleLd = {
     </p>
     {fallback && <p class="translate-note">{ui.notAvailable}</p>}
     <Content />
+
+    {related.length > 0 && (
+      <section class="related-posts">
+        <h2>{ui.article.relatedPosts}</h2>
+        <ul>
+          {related.map((p) => (
+            <li>
+              <a href={withLocale(lang, `/posts/${p.base}`)}>
+                <span class="related-title">{p.title}</span>
+                <span class="related-cat">{getCategoryLocalized(canonicalCategory(p.category), lang)?.name}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <div class="ad-slot" aria-label="Advertisement">
       <!-- Google AdSense code goes here -->

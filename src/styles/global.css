@@ -539,3 +539,48 @@ article img:not(.post-cover) {
 }
 .admin-delete:hover { background: #c0392b; color: #fff; }
 .admin-empty { color: var(--muted); padding: 0.5rem 0; }
+
+/* ── 相关文章（文章页底部内链，SEO 内链权重 + 停留时长） ── */
+.related-posts {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border, #e5e7eb);
+}
+.related-posts h2 {
+  font-size: 1.15rem;
+  margin: 0 0 1rem;
+}
+.related-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+.related-posts a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.related-posts a:hover {
+  border-color: #2e8b57;
+  background: rgba(46, 139, 87, 0.05);
+}
+.related-posts .related-title {
+  font-weight: 500;
+}
+.related-posts .related-cat {
+  flex-shrink: 0;
+  font-size: 0.78rem;
+  color: #6b7280;
+}
+@media (max-width: 640px) {
+  .related-posts a { flex-direction: column; gap: 0.15rem; }
+}
