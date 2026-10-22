@@ -34,7 +34,7 @@ Una bandeja completa parece elaborada, pero el equipo básico es simple.
 * **Herramientas para el té (茶道六君子):** cuchara de bambú, pinzas, aguja y un embudo para manipular las hojas y las tazas.
 * **Hervidor:** con un pico estable y estrecho para verter con precisión.
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## Una ceremonia simplificada paso a paso
 
@@ -49,7 +49,7 @@ No necesitas una clase magistral para preparar té de esta manera en casa. La se
 
 Para una tabla completa de temperatura y tiempos, consulta nuestra guía sobre los [errores más comunes al preparar té](<>) — los mismos principios se aplican, solo a menor escala.
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## Etiqueta del té: respeto hecho visible
 

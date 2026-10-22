@@ -34,7 +34,7 @@ Un plateau complet semble élaboré, mais le kit de base est simple.
 * **Outils à thé (茶道六君子) :** cuillère en bambou, pinces, aiguille et entonnoir pour manipuler les feuilles et les tasses.
 * **Bouilloire :** avec un bec verseur stable et étroit pour verser avec précision.
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## Une cérémonie simplifiée étape par étape
 
@@ -49,7 +49,7 @@ Vous n'avez pas besoin d'une masterclass pour préparer le thé de cette façon 
 
 Pour un tableau complet des températures et des temps d'infusion, consultez notre guide des [erreurs de préparation du thé](<>) les plus courantes — les mêmes principes s'appliquent, juste à plus petite échelle.
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## L'étiquette du thé : le respect rendu visible
 

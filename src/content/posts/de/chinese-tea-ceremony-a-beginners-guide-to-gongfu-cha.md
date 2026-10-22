@@ -34,7 +34,7 @@ Ein volles Tablett sieht aufwendig aus, doch das Kernset ist einfach.
 * **Teewerkzeuge (茶道六君子):** Bambuslöffel, Zange, Nadel und ein Trichter für den Umgang mit Blättern und Schalen.
 * **Wasserkessel:** mit einem gleichmäßigen, schmalen Ausguss zum präzisen Einschenken.
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## Eine vereinfachte Schritt-für-Schritt-Zeremonie
 
@@ -49,7 +49,7 @@ Sie brauchen keinen Meisterkurs, um zu Hause auf diese Weise aufzubrühen. Der g
 
 Eine vollständige Tabelle zu Temperatur und Ziehzeit finden Sie in unserem Leitfaden zu den häufigsten [Fehlern beim Teeaufbrühen](<>) – dieselben Prinzipien gelten, nur in kleinerem Maßstab.
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## Tee-Etikette: Respekt, der sichtbar wird
 

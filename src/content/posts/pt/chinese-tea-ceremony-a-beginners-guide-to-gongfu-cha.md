@@ -34,7 +34,7 @@ Uma bandeja completa parece elaborada, mas o kit básico é simples.
 * **Utensílios de chá (茶道六君子):** colher de bambu, pinça, agulha e um funil para manusear as folhas e as xícaras.
 * **Chaleira:** com um bico estreito e constante para servir com precisão.
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## Uma cerimônia simplificada passo a passo
 
@@ -49,7 +49,7 @@ Você não precisa de uma aula magistral para preparar chá assim em casa. A seq
 
 Para uma tabela completa de temperatura e tempo, consulte nosso guia sobre os [erros mais comuns no preparo do chá](<>) — os mesmos princípios se aplicam, apenas em menor escala.
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## Etiqueta do chá: respeito tornado visível
 

@@ -34,7 +34,7 @@ cover: "/images/uploads/cover-gongfu-cha-ceremony.jpg"
 * **茶道六君子**：竹制茶勺、茶夹、茶针和茶漏斗，用于处理茶叶和杯子。
 * **水壶**：具有稳定、狭窄的壶嘴，便于准确注水。
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## 简化的分步茶道
 
@@ -49,7 +49,7 @@ cover: "/images/uploads/cover-gongfu-cha-ceremony.jpg"
 
 完整的温度和时间图表，请参阅我们关于最常见的[泡茶错误](<>)的指南——同样的原则适用，只是规模更小。
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## 茶礼仪：看得见的尊重
 

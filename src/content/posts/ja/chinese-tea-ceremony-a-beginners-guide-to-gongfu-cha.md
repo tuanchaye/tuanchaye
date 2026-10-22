@@ -34,7 +34,7 @@ cover: "/images/uploads/cover-gongfu-cha-ceremony.jpg"
 * **茶道六君子：** 竹製の茶匙、茶挟み、茶針、茶漏斗など、茶葉やカップを扱うための道具。
 * **ケトル：** 正確に注げる、安定した細い注ぎ口のもの。
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## 簡略化したステップバイステップの手順
 
@@ -49,7 +49,7 @@ cover: "/images/uploads/cover-gongfu-cha-ceremony.jpg"
 
 温度と時間の完全なチャートについては、最も一般的な[お茶の淹れ方の間違い](<>)に関するガイドをご覧ください — 同じ原則が、より小さなスケールで適用されます。
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## 茶の作法：敬意を目に見える形に
 

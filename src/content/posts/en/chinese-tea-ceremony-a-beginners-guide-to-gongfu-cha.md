@@ -38,7 +38,7 @@ A full tray looks elaborate, but the core kit is simple.
 * **Tea tools (茶道六君子):** bamboo scoop, tongs, needle, and a funnel for handling leaves and cups.
 * **Kettle:** with a steady, narrow spout for pouring accurately.
 
-![](https://s.coze.cn/image/gyrnsDK-ZdY/)
+![](/images/mirrored/c285ac67b1d6a1e4.jpg)
 
 ## A simplified step-by-step ceremony
 
@@ -53,7 +53,7 @@ You do not need a masterclass to brew this way at home. The basic sequence runs 
 
 For a full temperature-and-timing chart, see our guide to the most common [tea brewing mistakes](<>) — the same principles apply, just at a smaller scale.
 
-![](https://s.coze.cn/image/e_KzteNlmek/)
+![](/images/mirrored/701dc5aa2065493b.jpg)
 
 ## Tea etiquette: respect made visible
 
