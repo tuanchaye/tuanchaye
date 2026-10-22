@@ -176,6 +176,10 @@ export default {
       const accept = request.headers.get('accept') || '';
       if (accept.includes('text/html')) {
         const p = url.pathname;
+        // HTML 页面带尾斜杠的旧地址 → 301 永久重定向到无斜杠规范地址（在静态资源 307 之前接管，传递权重）
+        if (p.length > 1 && p.endsWith('/') && !p.startsWith('/api/') && !p.startsWith('/admin/')) {
+          return Response.redirect(new URL(p.replace(/\/+$/, '') || '/', url.origin).toString(), 301);
+        }
         const SUPPORTED = ['en', 'zh', 'es', 'fr', 'de', 'ja', 'pt', 'ru'];
         const hasPrefix = SUPPORTED.some((l) => p === '/' + l || p.startsWith('/' + l + '/'));
         const skip =
