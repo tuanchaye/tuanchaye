@@ -184,7 +184,7 @@ export default {
         const hasPrefix = SUPPORTED.some((l) => p === '/' + l || p.startsWith('/' + l + '/'));
         const skip =
           p.startsWith('/api/') ||
-          p.startsWith('/admin/') ||
+          p === '/admin' || p.startsWith('/admin/') ||
           p.startsWith('/images/') ||
           p.startsWith('/pagefind/') ||
           p.startsWith('/_astro/') ||
