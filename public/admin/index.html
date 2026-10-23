@@ -8,6 +8,28 @@
   <body>
     <!-- 固定版本：3.17.1。旧 markdown 组件粘贴富文本会崩溃（上游 #7790），已改用 richtext 组件 -->
     <!-- 自托管 decap-cms.js（原 unpkg CDN）：国内访问更稳，且不依赖第三方可用性 -->
+    <!-- fetch 重试垫片：同源 GET 失败自动重试 4 次（网络抖动时 config.yml 一次失败即报错，无内建重试） -->
+    <script>
+      (function () {
+        var orig = window.fetch;
+        window.fetch = function (input, init) {
+          var url = typeof input === 'string' ? input : (input && input.url) || '';
+          var method = (init && init.method) || 'GET';
+          var sameOriginGet = method === 'GET' && url.charAt(0) === '/';
+          if (!sameOriginGet) return orig.apply(this, arguments);
+          return new Promise(function (resolve, reject) {
+            var n = 0;
+            var attempt = function () {
+              orig.call(window, input, init).then(resolve).catch(function (e) {
+                if (++n >= 4) reject(e);
+                else setTimeout(attempt, 600 * n);
+              });
+            };
+            attempt();
+          });
+        };
+      })();
+    </script>
     <script src="decap-cms.js"></script>
   </body>
 </html>
