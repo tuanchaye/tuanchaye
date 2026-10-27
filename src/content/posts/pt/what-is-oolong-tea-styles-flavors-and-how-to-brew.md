@@ -46,7 +46,7 @@ O processamento do oolong é um dos fluxos de trabalho mais intensivos em mão d
 
 O ponto em que o produtor interrompe a oxidação é o que separa um oolong floral jade de um escuro torrado. Cientistas de alimentos estudam as mesmas etapas experimentalmente: um estudo de 2023 na *Foods* testou murchamento com luz vermelha, viragem controlada, fixação breve em tambor a 290 °C, enrolamento a baixa temperatura e secagem por micro-ondas, e relatou melhor retenção de catequinas do que seu processo de controle. Essas são condições de laboratório otimizadas para fabricantes, não o método tradicional ou uma receita caseira.
 
-![](https://s.coze.cn/image/o0RmGzQditM/)
+![](/images/mirrored/a1e7ac7462946f1c.jpg)
 
 ## Compostos e saúde: o que as evidências mostram
 

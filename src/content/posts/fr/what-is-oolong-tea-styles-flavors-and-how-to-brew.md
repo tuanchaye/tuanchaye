@@ -46,7 +46,7 @@ La transformation de l'oolong est l'un des processus les plus exigeants en main-
 
 L'endroit où le producteur arrête l'oxydation est ce qui sépare un oolong floral de jade d'un oolong foncé torréfié. Les scientifiques alimentaires étudient les mêmes étapes expérimentalement : une étude de 2023 dans *Foods* a testé le flétrissage à la lumière rouge, le retournement contrôlé, une fixation rapide à 290 °C en tambour, le roulage à basse température et le séchage aux micro-ondes, et a rapporté une meilleure rétention des catéchines que son procédé témoin. Ce sont des conditions de laboratoire optimisées pour les fabricants, pas la méthode traditionnelle ni une recette maison.
 
-![](https://s.coze.cn/image/o0RmGzQditM/)
+![](/images/mirrored/a1e7ac7462946f1c.jpg)
 
 ## Composés et santé : ce que montrent les preuves
 

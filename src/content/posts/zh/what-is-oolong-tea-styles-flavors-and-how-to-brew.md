@@ -46,7 +46,7 @@ cover: "/images/uploads/cover-oolong-tea-guide-hero.jpg"
 
 制茶者在何处停止氧化，正是区分花香翠玉乌龙与深色烘焙乌龙的关键。食品科学家以实验方式研究相同的步骤：2023年发表在*Foods*上的一项研究测试了红光萎凋、受控摇青、短暂的290°C滚筒杀青、低温揉捻和微波干燥，并报告其儿茶素保留率优于对照工艺。这些是面向制造商的优化实验室条件，而非传统方法或家庭配方。
 
-![](https://s.coze.cn/image/o0RmGzQditM/)
+![](/images/mirrored/a1e7ac7462946f1c.jpg)
 
 ## 化合物与健康：证据表明了什么
 

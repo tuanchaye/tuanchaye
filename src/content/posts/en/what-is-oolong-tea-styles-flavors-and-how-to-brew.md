@@ -50,7 +50,7 @@ Oolong processing is one of the most labor-intensive workflows in tea. In a trad
 
 Where the maker stops oxidation is what separates a floral jade oolong from a dark roasted one. Food scientists study the same steps experimentally: a 2023 study in *Foods* tested red-light withering, controlled turning, brief 290 C drum fixation, low-temperature rolling and microwave drying, and reported better catechin retention than its control process. Those are optimized lab conditions for manufacturers, not the traditional method or a home recipe.
 
-![](https://s.coze.cn/image/o0RmGzQditM/)
+![](/images/mirrored/a1e7ac7462946f1c.jpg)
 
 ## Compounds and Health: What the Evidence Shows
 

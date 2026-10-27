@@ -46,7 +46,7 @@ Die Oolong-Verarbeitung ist einer der arbeitsintensivsten Arbeitsabläufe in der
 
 Wo der Hersteller die Oxidation stoppt, unterscheidet einen blumigen Jade-Oolong von einem dunkel gerösteten. Lebensmittelwissenschaftler untersuchen dieselben Schritte experimentell: Eine Studie aus dem Jahr 2023 in *Foods* testete Welken unter Rotlicht, kontrolliertes Wenden, kurze 290 °C-Trommelfixierung, Niedrigtemperatur-Rollen und Mikrowellentrocknung und berichtete über eine bessere Catechin-Erhaltung als beim Kontrollprozess. Das sind optimierte Laborbedingungen für Hersteller, nicht die traditionelle Methode oder ein Hausrezept.
 
-![](https://s.coze.cn/image/o0RmGzQditM/)
+![](/images/mirrored/a1e7ac7462946f1c.jpg)
 
 ## Inhaltsstoffe und Gesundheit: Was die Evidenz zeigt
 
