@@ -24,7 +24,7 @@ cover: "/images/uploads/cover-oolong-tea-guide-hero.jpg"
 
 此外，Lei等人于2025年在*Beverage Plant Research*上发表的一项研究发现，乌龙茶品种含有更多酯类，这些酯类塑造了花香和果香。该研究强调，这些茶需要具有足够物质的成熟叶片才能发展出丰富的风味特征。
 
-![](https://s.coze.cn/image/IF3KCJDsOQ8/)
+![](/images/mirrored/9637908e562c5280.jpg)
 
 ## 风味谱系：烘焙与未烘焙
 

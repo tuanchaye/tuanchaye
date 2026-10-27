@@ -24,7 +24,7 @@ Eine Studie über sechs Oolong-Tee-Sorten, veröffentlicht über Semantic Schola
 
 Darüber hinaus ergab eine Studie von Lei et al. aus dem Jahr 2025 in *Beverage Plant Research*, dass Oolong-Sorten mehr Ester enthalten, die blumige und fruchtige Aromen prägen. Diese Forschung hob hervor, dass diese Tees reife Blätter mit ausreichenden Inhaltsstoffen benötigen, um ihre reichen Geschmacksprofile zu entwickeln.
 
-![](https://s.coze.cn/image/IF3KCJDsOQ8/)
+![](/images/mirrored/9637908e562c5280.jpg)
 
 ## Das Geschmacksspektrum: geröstet vs. ungeröstet
 

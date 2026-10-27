@@ -24,7 +24,7 @@ Um estudo sobre seis cultivares de chá oolong publicado via Semantic Scholar e 
 
 Além disso, um estudo de 2025 de Lei et al. na *Beverage Plant Research* descobriu que as cultivares de oolong contêm mais ésteres, que moldam aromas florais e frutados. Esta pesquisa destacou que esses chás requerem folhas maduras com substâncias suficientes para desenvolver seus perfis de sabor ricos.
 
-![](https://s.coze.cn/image/IF3KCJDsOQ8/)
+![](/images/mirrored/9637908e562c5280.jpg)
 
 ## O espectro de sabor: torrado vs. não torrado
 

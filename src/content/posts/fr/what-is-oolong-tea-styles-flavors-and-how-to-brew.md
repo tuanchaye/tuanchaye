@@ -24,7 +24,7 @@ Une étude sur six cultivars de thé oolong publiée via Semantic Scholar et PMC
 
 De plus, une étude de 2025 par Lei et al. dans *Beverage Plant Research* a constaté que les cultivars d'oolong contiennent plus d'esters, qui façonnent les arômes floraux et fruités. Cette recherche a souligné que ces thés nécessitent des feuilles matures avec suffisamment de substances pour développer leurs profils de saveur riches.
 
-![](https://s.coze.cn/image/IF3KCJDsOQ8/)
+![](/images/mirrored/9637908e562c5280.jpg)
 
 ## Le spectre des saveurs : torréfié vs non torréfié
 

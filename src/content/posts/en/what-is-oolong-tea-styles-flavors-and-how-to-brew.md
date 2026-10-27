@@ -28,7 +28,7 @@ A study on six oolong tea cultivars published via Semantic Scholar and PMC found
 
 Furthermore, a 2025 study by Lei et al. in *Beverage Plant Research* found that oolong cultivars contain more esters, which shape floral and fruity aromas. This research highlighted that these teas require mature leaves with sufficient substances to develop their rich flavor profiles.
 
-![](https://s.coze.cn/image/IF3KCJDsOQ8/)
+![](/images/mirrored/9637908e562c5280.jpg)
 
 ## The Flavor Spectrum: Roasted vs. Unroasted
 

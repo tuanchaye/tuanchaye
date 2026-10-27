@@ -24,7 +24,7 @@ Un estudio sobre seis cultivares de té oolong publicado a través de Semantic S
 
 Además, un estudio de 2025 de Lei et al. en *Beverage Plant Research* encontró que los cultivares de oolong contienen más ésteres, que dan forma a los aromas florales y frutales. Esta investigación destacó que estos tés requieren hojas maduras con suficientes sustancias para desarrollar sus ricos perfiles de sabor.
 
-![](https://s.coze.cn/image/IF3KCJDsOQ8/)
+![](/images/mirrored/9637908e562c5280.jpg)
 
 ## El espectro de sabor: tostado vs. no tostado
 
