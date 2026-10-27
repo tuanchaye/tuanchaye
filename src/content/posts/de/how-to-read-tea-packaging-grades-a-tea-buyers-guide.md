@@ -10,7 +10,7 @@ Teeverpackungen sind voller Buchstaben, Zahlen und chinesischer Schriftzeichen, 
 
 Dieser Leitfaden behandelt die Gütebezeichnungen, die Ihnen im Regal tatsächlich begegnen – von Orange Pekoe bis CTC und von chinesischen Gütezeichen bis zu den neuesten Verpackungsvorschriften –, damit Sie ein Produkt nach dem beurteilen können, worauf es ankommt, und nicht nach dem Preisschild.
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## Was die Gütebuchstaben wirklich bedeuten
 
@@ -38,7 +38,7 @@ Tabelle
 
 CTC dominiert den Massenmarkt der Teebeutel, weil es in unter einer Minute zieht und eine gleichbleibend kräftige, tanninreiche Tasse ergibt – der Preis dafür ist die Feinheit und das Mehrfachaufguss-Potenzial ganzer Blätter. Wenn eine Packung einfach „premium“ oder „finest“ sagt, ohne Blattstil oder Güteklasse zu nennen, ist das Marketing-Sprache, kein Standard.
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## Was gute Verpackung leisten sollte
 

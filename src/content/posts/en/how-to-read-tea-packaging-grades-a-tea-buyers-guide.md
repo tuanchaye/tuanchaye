@@ -14,7 +14,7 @@ Tea packaging is covered in letters, numbers and Chinese characters that look im
 
 This guide covers the grading terms you will actually see on shelves—from Orange Pekoe to CTC, and from Chinese grade characters to the latest packaging rules—so you can judge a product by what matters rather than by its price tag.
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## What the grading letters actually mean
 
@@ -42,7 +42,7 @@ A separate description tells you how the leaf was processed:
 
 CTC dominates the commodity tea-bag market because it brews in under a minute and produces a consistently strong, tannic cup, but the trade-off is the subtlety and multi-steep potential of whole leaves. If a package simply says "premium" or "finest" without naming leaf style or grade, that is marketing language, not a standard.
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## What good packaging should do
 

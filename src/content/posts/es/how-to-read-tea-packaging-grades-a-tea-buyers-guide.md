@@ -10,7 +10,7 @@ El envasado del té está cubierto de letras, números y caracteres chinos que p
 
 Esta guía cubre los términos de clasificación que realmente verás en los estantes, desde Orange Pekoe hasta CTC, y desde los caracteres de grado chinos hasta las últimas normas de envasado, para que puedas juzgar un producto por lo que importa y no por su etiqueta de precio.
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## Qué significan realmente las letras de clasificación
 
@@ -38,7 +38,7 @@ Tabla
 
 El CTC domina el mercado de bolsitas de té de consumo masivo porque se infusiona en menos de un minuto y produce una taza consistentemente fuerte y tánica, pero la contrapartida es la sutileza y el potencial de múltiples infusiones de las hojas enteras. Si un paquete simplemente dice "premium" o "finest" sin nombrar el estilo de hoja o el grado, eso es lenguaje de marketing, no un estándar.
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## Qué debe hacer un buen envase
 

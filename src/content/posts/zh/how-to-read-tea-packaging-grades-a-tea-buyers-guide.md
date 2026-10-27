@@ -10,7 +10,7 @@ cover: "/images/uploads/cover-tea-packaging-grades-guide.jpg"
 
 本指南涵盖了您在实际货架上会看到的等级术语——从 Orange Pekoe 到 CTC，从中国等级汉字到最新的包装法规——以便您根据重要因素而非价格标签来判断产品。
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## 等级字母的实际含义
 
@@ -38,7 +38,7 @@ cover: "/images/uploads/cover-tea-packaging-grades-guide.jpg"
 
 CTC 在大众茶包市场占据主导地位，因为它在一分钟内即可冲泡，并产生始终如一的浓烈、涩感茶汤，但代价是全叶的细腻和多泡潜力。如果包装上只写着“premium”或“finest”而没有注明叶片风格或等级，那是营销语言，不是标准。
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## 好包装应该做到什么
 

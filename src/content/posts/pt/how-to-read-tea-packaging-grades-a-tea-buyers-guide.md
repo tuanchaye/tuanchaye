@@ -10,7 +10,7 @@ As embalagens de chá são cobertas de letras, números e caracteres chineses qu
 
 Este guia cobre os termos de classificação que você realmente verá nas prateleiras — de Orange Pekoe a CTC, e dos caracteres de classificação chineses às mais recentes regras de embalagem — para que você possa julgar um produto pelo que importa, e não pelo preço.
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## O que as letras de classificação realmente significam
 
@@ -38,7 +38,7 @@ Tabela
 
 O CTC domina o mercado de saquinhos de chá de commodities porque infunde em menos de um minuto e produz uma xícara consistentemente forte e tânica, mas a desvantagem é a subtileza e o potencial de múltiplas infusões das folhas inteiras. Se uma embalagem simplesmente diz "premium" ou "finest" sem nomear o estilo de folha ou a classificação, isso é linguagem de marketing, não um padrão.
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## O que uma boa embalagem deve fazer
 

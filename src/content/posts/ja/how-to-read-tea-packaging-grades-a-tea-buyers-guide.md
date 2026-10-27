@@ -10,7 +10,7 @@ cover: "/images/uploads/cover-tea-packaging-grades-guide.jpg"
 
 このガイドでは、店頭で実際に見かける等級用語——オレンジペコーからCTCまで、中国の等級文字から最新の包装規制まで——を扱い、価格タグではなく本当に重要な点で製品を判断できるようにします。
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## 等級の文字が実際に意味するもの
 
@@ -38,7 +38,7 @@ cover: "/images/uploads/cover-tea-packaging-grades-guide.jpg"
 
 CTCは、1分以内に抽出でき、一貫して強くタンニンの効いたカップを生み出すため、コモディティのティーバッグ市場を支配していますが、その代償はホールリーフの繊細さと複数回抽出の可能性です。パッケージに葉のスタイルや等級を明記せずに「プレミアム」や「ファイネスト」とだけ書かれている場合、それはマーケティング用語であり、基準ではありません。
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## 良いパッケージが果たすべきこと
 

@@ -10,7 +10,7 @@ Les emballages de thé sont couverts de lettres, de chiffres et de caractères c
 
 Ce guide couvre les termes de classement que vous verrez réellement en rayon — de l'Orange Pekoe au CTC, et des caractères de grade chinois aux dernières règles d'emballage — afin que vous puissiez juger un produit sur ce qui compte plutôt que sur son étiquette de prix.
 
-![](https://s.coze.cn/image/rBeb0JlC4a8/)
+![](/images/mirrored/1d3287677f62c8c3.jpg)
 
 ## Ce que signifient réellement les lettres de classement
 
@@ -36,7 +36,7 @@ Une description distincte vous indique comment la feuille a été transformée :
 
 Le CTC domine le marché des sachets de thé de grande consommation parce qu'il infuse en moins d'une minute et produit une tasse constamment forte et tannique, mais le compromis est la subtilité et le potentiel de multiples infusions des feuilles entières. Si un emballage indique simplement « premium » ou « finest » sans nommer le style de feuille ou le grade, c'est du langage marketing, pas une norme.
 
-![](https://s.coze.cn/image/cDiVBvzRw6g/)
+![](/images/mirrored/072de2c09e389f43.jpg)
 
 ## Ce que doit faire un bon emballage
 
