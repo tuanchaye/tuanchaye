@@ -42,7 +42,9 @@ jobs:
           fi
 
       # ── 把本次生成的译文回写仓库（带 [skip ci] 避免触发无限循环）──
+      # continue-on-error：若与后台连续发布的提交撞车（push 被拒），不阻断后续 Build/Deploy
       - name: Commit back generated translations
+        continue-on-error: true
         run: |
           git add src/content/posts
           if git diff --cached --quiet; then
@@ -51,6 +53,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "chore: auto-translate new articles [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
 
@@ -61,7 +64,9 @@ jobs:
         run: node scripts/mirror-images.mjs
 
       # ── 把本次转存的图片与链接改写回写仓库（带 [skip ci] 避免无限循环）──
+      # continue-on-error：与后台连续发布撞车时不阻断后续 Build/Deploy
       - name: Commit back mirrored images
+        continue-on-error: true
         run: |
           git add src/content/posts public/images/mirrored
           if git diff --cached --quiet; then
@@ -70,6 +75,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "chore: mirror external images into repo [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
 
