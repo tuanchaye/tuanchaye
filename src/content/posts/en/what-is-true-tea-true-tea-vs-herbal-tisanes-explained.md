@@ -19,7 +19,7 @@ Botanically speaking, true tea is exclusively derived from the leaves of the *C
 
 When you explore the [six families of tea](<>), you are looking strictly at the different ways *Camellia sinensis* leaves are processed. Herbal blends, no matter how delicious, fall entirely outside this specific botanical family tree.
 
-![](https://s.coze.cn/image/7dVm3ymX6PA/)
+![](/images/mirrored/cdd5ebb5fd1fb790.jpg)
 
 ## Caffeine and Polyphenols: What’s Really in Your Cup?
 
@@ -49,7 +49,7 @@ Interestingly, the format of your tea plays a major role. Loose-leaf teas consis
 
 If you are specifically looking to increase your mineral intake, certain tisanes might outperform true tea in specific areas. For instance, rosehip tea demonstrated notably higher in-vitro bioaccessibility of iron (approximately 36%) and zinc (approximately 81%) compared to *Camellia sinensis* teas. This is likely due to its acidic pH and high organic acid content, which helps unlock these minerals during digestion (Apaydın, 2026).
 
-![](https://s.coze.cn/image/e-EEPNmhINE/)
+![](/images/mirrored/365485c1a408f473.jpg)
 
 ### Step-by-Step: Blending for Maximum Antioxidant Activity
 

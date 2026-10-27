@@ -16,7 +16,7 @@ Botaniquement parlant, le vrai thé est exclusivement dérivé des feuilles de l
 
 Lorsque vous explorez les [six familles de thé](<>), vous examinez strictement les différentes façons dont les feuilles de *Camellia sinensis* sont transformées. Les mélanges d'herbes, aussi délicieux soient-ils, sortent entièrement de cet arbre généalogique botanique spécifique.
 
-![](https://s.coze.cn/image/7dVm3ymX6PA/)
+![](/images/mirrored/cdd5ebb5fd1fb790.jpg)
 
 ## Caféine et polyphénols : que contient vraiment votre tasse ?
 
@@ -46,7 +46,7 @@ Fait intéressant, le format de votre thé joue un rôle majeur. Les thés en vr
 
 Si vous cherchez spécifiquement à augmenter votre apport en minéraux, certaines tisanes pourraient surpasser le vrai thé dans des domaines spécifiques. Par exemple, la tisane d'églantier a démontré une biodisponibilité in vitro nettement plus élevée du fer (environ 36 %) et du zinc (environ 81 %) par rapport aux thés *Camellia sinensis*. Cela est probablement dû à son pH acide et à sa teneur élevée en acides organiques, ce qui aide à libérer ces minéraux pendant la digestion (Apaydın, 2026).
 
-![](https://s.coze.cn/image/e-EEPNmhINE/)
+![](/images/mirrored/365485c1a408f473.jpg)
 
 ### Étape par étape : mélanger pour une activité antioxydante maximale
 

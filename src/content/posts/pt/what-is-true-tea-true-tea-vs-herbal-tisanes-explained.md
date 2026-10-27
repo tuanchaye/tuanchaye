@@ -16,7 +16,7 @@ Botanicamente falando, o chá verdadeiro é derivado exclusivamente das folhas d
 
 Quando você explora as [seis famílias de chá](<>), está olhando estritamente para as diferentes formas de processamento das folhas de *Camellia sinensis*. As misturas de ervas, por mais deliciosas que sejam, ficam inteiramente fora dessa árvore genealógica botânica específica.
 
-![](https://s.coze.cn/image/7dVm3ymX6PA/)
+![](/images/mirrored/cdd5ebb5fd1fb790.jpg)
 
 ## Cafeína e polifenóis: o que realmente está na sua xícara?
 
@@ -46,7 +46,7 @@ Curiosamente, o formato do seu chá desempenha um papel importante. Chás de fol
 
 Se você procura especificamente aumentar sua ingestão de minerais, certas tisanas podem superar o chá verdadeiro em áreas específicas. Por exemplo, o chá de rosa mosqueta demonstrou bioacessibilidade in vitro notavelmente maior de ferro (aproximadamente 36%) e zinco (aproximadamente 81%) em comparação com os chás de *Camellia sinensis*. Isso provavelmente se deve ao seu pH ácido e alto teor de ácidos orgânicos, que ajudam a liberar esses minerais durante a digestão (Apaydın, 2026).
 
-![](https://s.coze.cn/image/e-EEPNmhINE/)
+![](/images/mirrored/365485c1a408f473.jpg)
 
 ### Passo a passo: misturando para máxima atividade antioxidante
 

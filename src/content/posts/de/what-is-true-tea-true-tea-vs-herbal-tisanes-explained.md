@@ -16,7 +16,7 @@ Botanisch gesehen wird echter Tee ausschließlich aus den Blättern der Pflanze 
 
 Wenn Sie die [sechs Teefamilien](<>) erkunden, betrachten Sie ausschließlich die verschiedenen Arten der Verarbeitung von *Camellia sinensis*-Blättern. Kräutermischungen fallen, egal wie köstlich sie sind, völlig außerhalb dieses spezifischen botanischen Stammbaums.
 
-![](https://s.coze.cn/image/7dVm3ymX6PA/)
+![](/images/mirrored/cdd5ebb5fd1fb790.jpg)
 
 ## Koffein und Polyphenole: Was steckt wirklich in Ihrer Tasse?
 
@@ -46,7 +46,7 @@ Interessanterweise spielt das Format Ihres Tees eine wichtige Rolle. Tee aus los
 
 Wenn Sie speziell Ihre Mineralaufnahme erhöhen möchten, könnten bestimmte Kräutertees in bestimmten Bereichen echten Tee übertreffen. Zum Beispiel zeigte Hagebuttentee eine deutlich höhere In-vitro-Bioverfügbarkeit von Eisen (etwa 36 %) und Zink (etwa 81 %) im Vergleich zu *Camellia sinensis*-Tees. Dies ist wahrscheinlich auf seinen sauren pH-Wert und den hohen Gehalt an organischen Säuren zurückzuführen, die helfen, diese Mineralien während der Verdauung freizusetzen (Apaydın, 2026).
 
-![](https://s.coze.cn/image/e-EEPNmhINE/)
+![](/images/mirrored/365485c1a408f473.jpg)
 
 ### Schritt für Schritt: Mischen für maximale antioxidative Aktivität
 

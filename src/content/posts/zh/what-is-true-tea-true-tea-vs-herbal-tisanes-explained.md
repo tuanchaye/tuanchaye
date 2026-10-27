@@ -16,7 +16,7 @@ cover: "/images/uploads/cover-true-tea-vs-herbal-tisanes.jpg"
 
 当你探索[六大茶类](<>)时，你看到的严格来说是*Camellia sinensis*叶片的不同加工方式。草本拼配茶无论多么美味，都完全不属于这一特定的植物家族谱系。
 
-![](https://s.coze.cn/image/7dVm3ymX6PA/)
+![](/images/mirrored/cdd5ebb5fd1fb790.jpg)
 
 ## 咖啡因与多酚：你的杯中究竟有什么？
 
@@ -46,7 +46,7 @@ cover: "/images/uploads/cover-true-tea-vs-herbal-tisanes.jpg"
 
 如果你特别想增加矿物质摄入量，某些草本茶在特定方面可能优于真正的茶。例如，与*Camellia sinensis*茶相比，玫瑰果茶在体外显示出明显更高的铁（约36%）和锌（约81%）生物可及性。这可能是由于其酸性pH值和高有机酸含量，有助于在消化过程中释放这些矿物质（Apaydın，2026）。
 
-![](https://s.coze.cn/image/e-EEPNmhINE/)
+![](/images/mirrored/365485c1a408f473.jpg)
 
 ### 分步指南：调配出最大抗氧化活性
 

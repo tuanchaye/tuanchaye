@@ -16,7 +16,7 @@ Botánicamente hablando, el té verdadero se deriva exclusivamente de las hojas 
 
 Cuando explora las [seis familias de té](<>), está observando estrictamente las diferentes formas en que se procesan las hojas de *Camellia sinensis*. Las mezclas herbales, por deliciosas que sean, quedan completamente fuera de este árbol genealógico botánico específico.
 
-![](https://s.coze.cn/image/7dVm3ymX6PA/)
+![](/images/mirrored/cdd5ebb5fd1fb790.jpg)
 
 ## Cafeína y polifenoles: ¿qué hay realmente en tu taza?
 
@@ -46,7 +46,7 @@ Curiosamente, el formato de tu té juega un papel importante. Los tés de hoja s
 
 Si buscas específicamente aumentar tu ingesta de minerales, ciertas tisanas podrían superar al té verdadero en áreas específicas. Por ejemplo, el té de escaramujo demostró una bioaccesibilidad in vitro notablemente mayor de hierro (aproximadamente 36%) y zinc (aproximadamente 81%) en comparación con los tés de *Camellia sinensis*. Esto probablemente se debe a su pH ácido y alto contenido de ácidos orgánicos, que ayudan a liberar estos minerales durante la digestión (Apaydın, 2026).
 
-![](https://s.coze.cn/image/e-EEPNmhINE/)
+![](/images/mirrored/365485c1a408f473.jpg)
 
 ### Paso a paso: mezclas para máxima actividad antioxidante
 
