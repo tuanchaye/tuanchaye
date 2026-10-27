@@ -14,7 +14,7 @@ Para entender cuánta cafeína tiene el té, primero debemos observar las concen
 
 La misma investigación de Chin et al. determinó que los tés descafeinados aún contienen cantidades traza, típicamente menos de una docena de miligramos por porción, mientras que los tés puramente herbales no contienen cafeína detectable. Al analizar el material de la hoja cruda en sí, un análisis de Tfouni et al. encontró que el té mate presentaba los niveles más bajos de cafeína, que iban desde un solo dígito hasta la decena baja de miligramos por gramo. En contraste, los tés de *Camellia sinensis* presentaban valores más altos: el té blanco se situaba entre la veintena baja y la treintena baja, el té verde entre la decena alta y la veintena media, y el té negro entre la decena media y la treintena media de miligramos por gramo.
 
-![](https://s.coze.cn/image/JL9LoGhTtok/)
+![](/images/mirrored/d8bcdc9e31e464d0.jpg)
 
 ## El impacto del pardeamiento enzimático y el procesamiento
 
@@ -32,7 +32,7 @@ Un estudio de Horzic et al. que evaluó las condiciones de preparación domésti
 
 El tiempo es quizás la variable más crítica. El estudio de Chin et al. de 2008 señaló que los tiempos de infusión más largos aumentan de forma consistente el contenido de cafeína en el té preparado. La investigación de la revista *Foods* corroboró esto, al encontrar que extender el tiempo de preparación elevaba significativamente los niveles de cafeína, con algunos tés alcanzando más de cincuenta miligramos por taza estándar cuando se infusionaban durante diez minutos.
 
-![](https://s.coze.cn/image/lPn-Gow1CHA/)
+![](/images/mirrored/aae38acd46cfc0b0.jpg)
 
 ¿Qué ocurre cuando reinfusionas tus hojas? Las infusiones posteriores generalmente contienen sustancialmente menos cafeína que la primera, ya que una gran parte se extrae temprano; en las pruebas de preparación doméstica de Horzic et al., la segunda infusión solía ser aproximadamente la mitad de la primera, y las preparaciones posteriores aún menos. Las cifras exactas varían según la hoja y cada infusión, así que tómalo como un patrón aproximado y no como una regla. Un enjuague rápido, o simplemente beber la segunda o tercera infusión, es una forma práctica de disfrutar del sabor con menos cafeína si eres sensible, pero no es una forma fiable de eliminar la cafeína por completo. Evitar los [errores comunes al preparar té](<>) también te ayuda a controlar la extracción.
 

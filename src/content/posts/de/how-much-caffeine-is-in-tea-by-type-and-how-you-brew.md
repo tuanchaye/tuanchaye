@@ -14,7 +14,7 @@ Um zu verstehen, wie viel Koffein in Tee steckt, müssen wir zunächst die Ausga
 
 Dieselbe Forschung von Chin et al. ergab, dass entkoffeinierte Tees immer noch Spurenmengen enthalten, typischerweise weniger als ein Dutzend Milligramm pro Portion, während rein pflanzliche Kräutertees kein nachweisbares Koffein enthalten. Bei der Analyse des rohen Blattmaterials selbst fand eine Analyse von Tfouni et al., dass Mate-Tee die niedrigsten Koffeinwerte aufwies, die von einstelligen bis zu niedrigen Teenager-Milligramm pro Gramm reichten. Im Gegensatz dazu lagen *Camellia sinensis*-Tees höher: Weißer Tee fiel in den niedrigen Zwanzigern bis niedrigen Dreißigern, grüner Tee in den hohen Teenagern bis mittleren Zwanzigern und schwarzer Tee in den mittleren Teenagern bis mittleren Dreißigern von Milligramm pro Gramm.
 
-![](https://s.coze.cn/image/JL9LoGhTtok/)
+![](/images/mirrored/d8bcdc9e31e464d0.jpg)
 
 ## Der Einfluss enzymatischer Bräunung und Verarbeitung
 
@@ -32,7 +32,7 @@ Eine Studie von Horzic et al., die Haushaltsbrühbedingungen mit Wassertemperatu
 
 Die Zeit ist vielleicht die kritischste Variable. Die Studie von Chin et al. aus dem Jahr 2008 stellte fest, dass längere Ziehzeiten den Koffeingehalt im gebrühten Tee konsequent erhöhen. Die Forschung im *Foods*-Journal bestätigte dies und fand heraus, dass eine Verlängerung der Brühzeit den Koffeingehalt deutlich erhöhte, wobei einige Tees über fünfzig Milligramm pro Standardtasse erreichten, wenn sie zehn Minuten lang gezogen wurden.
 
-![](https://s.coze.cn/image/lPn-Gow1CHA/)
+![](/images/mirrored/aae38acd46cfc0b0.jpg)
 
 Was passiert, wenn Sie Ihre Blätter erneut aufgießen? Nachfolgende Aufgüsse enthalten im Allgemeinen deutlich weniger Koffein als der erste, da ein großer Teil früh extrahiert wird; in den Haushaltsbrühtests von Horzic et al. lag der zweite Aufguss oft bei etwa der Hälfte des ersten, und spätere Aufgüsse noch niedriger. Genaue Zahlen variieren je nach Blatt und jedem Aufguss, daher sollten Sie dies als grobes Muster und nicht als Regel betrachten. Ein kurzes Spülen oder einfach das Trinken des zweiten oder dritten Aufgusses ist eine praktische Möglichkeit, Geschmack mit weniger Koffein zu genießen, wenn Sie empfindlich sind – aber es ist kein zuverlässiger Weg, Koffein vollständig zu entfernen. Die Vermeidung häufiger [Teebrühfehler](<>) hilft ebenfalls, die Extraktion zu kontrollieren.
 

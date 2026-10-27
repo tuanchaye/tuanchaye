@@ -14,7 +14,7 @@ Pour comprendre la teneur en caféine du thé, nous devons d'abord examiner les 
 
 La même recherche de Chin et al. a déterminé que les thés décaféinés contiennent encore des traces, généralement moins d'une douzaine de milligrammes par portion, tandis que les thés purement herbaux ne contiennent pas de caféine détectable. En analysant la matière première des feuilles elles-mêmes, une analyse de Tfouni et al. a révélé que le thé maté présentait les niveaux de caféine les plus bas, allant de quelques milligrammes à une dizaine de milligrammes par gramme. En revanche, les thés *Camellia sinensis* se situaient plus haut : le thé blanc se situait entre le début des années vingt et le début des années trente, le thé vert entre la fin des années dix et le milieu des années vingt, et le thé noir entre le milieu des années dix et le milieu des années trente de milligrammes par gramme.
 
-![](https://s.coze.cn/image/JL9LoGhTtok/)
+![](/images/mirrored/d8bcdc9e31e464d0.jpg)
 
 ## L'impact du brunissement enzymatique et de la transformation
 
@@ -32,7 +32,7 @@ Une étude de Horzic et al. évaluant les conditions d'infusion domestique avec 
 
 Le temps est peut-être la variable la plus critique. L'étude de 2008 de Chin et al. a noté que des temps d'infusion plus longs augmentent systématiquement la teneur en caféine du thé infusé. La recherche de la revue *Foods* a corroboré cela, constatant que l'extension du temps d'infusion augmentait significativement les niveaux de caféine, certains thés atteignant plus de cinquante milligrammes par tasse standard lorsqu'ils sont infusés pendant dix minutes.
 
-![](https://s.coze.cn/image/lPn-Gow1CHA/)
+![](/images/mirrored/aae38acd46cfc0b0.jpg)
 
 Que se passe-t-il lorsque vous réinfusez vos feuilles ? Les infusions suivantes contiennent généralement beaucoup moins de caféine que la première, car une grande partie s'extrait tôt ; dans les tests d'infusion domestique de Horzic et al., la deuxième infusion était souvent environ la moitié de la première, et les infusions ultérieures encore plus faibles. Les chiffres exacts varient selon la feuille et chaque infusion, donc considérez cela comme un schéma approximatif plutôt qu'une règle. Un rinçage rapide, ou simplement boire la deuxième ou troisième infusion, est un moyen pratique de savourer la saveur avec moins de caféine si vous êtes sensible — mais ce n'est pas un moyen fiable d'éliminer complètement la caféine. Éviter les [erreurs courantes d'infusion du thé](<>) vous aide également à contrôler l'extraction.
 

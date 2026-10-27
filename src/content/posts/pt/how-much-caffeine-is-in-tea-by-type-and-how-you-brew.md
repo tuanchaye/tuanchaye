@@ -14,7 +14,7 @@ Para entender quanta cafeína há no chá, devemos primeiro observar as concentr
 
 A mesma pesquisa de Chin et al. determinou que os chás descafeinados ainda contêm quantidades residuais, tipicamente menos de uma dúzia de miligramas por porção, enquanto os chás puramente herbais não contêm cafeína detectável. Ao analisar o material foliar bruto em si, uma análise de Tfouni et al. descobriu que o chá mate apresentava os níveis mais baixos de cafeína, variando de um dígito a cerca de treze miligramas por grama. Em contraste, os chás de *Camellia sinensis* apresentaram valores mais altos: o chá branco ficou entre o início dos vinte e o início dos trinta, o chá verde entre o final da adolescência e meados dos vinte, e o chá preto entre meados da adolescência e meados dos trinta miligramas por grama.
 
-![](https://s.coze.cn/image/JL9LoGhTtok/)
+![](/images/mirrored/d8bcdc9e31e464d0.jpg)
 
 ## O impacto do escurecimento enzimático e do processamento
 
@@ -32,7 +32,7 @@ Um estudo de Horzic et al. avaliando condições domésticas de preparo com temp
 
 O tempo é talvez a variável mais crítica. O estudo de 2008 de Chin et al. observou que tempos de infusão mais longos aumentam consistentemente o teor de cafeína no chá preparado. A pesquisa da revista *Foods* corroborou isso, descobrindo que estender o tempo de preparo elevou significativamente os níveis de cafeína, com alguns chás atingindo mais de cinquenta miligramas por xícara padrão quando infundidos por dez minutos.
 
-![](https://s.coze.cn/image/lPn-Gow1CHA/)
+![](/images/mirrored/aae38acd46cfc0b0.jpg)
 
 O que acontece quando você reinfunde suas folhas? As infusões subsequentes geralmente contêm substancialmente menos cafeína que a primeira, já que uma grande parte é extraída cedo; nos testes de preparo doméstico de Horzic et al., a segunda infusão era frequentemente cerca de metade da primeira, e as infusões posteriores ainda menores. Os números exatos variam com a folha e cada infusão, então trate isso como um padrão aproximado, não como uma regra. Um enxágue rápido, ou simplesmente beber a segunda ou terceira infusão, é uma maneira prática de desfrutar do sabor com menos cafeína se você for sensível — mas não é uma maneira confiável de remover completamente a cafeína. Evitar [erros comuns no preparo do chá](<>) também ajuda a controlar a extração.
 

@@ -17,7 +17,7 @@ To understand how much caffeine in tea, we must first look at the baseline conce
 
 The same research by Chin et al. determined that decaffeinated teas still contain trace amounts, typically less than a dozen milligrams per serving, while purely herbal teas contain no detectable caffeine. When analyzing the raw leaf material itself, an analysis by Tfouni et al. found that mate tea presented the lowest caffeine levels, ranging from the single digits to the low teens of milligrams per gram. In contrast, *Camellia sinensis* teas ranged higher: white tea fell in the low twenties to low thirties, green tea in the high teens to mid-twenties, and black tea in the mid-teens to mid-thirties of milligrams per gram.
 
-![](https://s.coze.cn/image/JL9LoGhTtok/)
+![](/images/mirrored/d8bcdc9e31e464d0.jpg)
 
 ## The Impact of Enzymatic Browning and Processing
 
@@ -35,7 +35,7 @@ A study by Horzic et al. evaluating household brewing conditions with water temp
 
 Time is perhaps the most critical variable. The 2008 study by Chin et al. noted that longer steep-times consistently increase the caffeine content in the brewed tea. The *Foods* journal research corroborated this, finding that extending the brewing time significantly raised caffeine levels, with some teas reaching over fifty milligrams per standard cup when steeped for ten minutes.
 
-![](https://s.coze.cn/image/lPn-Gow1CHA/)
+![](/images/mirrored/aae38acd46cfc0b0.jpg)
 
 What happens when you re-steep your leaves? Follow-up infusions generally contain substantially less caffeine than the first, since a large share extracts early; in the Horzic et al. household-brewing tests the second infusion was often around half of the first, and later brews lower still. Exact numbers vary with the leaf and each steep, so treat this as a rough pattern rather than a rule. A quick rinse, or simply drinking the second or third infusion, is a practical way to enjoy flavor with less caffeine if you are sensitive—but it is not a reliable way to remove caffeine entirely. Avoiding common [tea brewing mistakes](<>) also helps you control extraction.
 
