@@ -12,7 +12,9 @@ export async function GET() {
     .filter((p) => p.slug.startsWith('en/'))
     .map((p) => p.slug.split('/').slice(1).join('/'));
 
-  const paths: string[] = ['/'];
+  // 注意：根路径 `/` 会按访客国家 302 跳语言首页，属于"会自动重定向的 URL"，
+  // 不能进 sitemap（GSC 会报"网页会自动重定向"）；默认语言由页面级 hreflang x-default 承担。
+  const paths: string[] = [];
   for (const lang of LOCALES) {
     // 全站统一无尾斜杠（与 html_handling=drop-trailing-slash 的最终 200 地址一致）
     paths.push(
