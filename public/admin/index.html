@@ -8,6 +8,11 @@
   <body>
     <!-- 固定版本：3.17.1。旧 markdown 组件粘贴富文本会崩溃（上游 #7790），已改用 richtext 组件 -->
     <!-- 自托管 decap-cms.js（原 unpkg CDN）：国内访问更稳，且不依赖第三方可用性 -->
+    <!-- 加载策略（2026-10-27 加强）：
+         1) 先尝试同源（tuanchaye.com，Cloudflare 缓存，正常网络极快）；
+         2) 若直连线路拥塞导致大文件（1.35MB）多次失败，自动改用 GitHub raw 源
+            （raw.githubusercontent.com 在你的 VPN「GitHub 走代理」规则下走代理，速度快）；
+         3) 仍失败则给出明确的可操作提示（在 VPN 把 tuanchaye.com 加入代理规则）。 -->
     <!-- fetch 重试垫片：同源 GET 失败自动重试 4 次（网络抖动时 config.yml 一次失败即报错，无内建重试） -->
     <script>
       (function () {
@@ -30,26 +35,40 @@
         };
       })();
     </script>
-    <!-- 动态加载 decap-cms.js：失败自动重试（换 cache-bust 参数），带可见状态提示；多次失败给出网络建议 -->
-    <div id="boot-status" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:14px/1.6 system-ui,sans-serif;color:#555;"></div>
+    <!-- 动态加载 decap-cms.js：同源优先，失败后自动回退到 GitHub raw（走代理），带可见状态提示 -->
+    <div id="boot-status" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:14px/1.6 system-ui,sans-serif;color:#555;text-align:center;padding:0 16px;"></div>
     <script>
       (function () {
         var el = document.getElementById('boot-status');
         function status(t) { if (el) el.textContent = t; }
-        var tries = 0;
+        // 同源（Cloudflare 缓存，正常网络快）
+        var SAME = location.origin + '/admin/decap-cms.js?r=';
+        // 回退源：GitHub raw（在你的 VPN「GitHub 走代理」下走代理，速度快）
+        var FALLBACK = 'https://raw.githubusercontent.com/tuanchaye/tuanchaye/main/public/admin/decap-cms.js?r=';
+        var tries = 0, useFallback = false, MAX = 18;
         function addScript() {
           tries++;
-          if (tries > 12) {
-            status('后台脚本多次加载失败，当前网络到站点不稳定。建议：开启代理（VPN）后刷新页面重试。');
+          if (tries > MAX) {
+            status('后台脚本多次加载失败：当前到 tuanchaye.com 的直连线路不稳定。'
+              + ' 解决方法：在 VPN（蔚蓝云梯）里把 tuanchaye.com 加入「代理/分流」规则后刷新；或临时切到全局模式。');
             return;
           }
-          status('正在加载后台（第 ' + tries + ' 次）…');
+          var src, msg;
+          if (!useFallback && tries <= 2) {
+            src = SAME + Date.now();
+            msg = '正在加载后台（第 ' + tries + ' 次 · 直连）…';
+          } else {
+            useFallback = true;
+            src = FALLBACK + Date.now();
+            msg = '直连较慢，改经 GitHub 代理加载后台（第 ' + tries + ' 次）…';
+          }
+          status(msg);
           var s = document.createElement('script');
-          s.src = 'decap-cms.js?r=' + Date.now(); // 失败后换参数，避免命中坏缓存
+          s.src = src;
           s.onload = function () { status('正在初始化…'); };
           s.onerror = function () {
-            s.remove();
-            setTimeout(addScript, 1200);
+            try { s.remove(); } catch (e) {}
+            setTimeout(addScript, 1500);
           };
           document.body.appendChild(s);
         }
