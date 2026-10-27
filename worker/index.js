@@ -176,6 +176,15 @@ export default {
       const accept = request.headers.get('accept') || '';
       if (accept.includes('text/html')) {
         const p = url.pathname;
+        // 后台：必须让浏览器落在 /admin/（带尾斜杠），
+        // 否则 Decap 按当前目录解析相对路径会把 config.yml 取成根路径 /config.yml（404）。
+        // /admin/ 由 Worker 显式返回 admin/index.html（静态资源层 drop-trailing-slash 会把 /admin/ 打回 /admin，必须绕过）。
+        if (p === '/admin' || p === '/admin/') {
+          if (p === '/admin') {
+            return Response.redirect(new URL('/admin/', url.origin).toString(), 301);
+          }
+          return env.ASSETS.fetch(new URL('/admin/index.html', url.origin));
+        }
         // HTML 页面带尾斜杠的旧地址 → 301 永久重定向到无斜杠规范地址（在静态资源 307 之前接管，传递权重）
         if (p.length > 1 && p.endsWith('/') && !p.startsWith('/api/') && !p.startsWith('/admin/')) {
           return Response.redirect(new URL(p.replace(/\/+$/, '') || '/', url.origin).toString(), 301);
