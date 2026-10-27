@@ -36,11 +36,25 @@
       })();
     </script>
     <!-- 动态加载 decap-cms.js：同源优先，失败后自动回退到 GitHub raw（走代理），带可见状态提示 -->
-    <div id="boot-status" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:14px/1.6 system-ui,sans-serif;color:#555;text-align:center;padding:0 16px;"></div>
+    <!-- pointer-events:none：状态层永不拦截点击；后台 UI（#nc-root）渲染出来后自动移除该层 -->
+    <div id="boot-status" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:14px/1.6 system-ui,sans-serif;color:#555;text-align:center;padding:0 16px;pointer-events:none;z-index:9999;"></div>
     <script>
       (function () {
         var el = document.getElementById('boot-status');
         function status(t) { if (el) el.textContent = t; }
+        function dismiss() { if (el) { el.remove(); el = null; } }
+        // 等 Decap 渲染出自己的界面后撤掉状态层；15 秒兜底强制撤掉
+        function waitReady() {
+          var n = 0;
+          var t = setInterval(function () {
+            n++;
+            var root = document.getElementById('nc-root');
+            if ((root && root.childElementCount > 0) || n > 30) {
+              clearInterval(t);
+              dismiss();
+            }
+          }, 500);
+        }
         // 同源（Cloudflare 缓存，正常网络快）
         var SAME = location.origin + '/admin/decap-cms.js?r=';
         // 回退源：GitHub raw（在你的 VPN「GitHub 走代理」下走代理，速度快）
@@ -65,7 +79,10 @@
           status(msg);
           var s = document.createElement('script');
           s.src = src;
-          s.onload = function () { status('正在初始化…'); };
+          s.onload = function () {
+            status('正在初始化…');
+            waitReady();
+          };
           s.onerror = function () {
             try { s.remove(); } catch (e) {}
             setTimeout(addScript, 1500);
