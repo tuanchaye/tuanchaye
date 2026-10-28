@@ -20,7 +20,7 @@ However, more heat does not always mean better results for every compound. Studi
 
 Heat also changes which catechins survive. Research in the *Journal of the Science of Food and Agriculture* describes how catechins such as EGCG, EGC and ECG can epimerize into other isomers during brewing, with moderate temperatures around 80 °C (175 °F) favoring higher EGCG and ECG levels than a rolling boil. A separate sensory study found green tea brewed at 85 °C for about three minutes scored highest while retaining the most EGCG. The exact optimum varies, but the direction is consistent: green tea does not need boiling water.
 
-![](https://s.coze.cn/image/xXYEiVhgsAo/)
+![](/images/mirrored/01ac0ae047815765.jpg)
 
 ## Temperature Guidelines for Different Tea Categories
 
@@ -49,7 +49,7 @@ Cold brewing (leaves left in cold or room-temperature water for hours, often ove
 
 While scientific literature provides clear chemical thresholds, many tea enthusiasts rely on traditional visual cues to judge water temperature. These cues often involve observing the size and behavior of bubbles in the water, such as crab eye or fish eye boils. While numerous commercial tea guides publish specific steeping time charts and visual cues for water temperature, these precise culinary parameters vary widely by source. Importantly, they are not standardized in peer-reviewed literature, which instead focuses on chemical extraction thresholds, such as maintaining moderate heat to prevent catechin epimerization or avoiding near-boiling temperatures to prevent green tea polyphenol degradation. Knowing these limits is also the best way to avoid the most common [tea brewing mistakes](<>).
 
-![](https://s.coze.cn/image/tSDvhfVpyUQ/)
+![](/images/mirrored/5cd3516bb26d850b.jpg)
 
 ## Managing Tea Chemistry Through Precise Heating
 

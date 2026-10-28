@@ -16,7 +16,7 @@ Cependant, plus de chaleur ne signifie pas toujours de meilleurs résultats pour
 
 La chaleur modifie également quelles catéchines survivent. Des recherches publiées dans le *Journal of the Science of Food and Agriculture* décrivent comment des catéchines telles que l'EGCG, l'EGC et l'ECG peuvent s'épimériser en d'autres isomères pendant l'infusion, des températures modérées autour de 80 °C (175 °F) favorisant des niveaux plus élevés d'EGCG et d'ECG qu'une ébullition continue. Une étude sensorielle distincte a montré que le thé vert infusé à 85 °C pendant environ trois minutes obtenait le meilleur score tout en conservant le plus d'EGCG. L'optimum exact varie, mais la tendance est cohérente : le thé vert n'a pas besoin d'eau bouillante.
 
-![](https://s.coze.cn/image/xXYEiVhgsAo/)
+![](/images/mirrored/01ac0ae047815765.jpg)
 
 ## Directives de température pour différentes catégories de thé
 
@@ -45,7 +45,7 @@ L'infusion à froid (feuilles laissées dans de l'eau froide ou à température 
 
 Alors que la littérature scientifique fournit des seuils chimiques clairs, de nombreux amateurs de thé se fient à des indices visuels traditionnels pour juger la température de l'eau. Ces indices impliquent souvent d'observer la taille et le comportement des bulles dans l'eau, comme l'ébullition "œil de crabe" ou "œil de poisson". Bien que de nombreux guides commerciaux sur le thé publient des tableaux spécifiques de temps d'infusion et des indices visuels pour la température de l'eau, ces paramètres culinaires précis varient considérablement selon la source. Il est important de noter qu'ils ne sont pas standardisés dans la littérature évaluée par les pairs, qui se concentre plutôt sur les seuils d'extraction chimique, comme le maintien d'une chaleur modérée pour éviter l'épimérisation des catéchines ou l'évitement de températures proches de l'ébullition pour prévenir la dégradation des polyphénols du thé vert. Connaître ces limites est également le meilleur moyen d'éviter les [erreurs d'infusion de thé](<>) les plus courantes.
 
-![](https://s.coze.cn/image/tSDvhfVpyUQ/)
+![](/images/mirrored/5cd3516bb26d850b.jpg)
 
 ## Gérer la chimie du thé par un chauffage précis
 

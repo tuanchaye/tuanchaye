@@ -16,7 +16,7 @@ No entanto, mais calor nem sempre significa melhores resultados para cada compos
 
 O calor também altera quais catequinas sobrevivem. Pesquisas no *Journal of the Science of Food and Agriculture* descrevem como catequinas como EGCG, EGC e ECG podem epimerizar em outros isômeros durante a infusão, com temperaturas moderadas em torno de 80 °C (175 °F) favorecendo níveis mais altos de EGCG e ECG do que uma fervura vigorosa. Um estudo sensorial separado descobriu que o chá verde preparado a 85 °C por cerca de três minutos obteve a pontuação mais alta, mantendo a maior quantidade de EGCG. O ótimo exato varia, mas a direção é consistente: o chá verde não precisa de água fervente.
 
-![](https://s.coze.cn/image/xXYEiVhgsAo/)
+![](/images/mirrored/01ac0ae047815765.jpg)
 
 ## Diretrizes de Temperatura para Diferentes Categorias de Chá
 
@@ -45,7 +45,7 @@ A infusão a frio (folhas deixadas em água fria ou à temperatura ambiente por 
 
 Enquanto a literatura científica fornece limiares químicos claros, muitos entusiastas de chá confiam em sinais visuais tradicionais para julgar a temperatura da água. Esses sinais frequentemente envolvem observar o tamanho e o comportamento das bolhas na água, como fervura de olho de caranguejo ou olho de peixe. Embora numerosos guias comerciais de chá publiquem tabelas específicas de tempo de infusão e sinais visuais para a temperatura da água, esses parâmetros culinários precisos variam amplamente conforme a fonte. É importante notar que eles não são padronizados na literatura revisada por pares, que em vez disso se concentra em limiares de extração química, como manter calor moderado para evitar a epimerização de catequinas ou evitar temperaturas próximas à fervura para prevenir a degradação dos polifenóis do chá verde. Conhecer esses limites também é a melhor maneira de evitar os [erros mais comuns na infusão de chá](<>).
 
-![](https://s.coze.cn/image/tSDvhfVpyUQ/)
+![](/images/mirrored/5cd3516bb26d850b.jpg)
 
 ## Gerenciando a Química do Chá por Meio de Aquecimento Preciso
 

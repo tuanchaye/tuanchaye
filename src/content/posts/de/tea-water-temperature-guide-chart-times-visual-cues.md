@@ -16,7 +16,7 @@ Allerdings bedeutet mehr Hitze nicht immer bessere Ergebnisse für jede Verbindu
 
 Hitze verändert auch, welche Catechine überleben. Forschung im *Journal of the Science of Food and Agriculture* beschreibt, wie Catechine wie EGCG, EGC und ECG während des Brühens zu anderen Isomeren epimerisieren können, wobei moderate Temperaturen um 80 °C (175 °F) höhere EGCG- und ECG-Werte begünstigen als ein rollender Siedepunkt. Eine separate sensorische Studie ergab, dass grüner Tee, der bei 85 °C für etwa drei Minuten gebrüht wurde, am besten abschnitt und gleichzeitig das meiste EGCG behielt. Das genaue Optimum variiert, aber die Richtung ist konsistent: Grüner Tee braucht kein kochendes Wasser.
 
-![](https://s.coze.cn/image/xXYEiVhgsAo/)
+![](/images/mirrored/01ac0ae047815765.jpg)
 
 ## Temperaturrichtlinien für verschiedene Teekategorien
 
@@ -45,7 +45,7 @@ Kaltbrühen (Blätter, die stundenlang, oft über Nacht, in kaltem oder zimmerwa
 
 Während die wissenschaftliche Literatur klare chemische Schwellenwerte liefert, verlassen sich viele Teeliebhaber auf traditionelle visuelle Hinweise, um die Wassertemperatur zu beurteilen. Diese Hinweise beinhalten oft die Beobachtung der Größe und des Verhaltens von Blasen im Wasser, wie Krabbenaugen- oder Fischeyensieden. Obwohl zahlreiche kommerzielle Tee-Guides spezifische Ziehzeit-Tabellen und visuelle Hinweise für die Wassertemperatur veröffentlichen, variieren diese präzisen kulinarischen Parameter stark je nach Quelle. Wichtig ist, dass sie in der von Fachleuten begutachteten Literatur nicht standardisiert sind, die sich stattdessen auf chemische Extraktionsschwellen konzentriert, wie z. B. die Beibehaltung moderater Hitze zur Vermeidung der Catechin-Epimerisierung oder die Vermeidung von Temperaturen nahe dem Siedepunkt zur Verhinderung des Abbaus von Polyphenolen im grünen Tee. Diese Grenzen zu kennen ist auch der beste Weg, um die häufigsten [Teebrühfehler](<>) zu vermeiden.
 
-![](https://s.coze.cn/image/tSDvhfVpyUQ/)
+![](/images/mirrored/5cd3516bb26d850b.jpg)
 
 ## Teechemie durch präzises Erhitzen steuern
 

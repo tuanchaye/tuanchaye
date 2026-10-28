@@ -16,7 +16,7 @@ Sin embargo, más calor no siempre significa mejores resultados para cada compue
 
 El calor también cambia qué catequinas sobreviven. Investigaciones en el *Journal of the Science of Food and Agriculture* describen cómo catequinas como EGCG, EGC y ECG pueden epimerizarse en otros isómeros durante la infusión, con temperaturas moderadas alrededor de 80 °C (175 °F) favoreciendo niveles más altos de EGCG y ECG que una ebullición vigorosa. Un estudio sensorial separado encontró que el té verde infusionado a 85 °C durante unos tres minutos obtuvo la puntuación más alta mientras retenía la mayor cantidad de EGCG. El óptimo exacto varía, pero la dirección es consistente: el té verde no necesita agua hirviendo.
 
-![](https://s.coze.cn/image/xXYEiVhgsAo/)
+![](/images/mirrored/01ac0ae047815765.jpg)
 
 ## Pautas de temperatura para diferentes categorías de té
 
@@ -45,7 +45,7 @@ La infusión en frío (hojas dejadas en agua fría o a temperatura ambiente dura
 
 Mientras que la literatura científica proporciona umbrales químicos claros, muchos entusiastas del té confían en señales visuales tradicionales para juzgar la temperatura del agua. Estas señales a menudo implican observar el tamaño y el comportamiento de las burbujas en el agua, como el hervor de ojos de cangrejo o de ojos de pez. Aunque numerosas guías comerciales de té publican tablas específicas de tiempos de infusión y señales visuales para la temperatura del agua, estos parámetros culinarios precisos varían ampliamente según la fuente. Es importante destacar que no están estandarizados en la literatura revisada por pares, que en cambio se centra en umbrales de extracción química, como mantener un calor moderado para prevenir la epimerización de catequinas o evitar temperaturas cercanas a la ebullición para prevenir la degradación de polifenoles del té verde. Conocer estos límites también es la mejor manera de evitar los [errores más comunes al infusionar té](<>).
 
-![](https://s.coze.cn/image/tSDvhfVpyUQ/)
+![](/images/mirrored/5cd3516bb26d850b.jpg)
 
 ## Manejo de la química del té mediante calentamiento preciso
 
