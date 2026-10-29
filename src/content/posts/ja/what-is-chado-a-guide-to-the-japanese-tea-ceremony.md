@@ -20,7 +20,7 @@ cover: "/images/uploads/cover-chado-japanese-tea-ceremony.jpg"
 
 正式な茶事は相当な催しです。Web Japanの茶道に関するファクトシートによれば、茶事には「茶懐石」と呼ばれる食事が含まれ、その後、濃茶と薄茶の二服の茶が供されます。所要時間は約4時間で、亭主は客が到着するずっと前から準備に取り組んでいます。
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## 茶室の感覚的な体験
 
@@ -42,7 +42,7 @@ cover: "/images/uploads/cover-chado-japanese-tea-ceremony.jpg"
 4. **湯を加えて点てる：** 熱湯（沸騰したものではない）が加えられ、亭主は細かい泡が立つまで、素早く前後に素早く茶筅を振ります。
 5. **供する：** 茶碗は最も美しい側を客に向けるように回され、客は一礼して受け取ります。
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## 現代における茶の道の学び
 

@@ -20,7 +20,7 @@ Para entender a prática, ajuda conhecer alguns termos. A arte de preparar e apr
 
 Um chaji completo é uma ocasião substancial. A ficha informativa do Web Japan sobre a cerimônia do chá descreve-o como incluindo uma refeição chamada chakaiseki seguida por duas porções de chá, o espesso koicha e depois o fino usucha. Dura cerca de quatro horas, e o anfitrião se dedica aos preparativos muito antes de os convidados chegarem.
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## A Experiência Sensorial da Sala de Chá
 
@@ -42,7 +42,7 @@ Aqui está uma visão geral simplificada passo a passo do otemae básico para o 
 4. **Adicione água e bata:** Água quente (não fervente) é adicionada, e o anfitrião bate vigorosamente em um movimento rápido de vaivém até formar uma espuma fina.
 5. **Sirva:** A tigela é girada para apresentar o lado mais bonito ao convidado, que a recebe com uma reverência.
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## Estudando o Caminho do Chá Hoje
 

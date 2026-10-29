@@ -20,7 +20,7 @@ Pour comprendre la pratique, il est utile de connaître quelques termes. L'art d
 
 Un chaji complet est une occasion substantielle. La fiche d'information de Web Japan sur la cérémonie du thé décrit qu'il comprend un repas appelé chakaiseki suivi de deux services de thé, le koicha épais puis l'usucha léger. Il dure environ quatre heures, et l'hôte est engagé dans sa préparation bien avant l'arrivée des invités.
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## L'expérience sensorielle de la salle de thé
 
@@ -42,7 +42,7 @@ Voici un aperçu simplifié étape par étape de l'otemae de base pour l'usucha 
 4. **Ajouter de l'eau et fouetter :** De l'eau chaude (non bouillante) est ajoutée, et l'hôte fouette vigoureusement d'un mouvement rapide de va-et-vient jusqu'à ce qu'une fine mousse se forme.
 5. **Servir :** Le bol est tourné pour présenter le plus beau côté à l'invité, qui le reçoit avec une révérence.
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## Étudier la Voie du Thé aujourd'hui
 

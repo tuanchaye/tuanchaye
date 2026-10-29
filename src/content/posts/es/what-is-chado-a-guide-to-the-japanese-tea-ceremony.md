@@ -20,7 +20,7 @@ Para comprender la práctica, ayuda conocer algunos términos. El arte de prepar
 
 Un chaji completo es una ocasión sustancial. La hoja informativa de Web Japan sobre la ceremonia del té lo describe como la inclusión de una comida llamada chakaiseki seguida de dos servicios de té, primero koicha espeso y luego usucha ligero. Dura aproximadamente cuatro horas, y el anfitrión se dedica a prepararlo mucho antes de que lleguen los invitados.
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## La experiencia sensorial de la sala de té
 
@@ -42,7 +42,7 @@ Aquí hay una descripción general simplificada paso a paso del otemae básico p
 4. **Añadir agua y batir:** Se añade agua caliente (no hirviendo) y el anfitrión bate enérgicamente con un movimiento rápido de ida y vuelta hasta que se forme una espuma fina.
 5. **Servir:** Se gira el cuenco para presentar el lado más hermoso al invitado, quien lo recibe con una reverencia.
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## Estudiar el camino del té hoy
 

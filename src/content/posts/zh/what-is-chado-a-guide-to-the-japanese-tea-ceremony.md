@@ -20,7 +20,7 @@ cover: "/images/uploads/cover-chado-japanese-tea-ceremony.jpg"
 
 完整的茶事是一个重要的场合。日本网关于茶道的概况介绍将其描述为包括称为茶怀石的餐食，然后是两次奉茶：浓茶和薄茶。它持续大约四个小时，而主人在客人到达之前很久就开始准备了。
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## 茶室的感官体验
 
@@ -42,7 +42,7 @@ cover: "/images/uploads/cover-chado-japanese-tea-ceremony.jpg"
 4. **加水并点拂：** 加入热水（非沸腾），主人以快速、前后运动的方式用力点拂，直到形成细腻的泡沫。
 5. **奉茶：** 转动茶碗，将最美的一面呈现给客人，客人鞠躬接过。
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## 今日学习茶道
 

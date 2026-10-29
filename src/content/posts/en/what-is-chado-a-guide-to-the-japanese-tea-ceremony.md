@@ -23,7 +23,7 @@ To understand the practice, it helps to know a few terms. The art of preparing a
 
 A full chaji is a substantial occasion. Web Japan's fact sheet on the tea ceremony describes it as including a meal called chakaiseki followed by two servings of tea, thick koicha and then thin usucha. It runs for roughly four hours, and the host is engaged in preparing for it long before the guests arrive.
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## The Sensory Experience of the Tearoom
 
@@ -45,7 +45,7 @@ Here is a simplified step-by-step overview of the basic otemae for usucha:
 4. **Add water and whisk:** Hot water (not boiling) is added, and the host whisks vigorously in a quick, back-and-forth motion until a fine froth forms.
 5. **Serve:** The bowl is turned to present the most beautiful side to the guest, who receives it with a bow.
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## Studying the Way of Tea Today
 

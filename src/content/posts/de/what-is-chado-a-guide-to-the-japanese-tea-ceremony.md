@@ -20,7 +20,7 @@ Um die Praxis zu verstehen, hilft es, einige Begriffe zu kennen. Die Kunst, Matc
 
 Ein vollständiges chaji ist ein bedeutender Anlass. Das Factsheet von Web Japan zur Teezeremonie beschreibt es als ein Ereignis, das ein Mahl namens chakaiseki und anschließend zwei Teeservierungen umfasst, zuerst den dickflüssigen koicha und dann den dünnen usucha. Es dauert etwa vier Stunden, und der Gastgeber ist lange vor der Ankunft der Gäste mit der Vorbereitung beschäftigt.
 
-![](https://s.coze.cn/image/-U2txqv_7W8/)
+![](/images/mirrored/648232b1dd32666f.jpg)
 
 ## Das sinnliche Erlebnis des Teeraums
 
@@ -42,7 +42,7 @@ Hier ist eine vereinfachte Schritt-für-Schritt-Übersicht des grundlegenden ote
 4. **Wasser hinzufügen und aufschlagen:** Heißes Wasser (nicht kochend) wird hinzugefügt, und der Gastgeber schlägt kräftig in einer schnellen Vor- und Zurückbewegung auf, bis ein feiner Schaum entsteht.
 5. **Servieren:** Die Schale wird gedreht, um dem Gast die schönste Seite zu präsentieren, der sie mit einer Verbeugung entgegennimmt.
 
-![](https://s.coze.cn/image/Mft6nffbNuo/)
+![](/images/mirrored/571ae4d40bf44086.jpg)
 
 ## Den Weg des Tees heute studieren
 
