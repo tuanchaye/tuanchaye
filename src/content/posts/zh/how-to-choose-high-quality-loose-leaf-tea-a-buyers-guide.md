@@ -32,7 +32,7 @@ cover: "/images/uploads/cover-high-quality-loose-leaf-tea-guide.jpg"
 | 干香 | 安静但清晰、干净 | 灰尘味、霉味，或几乎无味 |
 | 茶汤 | 清澈明亮 | 浑浊、不清或看起来平淡 |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## 解读香气
 
@@ -66,7 +66,7 @@ cover: "/images/uploads/cover-high-quality-loose-leaf-tea-guide.jpg"
 4. **品尝茶汤：** 第一口应该顺滑。注意其复杂性、甜度，以及没有强烈的涩味。
 5. **测试复泡：** 加入更多热水。优质叶片会产生多次风味丰富的冲泡，而较低等级的茶在第一泡后就会味道平淡。
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## 适当储存以延长保质期
 

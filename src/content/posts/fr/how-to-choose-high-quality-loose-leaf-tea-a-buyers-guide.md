@@ -32,7 +32,7 @@ tableau
 | Arôme sec | Discret mais distinct, propre | Poussiéreux, moisi ou presque inodore |
 | Liqueur | Claire et brillante | Trouble, opaque ou d'aspect plat |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## Lire l'arôme
 
@@ -66,7 +66,7 @@ Pour mettre ces principes en pratique, suivez cette routine simple lorsque vous 
 4. **Goûtez la liqueur :** La première gorgée doit être douce. Notez la complexité, la douceur et l'absence d'astringence âpre.
 5. **Testez les réinfusions :** Ajoutez de l'eau chaude. Les feuilles de qualité supérieure donneront plusieurs infusions savoureuses, tandis que les grades inférieurs auront un goût plat après la première infusion.
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## Un stockage approprié pour la longévité
 

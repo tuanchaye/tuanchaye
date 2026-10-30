@@ -36,7 +36,7 @@ Here is the whole check at a glance:
 | Dry aroma       | Quiet but distinct, clean          | Dusty, musty, or smells of almost nothing                |
 | Liquor          | Clear and bright                   | Muddy, cloudy, or flat-looking                           |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## Reading the Aroma
 
@@ -70,7 +70,7 @@ To put these principles into practice, follow this simple routine when examining
 4. **Taste the Liquor:** The first sip should be smooth. Note the complexity, sweetness, and lack of harsh astringency.
 5. **Test the Resteeps:** Add more hot water. Premium leaves will yield multiple flavorful infusions, while lower grades will taste flat after the first brew.
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## Proper Storage for Longevity
 

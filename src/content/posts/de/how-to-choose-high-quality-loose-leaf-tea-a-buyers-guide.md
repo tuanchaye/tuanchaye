@@ -32,7 +32,7 @@ Tabelle
 | Trockenes Aroma | Zurückhaltend, aber deutlich, sauber | Staubig, modrig oder riecht nach fast nichts |
 | Aufguss | Klar und hell | Trüb, wolkig oder flach aussehend |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## Das Aroma lesen
 
@@ -66,7 +66,7 @@ Um diese Prinzipien in die Praxis umzusetzen, folgen Sie dieser einfachen Routin
 4. **Probieren Sie den Aufguss:** Der erste Schluck sollte weich sein. Achten Sie auf Komplexität, Süße und das Fehlen von herber Adstringenz.
 5. **Testen Sie die weiteren Aufgüsse:** Gießen Sie mehr heißes Wasser nach. Premium-Blätter ergeben mehrere schmackhafte Aufgüsse, während niedrigere Qualitäten nach dem ersten Aufguss flach schmecken.
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## Richtige Lagerung für Langlebigkeit
 

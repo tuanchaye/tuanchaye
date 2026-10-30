@@ -32,7 +32,7 @@ Tabla
 | Aroma en seco | Suave pero distinto, limpio | Polvoriento, mohoso o que casi no huele a nada |
 | Licor | Claro y brillante | Turbio, nublado o de aspecto plano |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## Leer el aroma
 
@@ -66,7 +66,7 @@ Para poner en práctica estos principios, sigue esta sencilla rutina cuando exam
 4. **Prueba el licor:** El primer sorbo debe ser suave. Fíjate en la complejidad, el dulzor y la ausencia de astringencia áspera.
 5. **Prueba las reinfusiones:** Añade más agua caliente. Las hojas premium darán múltiples infusiones sabrosas, mientras que los grados inferiores sabrán planos después de la primera preparación.
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## Almacenamiento adecuado para la longevidad
 

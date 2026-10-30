@@ -32,7 +32,7 @@ cover: "/images/uploads/cover-high-quality-loose-leaf-tea-guide.jpg"
 | 乾いた香り | 控えめだがはっきりして清潔 | ほこりっぽい、かび臭い、またはほとんど何の香りもしない |
 | 水色 | 澄んで明るい | 濁った、曇った、または平坦な見た目 |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## 香りを読む
 
@@ -66,7 +66,7 @@ cover: "/images/uploads/cover-high-quality-loose-leaf-tea-guide.jpg"
 4. **水色を味わう：** 最初の一口は滑らかであるべきです。複雑さ、甘さ、そしてきつい渋みのなさに注目します。
 5. **再抽出を試す：** お湯を追加します。プレミアムな葉は複数の風味豊かな抽出をもたらしますが、低品質のものは最初の淹れ方の後で平坦な味になります。
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## 長持ちさせるための適切な保管
 

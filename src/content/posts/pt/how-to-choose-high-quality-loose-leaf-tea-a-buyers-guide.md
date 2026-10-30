@@ -32,7 +32,7 @@ tabela
 | Aroma seco | Discreto, mas distinto, limpo | Empoeirado, mofado ou quase sem cheiro |
 | Licor | Claro e brilhante | Turvo, nublado ou sem vida |
 
-![](https://s.coze.cn/image/Z9711VMRiBI/)
+![](/images/mirrored/25bf5b85e4147cb5.jpg)
 
 ## Lendo o Aroma
 
@@ -66,7 +66,7 @@ Para colocar esses princípios em prática, siga esta rotina simples ao examinar
 4. **Prove o Licor:** O primeiro gole deve ser suave. Observe a complexidade, a doçura e a ausência de adstringência áspera.
 5. **Teste as Reinfusões:** Adicione mais água quente. Folhas premium renderão múltiplas infusões saborosas, enquanto os graus inferiores terão gosto plano após a primeira infusão.
 
-![](https://s.coze.cn/image/FKl21F6aBYM/)
+![](/images/mirrored/257db621fbd02cd3.jpg)
 
 ## Armazenamento Adequado para Longevidade
 
