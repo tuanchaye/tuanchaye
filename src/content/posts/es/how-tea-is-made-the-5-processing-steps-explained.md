@@ -35,7 +35,7 @@ El té blanco invierte la jerarquía habitual. El marchitado no es una preparaci
 
 El té verde apenas se marchita: unas horas de extendido para eliminar el olor crudo y herbáceo, y luego directamente al wok. El té oscuro generalmente no se marchita en absoluto.
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## Etapa 2: Enrollado — romper células, no hojas
 

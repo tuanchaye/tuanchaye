@@ -39,7 +39,7 @@ White tea inverts the usual hierarchy. Withering is not preparation for white te
 
 Green tea barely withers: a few hours of spreading to shed the raw, grassy smell, then straight to the wok. Dark tea is usually not withered at all.
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## Stage 2: Rolling — Breaking Cells, Not Leaves
 

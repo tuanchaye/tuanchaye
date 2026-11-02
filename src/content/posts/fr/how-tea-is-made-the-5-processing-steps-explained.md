@@ -35,7 +35,7 @@ Le thé blanc inverse la hiérarchie habituelle. Le flétrissage n'est pas une p
 
 Le thé vert flétrit à peine : quelques heures d'étalement pour éliminer l'odeur crue et herbacée, puis directement au wok. Le thé sombre n'est généralement pas flétri du tout.
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## Étape 2 : Le roulage — briser les cellules, pas les feuilles
 

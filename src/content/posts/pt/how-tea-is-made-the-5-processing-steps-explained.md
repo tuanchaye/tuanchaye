@@ -33,7 +33,7 @@ O chá branco inverte a hierarquia usual. O murchamento não é preparação par
 
 O chá verde mal murcha: algumas horas de espalhamento para eliminar o cheiro cru e gramíneo, depois direto para a wok. O chá escuro geralmente não é murchado de forma alguma.
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## Estágio 2: Enrolamento — Quebrar Células, Não Folhas
 

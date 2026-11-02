@@ -35,7 +35,7 @@ cover: "/images/uploads/cover-how-tea-is-made-journey.jpg"
 
 绿茶几乎不萎凋：摊放几个小时以散发生青气味，然后直接下锅。黑茶通常完全不萎凋。
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## 阶段2：揉捻——破坏细胞，而非叶片
 

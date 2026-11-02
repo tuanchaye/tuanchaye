@@ -35,7 +35,7 @@ Weißer Tee kehrt die übliche Hierarchie um. Welken ist bei weißem Tee nicht d
 
 Grüner Tee welkt kaum: ein paar Stunden Ausbreiten, um den rohen, grasigen Geruch zu verlieren, dann direkt in den Wok. Dunkler Tee wird normalerweise überhaupt nicht gewelkt.
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## Stufe 2: Rollen – Zellen brechen, nicht Blätter
 

@@ -35,7 +35,7 @@ cover: "/images/uploads/cover-how-tea-is-made-journey.jpg"
 
 緑茶はほとんど萎凋しません：生臭い青草の香りを飛ばすために数時間広げ、すぐに釜に入れます。黒茶は通常まったく萎凋されません。
 
-![](https://s.coze.cn/image/1nSzqi1mKQ0/)
+![](/images/mirrored/b525bb7af4d35e99.jpg)
 
 ## 第2段階：揉捻——葉を壊さず細胞を壊す
 
