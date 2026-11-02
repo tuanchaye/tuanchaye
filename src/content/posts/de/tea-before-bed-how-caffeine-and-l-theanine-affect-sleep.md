@@ -18,7 +18,7 @@ L-Theanin ist die Aminosäure, die Tee bei gleichem Koffeingehalt beruhigender w
 
 Hier ist der Teil, den die meisten Tee-Artikel auslassen. Eine Standardtasse mit 200 ml grünem oder schwarzem Tee liefert nur etwa 8–25 mg L-Theanin. Um allein aus Tee eine einzelne Dosis von 200 mg zu erreichen, bräuchte man acht bis fünfundzwanzig Tassen – und damit mehrere hundert Milligramm Koffein. L-Theanin trägt dazu bei, wie sich Tee anfühlt; es ist im klinischen Sinne kein Schlafmittel.
 
-![](https://s.coze.cn/image/_5Ean_nhLm0/)
+![](/images/mirrored/c0739731802b666d.jpg)
 
 ## Welche Tees tatsächlich weniger Koffein enthalten
 
@@ -65,7 +65,7 @@ Die faire Lesart: Kamille kann Ihnen laut Selbstauskunft in bestimmten Gruppen w
 
 **Matcha** hat eine kleine randomisierte, doppelblinde, placebokontrollierte Studie mit gesunden japanischen Erwachsenen. Vier Wochen täglicher Matcha mit etwa 50 mg L-Theanin und 72 mg Koffein veränderten den objektiven Schlaf im EEG nicht, doch die Teilnehmenden fühlten sich mit ihrem Schlaf zufriedener. Lesen Sie das als eine Geschichte über die Dosierung: 72 mg Koffein, früher am Tag eingenommen, sind niedrig genug, um im EEG nicht aufzufallen, während das Theanin und das Ritual den subjektiven Auftrieb erklären könnten.
 
-![](https://s.coze.cn/image/GP6v9b_VI6w/)
+![](/images/mirrored/f445dd1f73f17d63.jpg)
 
 ## Eine abendliche Teegewohnheit aufbauen, die tatsächlich funktioniert
 

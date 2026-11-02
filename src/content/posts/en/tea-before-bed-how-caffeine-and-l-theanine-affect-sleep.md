@@ -22,7 +22,7 @@ L-theanine is the amino acid that makes tea feel calmer than coffee at the same 
 
 Here is the part most tea articles skip. A standard 200 ml cup of green or black tea delivers only about 8–25 mg of L-theanine. To reach a single 200 mg dose from tea alone you would need eight to twenty-five cups — and with them, several hundred milligrams of caffeine. L-theanine contributes to how tea feels; it is not a sleep aid in the clinical sense.
 
-![](https://s.coze.cn/image/_5Ean_nhLm0/)
+![](/images/mirrored/c0739731802b666d.jpg)
 
 ## Which Teas Are Actually Lower in Caffeine
 
@@ -69,7 +69,7 @@ The fair reading: chamomile may help you fall asleep and stay asleep a little, b
 
 **Matcha** has one small randomized, double-blind, placebo-controlled trial in healthy Japanese adults. Four weeks of daily matcha providing roughly 50 mg of L-theanine and 72 mg of caffeine did not change objective sleep on EEG, yet participants felt more satisfied with their sleep. Read that as a dosing story: 72 mg of caffeine taken earlier in the day is low enough not to register on an EEG, while the theanine and the ritual may explain the subjective lift.
 
-![](https://s.coze.cn/image/GP6v9b_VI6w/)
+![](/images/mirrored/f445dd1f73f17d63.jpg)
 
 ## Building an Evening Tea Habit That Actually Works
 

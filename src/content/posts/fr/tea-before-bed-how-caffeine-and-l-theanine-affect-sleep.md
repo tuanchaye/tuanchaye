@@ -18,7 +18,7 @@ La L-théanine est l'acide aminé qui donne au thé une sensation plus apaisante
 
 Voici la partie que la plupart des articles sur le thé omettent. Une tasse standard de 200 ml de thé vert ou noir ne fournit que environ 8 à 25 mg de L-théanine. Pour atteindre une dose unique de 200 mg uniquement avec du thé, il faudrait boire huit à vingt-cinq tasses — et avec elles, plusieurs centaines de milligrammes de caféine. La L-théanine contribue à la sensation que procure le thé ; ce n'est pas un aide au sommeil au sens clinique.
 
-![](https://s.coze.cn/image/_5Ean_nhLm0/)
+![](/images/mirrored/c0739731802b666d.jpg)
 
 ## Quels thés sont réellement plus pauvres en caféine
 
@@ -65,7 +65,7 @@ La lecture équitable : la camomille peut vous aider à vous endormir et à rest
 
 **Le matcha** a un petit essai randomisé, en double aveugle et contrôlé par placebo chez des adultes japonais en bonne santé. Quatre semaines de matcha quotidien fournissant environ 50 mg de L-théanine et 72 mg de caféine n'ont pas modifié le sommeil objectif à l'EEG, mais les participants se sentaient plus satisfaits de leur sommeil. Interprétez cela comme une histoire de dosage : 72 mg de caféine pris plus tôt dans la journée sont suffisamment faibles pour ne pas apparaître à l'EEG, tandis que la théanine et le rituel peuvent expliquer l'amélioration subjective.
 
-![](https://s.coze.cn/image/GP6v9b_VI6w/)
+![](/images/mirrored/f445dd1f73f17d63.jpg)
 
 ## Construire une habitude de thé du soir qui fonctionne vraiment
 

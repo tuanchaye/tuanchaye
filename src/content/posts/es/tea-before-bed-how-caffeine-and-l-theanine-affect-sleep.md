@@ -18,7 +18,7 @@ La L-teanina es el aminoácido que hace que el té se sienta más relajante que 
 
 Aquí está la parte que la mayoría de los artículos sobre té omiten. Una taza estándar de 200 ml de té verde o negro aporta solo unos 8–25 mg de L-teanina. Para alcanzar una sola dosis de 200 mg solo con té necesitarías entre ocho y veinticinco tazas —y con ellas, varios cientos de miligramos de cafeína. La L-teanina contribuye a cómo se siente el té; no es un auxiliar del sueño en el sentido clínico.
 
-![](https://s.coze.cn/image/_5Ean_nhLm0/)
+![](/images/mirrored/c0739731802b666d.jpg)
 
 ## Qué tés tienen realmente menos cafeína
 
@@ -65,7 +65,7 @@ La lectura justa: la manzanilla puede ayudarte a conciliar el sueño y a mantene
 
 **El matcha** tiene un pequeño ensayo aleatorizado, doble ciego y controlado con placebo en adultos japoneses sanos. Cuatro semanas de matcha diario que aportaban aproximadamente 50 mg de L-teanina y 72 mg de cafeína no cambiaron el sueño objetivo en el EEG, sin embargo los participantes se sintieron más satisfechos con su sueño. Léelo como una historia de dosificación: 72 mg de cafeína tomados más temprano en el día son lo suficientemente bajos como para no registrarse en un EEG, mientras que la teanina y el ritual pueden explicar la mejora subjetiva.
 
-![](https://s.coze.cn/image/GP6v9b_VI6w/)
+![](/images/mirrored/f445dd1f73f17d63.jpg)
 
 ## Construir un hábito de té vespertino que realmente funcione
 

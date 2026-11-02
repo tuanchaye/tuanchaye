@@ -18,7 +18,7 @@ A L-teanina é o aminoácido que faz o chá parecer mais calmante que o café no
 
 Aqui está a parte que a maioria dos artigos sobre chá pula. Uma xícara padrão de 200 ml de chá verde ou preto fornece apenas cerca de 8–25 mg de L-teanina. Para atingir uma única dose de 200 mg apenas com chá, você precisaria de oito a vinte e cinco xícaras — e, com elas, várias centenas de miligramas de cafeína. A L-teanina contribui para a sensação que o chá proporciona; não é um auxiliar do sono no sentido clínico.
 
-![](https://s.coze.cn/image/_5Ean_nhLm0/)
+![](/images/mirrored/c0739731802b666d.jpg)
 
 ## Quais Chás Têm Realmente Menos Cafeína
 
@@ -65,7 +65,7 @@ A leitura justa: a camomila pode ajudar você a adormecer e a permanecer dormind
 
 **Matcha** tem um pequeno ensaio randomizado, duplo-cego e controlado por placebo em adultos japoneses saudáveis. Quatro semanas de matcha diário fornecendo cerca de 50 mg de L-teanina e 72 mg de cafeína não alteraram o sono objetivo no EEG, mas os participantes se sentiram mais satisfeitos com o sono. Leia isso como uma questão de dosagem: 72 mg de cafeína tomados mais cedo no dia são baixos o suficiente para não aparecer no EEG, enquanto a teanina e o ritual podem explicar a melhora subjetiva.
 
-![](https://s.coze.cn/image/GP6v9b_VI6w/)
+![](/images/mirrored/f445dd1f73f17d63.jpg)
 
 ## Construindo um Hábito de Chá Noturno que Realmente Funciona
 
