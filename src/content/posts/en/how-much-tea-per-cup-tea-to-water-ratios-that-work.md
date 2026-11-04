@@ -45,7 +45,7 @@ These shift by lot and by how the leaf was stored, so treat them as starting poi
 
 Grandpa style, for anyone who has not met it, is the Chinese habit of putting leaf straight into a tall mug, adding hot water, and topping up as you drink. No timer, no removal — the leaf stays in and the cup lightens as you go. It is the least fussy method in the table and the one most worth learning if you drink at a desk.
 
-![](https://s.coze.cn/image/d_QFYpE69FQ/)
+![](/images/mirrored/af237a1505990867.jpg)
 
 ## ISO 3103 Is Not a Recipe
 
@@ -91,7 +91,7 @@ The workable range is 8–12 g of leaf per liter of cold water, 6–12 hours in 
 
 Cold water extracts caffeine and catechins slowly but pulls aromatics steadily, so cold brew comes out markedly less bitter than the same leaf brewed hot. It also lands lower on caffeine per milliliter than a hot steep of the same leaf, which matters if you drink it late — our [caffeine in tea](<>) breakdown has the ranges.
 
-![](https://s.coze.cn/image/caGISjT5Yng/)
+![](/images/mirrored/a1117200b87c1b90.jpg)
 
 ## Frequently asked questions
 

@@ -41,7 +41,7 @@ Tableau
 
 Le style grand-père, pour ceux qui ne le connaissent pas, est l'habitude chinoise de mettre les feuilles directement dans une grande tasse, d'ajouter de l'eau chaude et de compléter au fur et à mesure. Pas de minuteur, pas de retrait — les feuilles restent et la tasse s'allège au fil de la dégustation. C'est la méthode la moins compliquée du tableau et celle qui vaut le plus la peine d'être apprise si vous buvez à un bureau.
 
-![](https://s.coze.cn/image/d_QFYpE69FQ/)
+![](/images/mirrored/af237a1505990867.jpg)
 
 ## L'ISO 3103 n'est pas une recette
 
@@ -87,7 +87,7 @@ La plage viable est de 8 à 12 g de feuilles par litre d'eau froide, 6 à 12 heu
 
 L'eau froide extrait lentement la caféine et les catéchines mais tire régulièrement les arômes, de sorte que l'infusion à froid est nettement moins amère que la même feuille infusée à chaud. Elle est aussi plus faible en caféine par millilitre qu'une infusion chaude de la même feuille, ce qui compte si vous en buvez tard — notre [décomposition de la caféine dans le thé](<>) donne les plages.
 
-![](https://s.coze.cn/image/caGISjT5Yng/)
+![](/images/mirrored/a1117200b87c1b90.jpg)
 
 ## Questions fréquentes
 

@@ -41,7 +41,7 @@ Tabela
 
 O estilo avô, para quem não o conhece, é o hábito chinês de colocar as folhas diretamente em uma caneca alta, adicionar água quente e completar enquanto bebe. Sem cronômetro, sem remover — a folha fica e a xícara fica mais leve conforme você bebe. É o método menos complicado da tabela e o que mais vale a pena aprender se você bebe na mesa de trabalho.
 
-![](https://s.coze.cn/image/d_QFYpE69FQ/)
+![](/images/mirrored/af237a1505990867.jpg)
 
 ## ISO 3103 não é uma receita
 
@@ -87,7 +87,7 @@ A faixa viável é de 8–12 g de folhas por litro de água fria, 6–12 horas n
 
 A água fria extrai cafeína e catequinas lentamente, mas puxa os aromáticos de forma constante, então o cold brew sai bem menos amargo que a mesma folha preparada quente. Também fica com menos cafeína por mililitro que uma infusão quente da mesma folha, o que importa se você beber tarde — nossa [análise de cafeína no chá](<>) tem as faixas.
 
-![](https://s.coze.cn/image/caGISjT5Yng/)
+![](/images/mirrored/a1117200b87c1b90.jpg)
 
 ## Perguntas frequentes
 

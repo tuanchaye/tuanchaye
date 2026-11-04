@@ -41,7 +41,7 @@ Tabelle
 
 Der Großvater-Stil, für alle, die ihn noch nicht kennen, ist die chinesische Angewohnheit, das Blatt direkt in eine hohe Tasse zu geben, heißes Wasser aufzugießen und beim Trinken nachzufüllen. Kein Timer, kein Herausnehmen – das Blatt bleibt drin und die Tasse wird mit der Zeit leichter. Es ist die unkomplizierteste Methode in der Tabelle und die, die am meisten lohnt, wenn man am Schreibtisch trinkt.
 
-![](https://s.coze.cn/image/d_QFYpE69FQ/)
+![](/images/mirrored/af237a1505990867.jpg)
 
 ## ISO 3103 ist kein Rezept
 
@@ -87,7 +87,7 @@ Der brauchbare Bereich liegt bei 8–12 g Blatt pro Liter kaltem Wasser, 6–12 
 
 Kaltes Wasser extrahiert Koffein und Catechine langsam, zieht aber Aromastoffe stetig heraus, sodass Kaltaufguss deutlich weniger bitter wird als derselbe Blatt heiß gebrüht. Er liegt auch niedriger beim Koffein pro Milliliter als ein heißer Aufguss desselben Blattes, was wichtig ist, wenn Sie ihn spät trinken – unsere [Koffein im Tee](<>)-Übersicht enthält die Bereiche.
 
-![](https://s.coze.cn/image/caGISjT5Yng/)
+![](/images/mirrored/a1117200b87c1b90.jpg)
 
 ## Häufig gestellte Fragen
 

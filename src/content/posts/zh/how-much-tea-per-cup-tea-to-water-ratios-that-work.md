@@ -41,7 +41,7 @@ cover: "/images/uploads/cover-tea-to-water-ratio.jpg"
 
 爷爷泡法，给没接触过的人解释一下，就是中国人把茶叶直接放进高马克杯，加热水，边喝边续水的习惯。没有计时器，不取出茶叶——叶子留在杯里，越喝越淡。这是表中最省事的方法，如果你在办公桌前喝茶，最值得学习。
 
-![](https://s.coze.cn/image/d_QFYpE69FQ/)
+![](/images/mirrored/af237a1505990867.jpg)
 
 ## ISO 3103不是配方
 
@@ -87,7 +87,7 @@ cover: "/images/uploads/cover-tea-to-water-ratio.jpg"
 
 冷水缓慢提取咖啡因和儿茶素，但稳定地提取芳香物质，所以冷泡比同样茶叶热泡明显更不苦涩。每毫升咖啡因含量也低于同样茶叶的热泡，如果你晚上喝，这很重要——我们的[茶中咖啡因](<>)分解有范围。
 
-![](https://s.coze.cn/image/caGISjT5Yng/)
+![](/images/mirrored/a1117200b87c1b90.jpg)
 
 ## 常见问题
 

@@ -41,7 +41,7 @@ Tabla
 
 El estilo abuelo, para quien no lo conozca, es la costumbre china de poner la hoja directamente en una taza alta, añadir agua caliente y rellenar a medida que bebes. Sin temporizador, sin retirar la hoja: la hoja se queda y la taza se va aclarando. Es el método menos complicado de la tabla y el que más vale la pena aprender si bebes en un escritorio.
 
-![](https://s.coze.cn/image/d_QFYpE69FQ/)
+![](/images/mirrored/af237a1505990867.jpg)
 
 ## La ISO 3103 no es una receta
 
@@ -87,7 +87,7 @@ El rango viable es de 8–12 g de hoja por litro de agua fría, de 6 a 12 horas 
 
 El agua fría extrae la cafeína y las catequinas lentamente pero arrastra los aromáticos de forma constante, por lo que el cold brew sale notablemente menos amargo que la misma hoja preparada en caliente. También tiene menos cafeína por mililitro que una infusión caliente de la misma hoja, lo que importa si lo bebes tarde; nuestro [desglose de la cafeína en el té](<>) tiene los rangos.
 
-![](https://s.coze.cn/image/caGISjT5Yng/)
+![](/images/mirrored/a1117200b87c1b90.jpg)
 
 ## Preguntas frecuentes
 
