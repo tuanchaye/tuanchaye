@@ -69,7 +69,7 @@ Las mismas cinco herramientas, reorganizadas, dan diferentes bebidas. La fijaci�
 
 El té amarillo usa la fijación dos veces. La hoja se somete a kill-green, luego, mientras aún está caliente y húmeda, se envuelve o se apila y se deja reposar —el paso llamado *men huang*, amarilleo sellado—. Como las enzimas ya están muertas, esto no es oxidación, y como no hay fermentación microbiana en montón, tampoco es fermentación. Es una transformación no enzimática por calor húmedo: la clorofila se degrada en feofitina y la hoja se vuelve dorada, las catequinas se reestructuran, los aminoácidos se desplazan hacia el lado dulce. El resultado sabe como un té verde al que se le ha quitado su aspereza.
 
-![](https://s.coze.cn/image/gyPtEHBfaqo/)
+![](/images/mirrored/e6b3a8a3a6da9e27.jpg)
 
 ## Etapa 5: Secado — fijarlo todo
 

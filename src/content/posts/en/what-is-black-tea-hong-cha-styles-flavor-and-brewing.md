@@ -28,7 +28,7 @@ During oxidation, polyphenol oxidase converts catechins into theaflavins, which 
 
 "Fully oxidized" is the textbook description, but the range is wide. Most Assam and Ceylon is taken close to completion; many Darjeelings are deliberately stopped short, which is why a first flush can look olive-green and taste closer to an oolong than to a breakfast blend.
 
-![](https://s.coze.cn/image/StzqhUydKEo/)
+![](/images/mirrored/28e5adc54ced4598.jpg)
 
 ## The Styles Worth Knowing
 
@@ -57,7 +57,7 @@ A note on blends: English Breakfast is a blend, not a style; Earl Grey is bergam
 
 Harvest timing changes the cup. In a 2023 study of Yinghong No. 9, a large-leaf cultivar from southern China, spring leaf carried fewer astringent catechins and more amino acids — especially glutamic acid, which reads as sweetness — than summer leaf, and scored higher for taste and liquor color. That is one cultivar, so treat it as a pattern, not a law: spring picks tend to be smoother, summer picks bolder — which is why summer leaf often ends up in blends bound for milk.
 
-![](https://s.coze.cn/image/YAivQZ6IsfM/)
+![](/images/mirrored/ce92d2008b0eb732.jpg)
 
 ## Brewing by Leaf Style
 

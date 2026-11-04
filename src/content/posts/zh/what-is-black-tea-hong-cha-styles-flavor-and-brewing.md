@@ -24,7 +24,7 @@ cover: "/images/uploads/cover-black-tea-styles.jpg"
 
 “完全氧化”是教科书上的描述，但范围很广。大多数阿萨姆和锡兰红茶接近完全氧化；许多大吉岭则有意提前停止，这就是为什么头采茶可能呈橄榄绿色，尝起来更接近乌龙茶而非早餐拼配茶。
 
-![](https://s.coze.cn/image/StzqhUydKEo/)
+![](/images/mirrored/28e5adc54ced4598.jpg)
 
 ## 值得了解的经典风格
 
@@ -53,7 +53,7 @@ cover: "/images/uploads/cover-black-tea-styles.jpg"
 
 采摘时间会改变茶汤。在2023年一项关于英红九号（中国南方的大叶品种）的研究中，春茶比夏茶含有更少的涩味儿茶素和更多的氨基酸——尤其是谷氨酸，它呈现甜味——并且在滋味和汤色上得分更高。那只是一个品种，所以应将其视为一种模式，而非定律：春采往往更顺滑，夏采更浓烈——这就是为什么夏茶常被用于面向加奶饮用的拼配茶中。
 
-![](https://s.coze.cn/image/YAivQZ6IsfM/)
+![](/images/mirrored/ce92d2008b0eb732.jpg)
 
 ## 按茶叶风格冲泡
 

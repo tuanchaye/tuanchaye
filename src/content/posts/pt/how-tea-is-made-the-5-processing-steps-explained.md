@@ -67,7 +67,7 @@ As mesmas cinco ferramentas, reorganizadas, dão bebidas diferentes. A fixação
 
 O chá amarelo usa a fixação duas vezes. A folha é kill-greened, então, enquanto ainda quente e úmida, é embrulhada ou empilhada e deixada descansar — a etapa chamada *men huang*, amarelecimento selado. Como as enzimas já estão mortas, isso não é oxidação, e como nenhuma pilha microbiana está envolvida, também não é fermentação. É uma transformação não enzimática por calor úmido: a clorofila se degrada em feofitina e a folha fica dourada, as catequinas se reestruturam, os aminoácidos se deslocam para o lado doce. O resultado tem gosto de um chá verde que foi convencido a abandonar sua acidez.
 
-![](https://s.coze.cn/image/gyPtEHBfaqo/)
+![](/images/mirrored/e6b3a8a3a6da9e27.jpg)
 
 ## Estágio 5: Secagem — Selando Tudo
 

@@ -24,7 +24,7 @@ Pendant l'oxydation, la polyphénol oxydase convertit les catéchines en théafl
 
 « Entièrement oxydé » est la description classique, mais la fourchette est large. La plupart des Assam et Ceylan sont menés presque à terme ; de nombreux Darjeeling sont délibérément arrêtés plus tôt, ce qui explique pourquoi un first flush peut paraître vert olive et avoir un goût plus proche d'un oolong que d'un mélange petit-déjeuner.
 
-![](https://s.coze.cn/image/StzqhUydKEo/)
+![](/images/mirrored/28e5adc54ced4598.jpg)
 
 ## Les styles à connaître
 
@@ -53,7 +53,7 @@ Une note sur les mélanges : l'English Breakfast est un mélange, pas un style ;
 
 Le moment de la récolte change la tasse. Dans une étude de 2023 sur le Yinghong No. 9, un cultivar à grandes feuilles du sud de la Chine, la feuille de printemps contenait moins de catéchines astringentes et plus d'acides aminés — en particulier l'acide glutamique, qui se traduit par de la douceur — que la feuille d'été, et obtenait de meilleurs scores pour le goût et la couleur de la liqueur. Il s'agit d'un seul cultivar, donc à traiter comme une tendance, pas une loi : les cueillettes de printemps ont tendance à être plus douces, celles d'été plus corsées — c'est pourquoi la feuille d'été finit souvent dans des mélanges destinés au lait.
 
-![](https://s.coze.cn/image/YAivQZ6IsfM/)
+![](/images/mirrored/ce92d2008b0eb732.jpg)
 
 ## Infusion selon le style de feuille
 

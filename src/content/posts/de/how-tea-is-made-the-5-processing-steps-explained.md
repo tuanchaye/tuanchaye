@@ -69,7 +69,7 @@ Dieselben fünf Werkzeuge, neu angeordnet, ergeben verschiedene Getränke. Die F
 
 Gelber Tee verwendet die Fixierung zweimal. Das Blatt wird kill-gegreent, dann, während es noch warm und feucht ist, gewickelt oder aufgehäuft und liegen gelassen – der Schritt namens *men huang*, versiegeltes Gelbwerden. Da die Enzyme bereits tot sind, ist dies keine Oxidation, und da kein mikrobieller Haufen beteiligt ist, ist es auch keine Fermentation. Es ist eine nasse Hitze, eine nicht-enzymatische Umwandlung: Chlorophyll zerfällt zu Phäophytin und das Blatt wird goldgelb, Catechine strukturieren sich um, Aminosäuren verschieben sich zum süßen Ende. Das Ergebnis schmeckt wie ein grüner Tee, dem man seine Schärfe ausgeredet hat.
 
-![](https://s.coze.cn/image/gyPtEHBfaqo/)
+![](/images/mirrored/e6b3a8a3a6da9e27.jpg)
 
 ## Stufe 5: Trocknen – Alles festhalten
 

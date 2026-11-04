@@ -24,7 +24,7 @@ Durante a oxidação, a polifenol oxidase converte catequinas em teaflavinas, qu
 
 "Totalmente oxidado" é a descrição teórica, mas a variação é ampla. A maioria dos Assam e Ceylon é levada quase até o final; muitos Darjeelings são deliberadamente interrompidos antes, e é por isso que um first flush pode parecer verde-oliva e ter sabor mais próximo de um oolong do que de um blend de café da manhã.
 
-![](https://s.coze.cn/image/StzqhUydKEo/)
+![](/images/mirrored/28e5adc54ced4598.jpg)
 
 ## Os estilos que vale a pena conhecer
 
@@ -53,7 +53,7 @@ Uma nota sobre blends: English Breakfast é um blend, não um estilo; Earl Grey 
 
 O momento da colheita muda a xícara. Em um estudo de 2023 sobre Yinghong No. 9, uma cultivar de folha grande do sul da China, a folha de primavera continha menos catequinas adstringentes e mais aminoácidos — especialmente ácido glutâmico, que é percebido como doçura — do que a folha de verão, e obteve pontuações mais altas para sabor e cor do líquido. Isso é uma cultivar, então trate como um padrão, não uma lei: colheitas de primavera tendem a ser mais suaves, colheitas de verão mais intensas — e é por isso que a folha de verão frequentemente acaba em blends destinados ao leite.
 
-![](https://s.coze.cn/image/YAivQZ6IsfM/)
+![](/images/mirrored/ce92d2008b0eb732.jpg)
 
 ## Preparo por estilo de folha
 

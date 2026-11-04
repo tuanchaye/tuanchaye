@@ -69,7 +69,7 @@ cover: "/images/uploads/cover-how-tea-is-made-journey.jpg"
 
 黄茶两次使用杀青。叶子先杀青，然后在仍然温热潮湿时包裹或堆积放置——这一步称为*闷黄*，密封闷黄。因为酶已经死亡，这不是氧化，因为没有微生物堆积参与，也不是发酵。这是一种湿热、非酶促的转化：叶绿素降解为脱镁叶绿素，叶子变成金色，儿茶素重组，氨基酸向甜味端移动。结果尝起来像绿茶被说服去掉了它的尖锐感。
 
-![](https://s.coze.cn/image/gyPtEHBfaqo/)
+![](/images/mirrored/e6b3a8a3a6da9e27.jpg)
 
 ## 阶段5：干燥——锁定
 

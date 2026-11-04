@@ -69,7 +69,7 @@ Les mêmes cinq outils, réarrangés, donnent des boissons différentes. La fixa
 
 Le thé jaune utilise la fixation deux fois. La feuille est fixée, puis, encore chaude et humide, elle est enveloppée ou mise en tas et laissée à reposer — l'étape appelée *men huang*, jaunissement scellé. Comme les enzymes sont déjà mortes, ce n'est pas une oxydation, et comme aucun tas microbien n'est impliqué, ce n'est pas non plus une fermentation. C'est une transformation par chaleur humide, non enzymatique : la chlorophylle se dégrade en phéophytine et la feuille devient dorée, les catéchines se restructurent, les acides aminés évoluent vers le sucré. Le résultat a le goût d'un thé vert à qui on aurait fait perdre son âpreté.
 
-![](https://s.coze.cn/image/gyPtEHBfaqo/)
+![](/images/mirrored/e6b3a8a3a6da9e27.jpg)
 
 ## Étape 5 : Le séchage — verrouiller le tout
 

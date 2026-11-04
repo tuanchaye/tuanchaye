@@ -73,7 +73,7 @@ The same five tools, rearranged, give different drinks. Fixation is the switch.
 
 Yellow tea uses fixation twice over. The leaf is kill-greened, then while still warm and moist it is wrapped or piled and left to sit — the step called *men huang*, sealed yellowing. Because the enzymes are already dead this is not oxidation, and because no microbial pile is involved it is not fermentation either. It is a wet-heat, non-enzymatic transformation: chlorophyll degrades into pheophytin and the leaf turns gold, catechins restructure, amino acids shift toward the sweet end. The result tastes like a green tea that has been talked out of its sharpness.
 
-![](https://s.coze.cn/image/gyPtEHBfaqo/)
+![](/images/mirrored/e6b3a8a3a6da9e27.jpg)
 
 ## Stage 5: Drying — Locking It In
 

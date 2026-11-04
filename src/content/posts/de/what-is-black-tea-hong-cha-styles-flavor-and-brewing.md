@@ -24,7 +24,7 @@ Während der Oxidation wandelt Polyphenoloxidase Catechine in Theaflavine um, di
 
 „Vollständig oxidiert“ ist die Lehrbuchbeschreibung, aber die Bandbreite ist groß. Die meisten Assam- und Ceylon-Tees werden nahezu vollständig oxidiert; viele Darjeelings werden bewusst früher gestoppt, weshalb ein First Flush olivgrün aussehen und eher wie ein Oolong als wie eine Breakfast-Mischung schmecken kann.
 
-![](https://s.coze.cn/image/StzqhUydKEo/)
+![](/images/mirrored/28e5adc54ced4598.jpg)
 
 ## Die Stile, die man kennen sollte
 
@@ -53,7 +53,7 @@ Eine Anmerkung zu Mischungen: English Breakfast ist eine Mischung, kein Stil; Ea
 
 Der Erntezeitpunkt verändert die Tasse. In einer Studie aus dem Jahr 2023 über Yinghong Nr. 9, eine großblättrige Sorte aus Südchina, enthielt Frühlingsblatt weniger adstringierende Catechine und mehr Aminosäuren – insbesondere Glutaminsäure, die als Süße wahrgenommen wird – als Sommerblatt und erzielte höhere Bewertungen für Geschmack und Farbe des Aufgusses. Das ist eine Sorte, also betrachten Sie es als Muster, nicht als Gesetz: Frühlingspflückungen sind tendenziell weicher, Sommerpflückungen kräftiger – weshalb Sommerblatt oft in Mischungen für Milch landet.
 
-![](https://s.coze.cn/image/YAivQZ6IsfM/)
+![](/images/mirrored/ce92d2008b0eb732.jpg)
 
 ## Zubereitung nach Blattstil
 

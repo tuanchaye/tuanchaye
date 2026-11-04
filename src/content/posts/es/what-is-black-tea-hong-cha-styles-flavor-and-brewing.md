@@ -24,7 +24,7 @@ Durante la oxidación, la polifenol oxidasa convierte las catequinas en teaflavi
 
 "Completamente oxidado" es la descripción de libro de texto, pero el rango es amplio. La mayor parte del Assam y Ceylán se lleva cerca de la completación; muchos Darjeeling se detienen deliberadamente antes, por lo que un first flush puede verse verde oliva y saber más a oolong que a una mezcla para el desayuno.
 
-![](https://s.coze.cn/image/StzqhUydKEo/)
+![](/images/mirrored/28e5adc54ced4598.jpg)
 
 ## Los estilos que vale la pena conocer
 
@@ -53,7 +53,7 @@ Una nota sobre las mezclas: English Breakfast es una mezcla, no un estilo; Earl 
 
 El momento de la cosecha cambia la taza. En un estudio de 2023 sobre Yinghong No. 9, un cultivar de hoja grande del sur de China, la hoja de primavera contenía menos catequinas astringentes y más aminoácidos — especialmente ácido glutámico, que se percibe como dulzura — que la hoja de verano, y obtuvo puntuaciones más altas en sabor y color del licor. Eso es un cultivar, así que trátalo como un patrón, no como una ley: las cosechas de primavera tienden a ser más suaves, las de verano más audaces — por eso la hoja de verano a menudo termina en mezclas destinadas a la leche.
 
-![](https://s.coze.cn/image/YAivQZ6IsfM/)
+![](/images/mirrored/ce92d2008b0eb732.jpg)
 
 ## Preparación según el estilo de hoja
 
