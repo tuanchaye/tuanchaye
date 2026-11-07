@@ -33,7 +33,7 @@ What a cup actually contains ([full breakdown by tea type](<>)):
 | Herbal infusion        | 0 mg     |
 | Drip coffee, for scale | ~95 mg   |
 
-![](https://s.coze.cn/image/yGEIjPvo4qA/)
+![](/images/mirrored/ded86e20f514937b.jpg)
 
 **The mug trap.** The NHS puts a cup of tea at about 75 mg; the USDA figure for 8 oz is 47 mg. Both are right: a British mug holds closer to 350 ml and is usually brewed strong, a US cup is 237 ml. If you drink out of a big mug, count it as two — the most common way women overshoot 200 mg.
 
@@ -61,7 +61,7 @@ The practical conclusion is unglamorous: keep green tea moderate, and take your 
 
 "Herbal" means "not from *Camellia sinensis*" — [a distinction worth understanding](<>). It does not mean "studied in pregnancy." Most herbs in infusions have never been tested in pregnant women, which is why the NHS caps herbal tea at four cups a day and advises against anything containing licorice root.
 
-![](https://s.coze.cn/image/MfbcI7FwseU/)
+![](/images/mirrored/bc2aa9932f292aac.jpg)
 
 Licorice is the one clear prohibition. Licorice root contains glycyrrhizin, and high intakes have been linked to harm to the baby's development — enough that the NHS lists licorice-root tea as a drink to avoid, not limit. Licorice sweets are fine in normal amounts; licorice *root* tea is not.
 

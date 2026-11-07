@@ -29,7 +29,7 @@ Was eine Tasse tatsächlich enthält ([vollständige Aufschlüsselung nach Teeso
 | Kräuteraufguss | 0 mg |
 | Filterkaffee, zum Vergleich | ~95 mg |
 
-![](https://s.coze.cn/image/yGEIjPvo4qA/)
+![](/images/mirrored/ded86e20f514937b.jpg)
 
 **Die Becherfalle.** Der NHS geht bei einer Tasse Tee von etwa 75 mg aus; der USDA-Wert für 8 oz sind 47 mg. Beide haben recht: Ein britischer Becher fasst eher 350 ml und wird normalerweise stark aufgebrüht, eine US-Tasse sind 237 ml. Wenn Sie aus einem großen Becher trinken, zählen Sie ihn als zwei – das ist der häufigste Weg, wie Frauen 200 mg überschreiten.
 
@@ -57,7 +57,7 @@ Die praktische Schlussfolgerung ist unspektakulär: Halten Sie grünen Tee moder
 
 „Kräuter“ bedeutet „nicht von *Camellia sinensis*“ – [eine Unterscheidung, die es zu verstehen lohnt](<>). Es bedeutet nicht „in der Schwangerschaft untersucht“. Die meisten Kräuter in Aufgüssen wurden nie an schwangeren Frauen getestet, weshalb der NHS Kräutertee auf vier Tassen pro Tag begrenzt und von allem mit Süßholzwurzel abrät.
 
-![](https://s.coze.cn/image/MfbcI7FwseU/)
+![](/images/mirrored/bc2aa9932f292aac.jpg)
 
 Süßholz ist das eine klare Verbot. Süßholzwurzel enthält Glycyrrhizin, und eine hohe Aufnahme wurde mit Schäden für die Entwicklung des Babys in Verbindung gebracht – so sehr, dass der NHS Süßholzwurzeltee als Getränk auflistet, das gemieden werden sollte, nicht nur eingeschränkt. Süßholzsüßigkeiten sind in normalen Mengen in Ordnung; Süßholzwurzeltee nicht.
 

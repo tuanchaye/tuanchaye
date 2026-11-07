@@ -29,7 +29,7 @@ Ce que contient réellement une tasse ([détail complet par type de thé](<>)) :
 | Infusion de plantes | 0 mg |
 | Café filtre, pour comparaison | ~95 mg |
 
-![](https://s.coze.cn/image/yGEIjPvo4qA/)
+![](/images/mirrored/ded86e20f514937b.jpg)
 
 **Le piège de la tasse.** Le NHS estime une tasse de thé à environ 75 mg ; le chiffre de l'USDA pour 8 oz est de 47 mg. Les deux sont justes : une tasse britannique contient plutôt 350 ml et est généralement infusée fort, une tasse américaine fait 237 ml. Si vous buvez dans une grande tasse, comptez-la pour deux — c'est la façon la plus courante de dépasser les 200 mg.
 
@@ -57,7 +57,7 @@ La conclusion pratique est peu glamour : gardez le thé vert modéré et prenez 
 
 « Herbal » signifie « qui ne provient pas de *Camellia sinensis* » — [une distinction qui vaut la peine d'être comprise](<>). Cela ne signifie pas « étudié pendant la grossesse ». La plupart des plantes utilisées en infusion n'ont jamais été testées chez la femme enceinte, c'est pourquoi le NHS limite les tisanes à quatre tasses par jour et déconseille tout ce qui contient de la racine de réglisse.
 
-![](https://s.coze.cn/image/MfbcI7FwseU/)
+![](/images/mirrored/bc2aa9932f292aac.jpg)
 
 La réglisse est la seule interdiction claire. La racine de réglisse contient de la glycyrrhizine, et des apports élevés ont été associés à des dommages au développement du bébé — assez pour que le NHS classe la tisane de racine de réglisse parmi les boissons à éviter, et non à limiter. Les bonbons à la réglisse sont sans danger en quantités normales ; la tisane de *racine* de réglisse ne l'est pas.
 

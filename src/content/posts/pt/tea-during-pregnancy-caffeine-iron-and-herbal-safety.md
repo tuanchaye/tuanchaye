@@ -29,7 +29,7 @@ O que uma xícara realmente contém ([detalhamento completo por tipo de chá](<>
 | Infusão de ervas       | 0 mg     |
 | Café coado, para comparação | ~95 mg |
 
-![](https://s.coze.cn/image/yGEIjPvo4qA/)
+![](/images/mirrored/ded86e20f514937b.jpg)
 
 **A armadilha da caneca.** O NHS considera uma xícara de chá com cerca de 75 mg; o valor do USDA para 240 ml é de 47 mg. Ambos estão corretos: uma caneca britânica comporta mais perto de 350 ml e geralmente é preparada forte, uma xícara americana tem 240 ml. Se você bebe em uma caneca grande, conte como duas — a maneira mais comum de as mulheres ultrapassarem os 200 mg.
 
@@ -57,7 +57,7 @@ A conclusão prática é sem glamour: mantenha o chá verde moderado e tome seu 
 
 "Erva" significa "não proveniente de *Camellia sinensis*" — [uma distinção que vale a pena entender](<>). Não significa "estudado na gravidez". A maioria das ervas em infusões nunca foi testada em gestantes, razão pela qual o NHS limita o chá de ervas a quatro xícaras por dia e aconselha contra qualquer coisa contendo raiz de alcaçuz.
 
-![](https://s.coze.cn/image/MfbcI7FwseU/)
+![](/images/mirrored/bc2aa9932f292aac.jpg)
 
 O alcaçuz é a única proibição clara. A raiz de alcaçuz contém glicirrizina, e altas ingestões têm sido associadas a danos ao desenvolvimento do bebê — o suficiente para o NHS listar o chá de raiz de alcaçuz como uma bebida a evitar, não limitar. Doces de alcaçuz são seguros em quantidades normais; chá de *raiz* de alcaçuz não é.
 

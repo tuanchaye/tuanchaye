@@ -29,7 +29,7 @@ Lo que contiene realmente una taza ([desglose completo por tipo de té](<>)):
 | Infusión de hierbas | 0 mg |
 | Café de filtro, para comparar | ~95 mg |
 
-![](https://s.coze.cn/image/yGEIjPvo4qA/)
+![](/images/mirrored/ded86e20f514937b.jpg)
 
 **La trampa de la taza grande.** El NHS calcula que una taza de té contiene unos 75 mg; la cifra del USDA para 8 oz es de 47 mg. Ambas son correctas: una taza británica contiene más bien 350 ml y suele prepararse fuerte, mientras que una taza estadounidense es de 237 ml. Si bebes en una taza grande, cuéntala como dos: es la forma más común en que las mujeres superan los 200 mg.
 
@@ -57,7 +57,7 @@ La conclusión práctica es poco glamurosa: mantén el té verde moderado y toma
 
 "De hierbas" significa "no procede de *Camellia sinensis*" — [una distinción que vale la pena entender](<>). No significa "estudiado en el embarazo". La mayoría de las hierbas en infusiones nunca se han probado en mujeres embarazadas, por lo que el NHS limita el té de hierbas a cuatro tazas al día y desaconseja cualquier cosa que contenga raíz de regaliz.
 
-![](https://s.coze.cn/image/MfbcI7FwseU/)
+![](/images/mirrored/bc2aa9932f292aac.jpg)
 
 El regaliz es la única prohibición clara. La raíz de regaliz contiene glicirricina, y las ingestas altas se han relacionado con daños al desarrollo del bebé — tanto que el NHS incluye el té de raíz de regaliz como una bebida a evitar, no limitar. Los dulces de regaliz están bien en cantidades normales; el té de *raíz* de regaliz no.
 
