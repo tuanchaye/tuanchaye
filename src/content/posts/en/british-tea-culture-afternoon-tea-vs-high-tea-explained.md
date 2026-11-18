@@ -71,7 +71,7 @@ High tea was the evening meal of people who had worked all day, eaten between fi
 
 It was not dainty and not aspirational. It was dinner. The National Food Survey, which has tracked what British households buy since 1940, records "ham salad for high tea on Sundays" as an ordinary 1950s family staple — a century after the meal's Victorian peak.
 
-![](https://s.coze.cn/image/ZfRQyymQcrk/)
+![](/images/mirrored/131086e3d716ce37.jpg)
 
 The usage survives. In much of northern England and Scotland, "tea" still means the evening meal, so "tea time" is dinner time. A visitor invited to tea in Manchester should not expect a three-tier stand.
 
