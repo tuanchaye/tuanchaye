@@ -19,13 +19,13 @@ The second decision is shade. About three weeks before harvest, growers cover th
 
 Shading raises caffeine as well. A 2022 transcriptome study on matcha-destined plants found that 85% and 95% shade both increased theanine and caffeine while decreasing epicatechin and epigallocatechin. This is the fact most tea charts leave out, and it matters later.
 
-![](https://s.coze.cn/image/xkkt5zNZ3GM/)
+![](/images/mirrored/89382685b9e1efcf.jpg)
 
 ## Sencha: The Everyday Leaf
 
 Sencha is grown in full sun and is the largest single category of Japanese tea by volume, the tea most Japanese households actually drink. The dry leaf is a bright green needle. Brewed well it is grassy and clean with a light astringency that fades quickly.
 
-![](https://s.coze.cn/image/PKsgWCou8Do/)
+![](/images/mirrored/84a94238ea34c2ce.jpg)
 
 Sencha is also the tea most often ruined. Water at a rolling boil pulls out catechins and caffeine fast and turns sencha harsh and bitter. Aim for 70 to 80 °C: boil the water, pour it into your cups first, let it sit a minute, then pour it over the leaf. The mechanics of that cooling step are worth learning properly — see [water temperature for tea](<>).
 

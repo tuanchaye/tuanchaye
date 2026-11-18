@@ -16,13 +16,13 @@ La segunda decisión es la sombra. Unas tres semanas antes de la cosecha, los cu
 
 La sombra también eleva la cafeína. Un estudio de transcriptoma de 2022 sobre plantas destinadas a matcha encontró que tanto el 85% como el 95% de sombra aumentaban la teanina y la cafeína mientras disminuían la epicatequina y la epigalocatequina. Este es el dato que la mayoría de las tablas de té omiten, y es importante más adelante.
 
-![](https://s.coze.cn/image/xkkt5zNZ3GM/)
+![](/images/mirrored/89382685b9e1efcf.jpg)
 
 ## Sencha: la hoja de cada día
 
 El sencha se cultiva a pleno sol y es la categoría individual más grande de té japonés por volumen, el té que la mayoría de los hogares japoneses realmente bebe. La hoja seca es una aguja de color verde brillante. Bien preparado es herbáceo y limpio con una ligera astringencia que se desvanece rápidamente.
 
-![](https://s.coze.cn/image/PKsgWCou8Do/)
+![](/images/mirrored/84a94238ea34c2ce.jpg)
 
 El sencha es también el té que más a menudo se arruina. El agua a ebullición viva extrae catequinas y cafeína rápidamente y vuelve el sencha áspero y amargo. Apunta a 70-80 °C: hierve el agua, viértela primero en tus tazas, déjala reposar un minuto y luego viértela sobre la hoja. Vale la pena aprender bien la mecánica de ese paso de enfriamiento — consulta [temperatura del agua para el té](<>).
 

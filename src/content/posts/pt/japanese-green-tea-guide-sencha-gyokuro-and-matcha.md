@@ -16,13 +16,13 @@ A segunda decisão é a sombra. Cerca de três semanas antes da colheita, os pro
 
 A sombra também eleva a cafeína. Um estudo de transcriptoma de 2022 com plantas destinadas ao matcha descobriu que 85% e 95% de sombreamento aumentaram tanto a teanina quanto a cafeína, enquanto diminuíram a epicatequina e a epigalocatequina. Este é o fato que a maioria das tabelas de chá omite, e isso importa mais adiante.
 
-![](https://s.coze.cn/image/xkkt5zNZ3GM/)
+![](/images/mirrored/89382685b9e1efcf.jpg)
 
 ## Sencha: A Folha do Dia a Dia
 
 O sencha é cultivado a pleno sol e é a maior categoria individual de chá japonês em volume, o chá que a maioria das famílias japonesas realmente bebe. A folha seca é uma agulha verde brilhante. Bem preparado, é gramíneo e limpo, com uma leve adstringência que desaparece rapidamente.
 
-![](https://s.coze.cn/image/PKsgWCou8Do/)
+![](/images/mirrored/84a94238ea34c2ce.jpg)
 
 O sencha também é o chá mais frequentemente arruinado. Água em ebulição forte extrai catequinas e cafeína rapidamente e torna o sencha áspero e amargo. Mire em 70 a 80 °C: ferva a água, despeje primeiro nas xícaras, deixe descansar um minuto e então despeje sobre a folha. Vale a pena aprender corretamente a mecânica desse passo de resfriamento — veja [temperatura da água para chá](<>).
 

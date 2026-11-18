@@ -16,13 +16,13 @@ La deuxième décision est l'ombre. Environ trois semaines avant la récolte, le
 
 L'ombrage augmente aussi la caféine. Une étude transcriptomique de 2022 sur des plantes destinées au matcha a montré que 85 % et 95 % d'ombre augmentaient à la fois la théanine et la caféine tout en diminuant l'épicatéchine et l'épigallocatéchine. C'est le fait que la plupart des tableaux sur le thé omettent, et cela compte pour la suite.
 
-![](https://s.coze.cn/image/xkkt5zNZ3GM/)
+![](/images/mirrored/89382685b9e1efcf.jpg)
 
 ## Sencha : la feuille du quotidien
 
 Le sencha est cultivé en plein soleil et constitue la plus grande catégorie de thé japonais en volume, le thé que la plupart des foyers japonais boivent réellement. La feuille sèche est une aiguille vert vif. Bien infusé, il est herbacé et net avec une légère astringence qui s'estompe rapidement.
 
-![](https://s.coze.cn/image/PKsgWCou8Do/)
+![](/images/mirrored/84a94238ea34c2ce.jpg)
 
 Le sencha est aussi le thé le plus souvent gâché. Une eau à ébullition franche extrait rapidement les catéchines et la caféine et rend le sencha âpre et amer. Visez 70 à 80 °C : faites bouillir l'eau, versez-la d'abord dans vos tasses, laissez reposer une minute, puis versez-la sur la feuille. Les mécanismes de cette étape de refroidissement méritent d'être appris correctement — voir [température de l'eau pour le thé](<>).
 

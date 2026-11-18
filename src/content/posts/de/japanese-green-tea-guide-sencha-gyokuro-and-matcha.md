@@ -16,13 +16,13 @@ Die zweite Entscheidung ist der Schatten. Etwa drei Wochen vor der Ernte bedecke
 
 Beschattung erhöht auch den Koffeingehalt. Eine Transkriptom-Studie aus dem Jahr 2022 an für Matcha bestimmten Pflanzen ergab, dass sowohl 85% als auch 95% Beschattung den Theanin- und Koffeingehalt erhöhten, während Epicatechin und Epigallocatechin abnahmen. Dies ist die Tatsache, die die meisten Teediagramme auslassen, und sie ist später wichtig.
 
-![](https://s.coze.cn/image/xkkt5zNZ3GM/)
+![](/images/mirrored/89382685b9e1efcf.jpg)
 
 ## Sencha: Das Alltagsblatt
 
 Sencha wächst in voller Sonne und ist die größte einzelne Kategorie japanischen Tees nach Volumen, der Tee, den die meisten japanischen Haushalte tatsächlich trinken. Das trockene Blatt ist eine leuchtend grüne Nadel. Gut aufgebrüht ist er grasig und sauber mit einer leichten Adstringenz, die schnell verblasst.
 
-![](https://s.coze.cn/image/PKsgWCou8Do/)
+![](/images/mirrored/84a94238ea34c2ce.jpg)
 
 Sencha ist auch der Tee, der am häufigsten verdorben wird. Wasser mit sprudelndem Kochen löst Catechine und Koffein schnell heraus und macht Sencha hart und bitter. Streben Sie 70 bis 80 °C an: Wasser kochen, zuerst in die Tassen gießen, eine Minute stehen lassen, dann über das Blatt gießen. Die Mechanik dieses Abkühlschritts lohnt sich richtig zu lernen – siehe [Wassertemperatur für Tee](<>).
 
