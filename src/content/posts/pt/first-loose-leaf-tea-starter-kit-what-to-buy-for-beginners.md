@@ -39,7 +39,7 @@ Cinquenta gramas equivalem a aproximadamente quinze a vinte canecas na dose de t
 
 **Deixe estes para depois.** Chá branco é caro, delicado e fácil de infundir demais enquanto você ainda está aprendendo. Pu-erh é comprimido, muitas vezes um gosto adquirido, e precisa de uma abordagem de preparo diferente. Misturas aromatizadas e defumadas escondem a folha, o que frustra o propósito de comprar folha. Matcha precisa de um batedor e de uma técnica própria. Lotes premium de origem única são dinheiro desperdiçado antes que seu paladar tenha algo para compará-los.
 
-![](https://s.coze.cn/image/IS7A7mMxX4w/)
+![](/images/mirrored/988043d2331b387e.jpg)
 
 ## O Recipiente: Espaço Importa Mais Que Material
 

@@ -81,7 +81,7 @@ cover: "/images/uploads/e7237e4db7e84d789cf411b7e1cb1e7b~tplv-jv50ctfexx-compres
 
 **焙茶、玄米茶、番茶** —— 两者皆可。烘焙的、茎多的茶很难泡坏，而且很适合在冰上冲泡浓茶。
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## 加甜和收尾
 

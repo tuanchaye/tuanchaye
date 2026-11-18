@@ -55,7 +55,7 @@ cover: "/images/uploads/da56ec652f764109b957a18074051964~tplv-jv50ctfexx-compres
 | 中层 | 司康饼配凝脂奶油和果酱                                                       |
 | 顶层    | 小糕点和蛋糕                                                                |
 
-![](https://s.coze.cn/image/e_Yit7S4CVc/)
+![](/images/mirrored/a867cae1d0d72911.jpg)
 
 奶油茶是简化版：司康饼、凝脂奶油、果酱和茶，与德文郡和康沃尔郡相关。它还承载着英国最持久的食物争论——先涂奶油还是先涂果酱。德文郡先涂奶油，康沃尔郡先涂果酱。没有定论。
 
@@ -67,7 +67,7 @@ cover: "/images/uploads/da56ec652f764109b957a18074051964~tplv-jv50ctfexx-compres
 
 它既不精致也不向上。它就是晚餐。自1940年以来追踪英国家庭购买情况的全国食品调查，将“周日高茶的 ham salad”记录为1950年代普通家庭的主食——比维多利亚时代高峰晚了一个世纪。
 
-![](https://s.coze.cn/image/ZfRQyymQcrk/)
+![](/images/mirrored/131086e3d716ce37.jpg)
 
 这种用法仍然存在。在英格兰北部和苏格兰的大部分地区，“茶”仍然指晚餐，所以“茶点时间”就是晚餐时间。在曼彻斯特受邀喝茶的游客不应期待三层架。
 

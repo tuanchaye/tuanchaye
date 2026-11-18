@@ -59,7 +59,7 @@ The menu settled into a standard order, served on a tiered stand and eaten from 
 | Middle | Scones with clotted cream and jam                                                       |
 | Top    | Small pastries and cakes                                                                |
 
-![](https://s.coze.cn/image/e_Yit7S4CVc/)
+![](/images/mirrored/a867cae1d0d72911.jpg)
 
 Cream tea is the stripped-down version: scones, clotted cream, jam, and tea, associated with Devon and Cornwall. It also carries Britain's most durable food argument — whether cream or jam goes on first. Devon spreads cream first, Cornwall jam first. There is no resolution.
 

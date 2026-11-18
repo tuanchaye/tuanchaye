@@ -55,7 +55,7 @@ Tabla
 | Medio | Scones con nata espesa y mermelada                                                       |
 | Superior    | Pastelitos y pasteles pequeños                                                                |
 
-![](https://s.coze.cn/image/e_Yit7S4CVc/)
+![](/images/mirrored/a867cae1d0d72911.jpg)
 
 El té con nata es la versión simplificada: scones, nata espesa, mermelada y té, asociado con Devon y Cornualles. También conlleva la discusión gastronómica más duradera de Gran Bretaña — si la nata o la mermelada va primero. Devon unta la nata primero, Cornualles la mermelada primero. No hay resolución.
 
@@ -67,7 +67,7 @@ El té alto era la comida nocturna de las personas que habían trabajado todo el
 
 No era delicado ni aspiracional. Era la cena. La Encuesta Nacional de Alimentos, que ha rastreado lo que compran los hogares británicos desde 1940, registra "ensalada de jamón para el té alto los domingos" como un elemento básico familiar ordinario de la década de 1950 — un siglo después del apogeo victoriano de la comida.
 
-![](https://s.coze.cn/image/ZfRQyymQcrk/)
+![](/images/mirrored/131086e3d716ce37.jpg)
 
 El uso sobrevive. En gran parte del norte de Inglaterra y Escocia, "té" todavía significa la comida nocturna, así que "la hora del té" es la hora de la cena. Un visitante invitado a tomar el té en Mánchester no debería esperar un soporte de tres niveles.
 

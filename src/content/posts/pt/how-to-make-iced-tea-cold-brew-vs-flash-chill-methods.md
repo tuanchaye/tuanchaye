@@ -81,7 +81,7 @@ Folhas deixadas na jarra continuam extraindo; o chá fica amargo e turvo em um d
 
 **Hojicha, genmaicha, bancha** — qualquer um. Chás torrados, com muito caule, são difíceis de estragar e aceitam bem serem preparados fortes sobre gelo.
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## Adoçando e Finalizando
 

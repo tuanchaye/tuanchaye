@@ -81,7 +81,7 @@ cover: "/images/uploads/e7237e4db7e84d789cf411b7e1cb1e7b~tplv-jv50ctfexx-compres
 
 **ほうじ茶、玄米茶、番茶** — どちらでも。焙煎され茎の多いお茶は失敗しにくく、氷上で濃く淹れるのに適しています。
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## 甘味と仕上げ
 

@@ -81,7 +81,7 @@ Las hojas que quedan en la jarra siguen extrayéndose; el té se vuelve amargo y
 
 **Hojicha, genmaicha, bancha**: cualquiera de los dos. Los tés tostados, con mucho tallo, son difíciles de arruinar y admiten bien prepararse fuertes sobre hielo.
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## Endulzar y terminar
 

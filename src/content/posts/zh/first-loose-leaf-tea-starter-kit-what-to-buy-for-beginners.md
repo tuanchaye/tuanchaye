@@ -39,7 +39,7 @@ cover: "/images/uploads/a1554519cf9a4bb48fef38afd397cd4e~tplv-jv50ctfexx-compres
 
 **这些留到以后。** 白茶昂贵、娇嫩，在你还在学习时容易泡过头。普洱是紧压的，通常需要慢慢习惯，而且需要不同的冲泡方法。调味和烟熏拼配会掩盖叶片，这违背了买叶茶的初衷。抹茶需要茶筅和它自己的技巧。单一庄园的高端茶在你味觉还没有任何参照物之前是浪费钱。
 
-![](https://s.coze.cn/image/IS7A7mMxX4w/)
+![](/images/mirrored/988043d2331b387e.jpg)
 
 ## 容器：空间比材质更重要
 

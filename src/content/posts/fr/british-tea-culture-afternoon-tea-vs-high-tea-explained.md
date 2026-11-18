@@ -55,7 +55,7 @@ Tableau
 | Milieu | Scones avec crème caillée et confiture                                                       |
 | Haut    | Petites pâtisseries et gâteaux                                                                |
 
-![](https://s.coze.cn/image/e_Yit7S4CVc/)
+![](/images/mirrored/a867cae1d0d72911.jpg)
 
 Le cream tea est la version simplifiée : scones, crème caillée, confiture et thé, associé au Devon et aux Cornouailles. Il porte aussi la plus durable des querelles culinaires britanniques — faut-il mettre la crème ou la confiture en premier. Le Devon étale la crème d'abord, les Cornouailles la confiture d'abord. Il n'y a pas de résolution.
 
@@ -67,7 +67,7 @@ Le high tea était le repas du soir des gens qui avaient travaillé toute la jou
 
 Ce n'était ni délicat ni ambitieux. C'était le dîner. La National Food Survey, qui suit ce que les ménages britanniques achètent depuis 1940, enregistre « salade de jambon pour le high tea du dimanche » comme un incontournable familial ordinaire des années 1950 — un siècle après l'apogée victorien du repas.
 
-![](https://s.coze.cn/image/ZfRQyymQcrk/)
+![](/images/mirrored/131086e3d716ce37.jpg)
 
 L'usage survit. Dans une grande partie du nord de l'Angleterre et en Écosse, « tea » signifie toujours le repas du soir, donc « tea time » est l'heure du dîner. Un visiteur invité à prendre le thé à Manchester ne doit pas s'attendre à un présentoir à trois étages.
 

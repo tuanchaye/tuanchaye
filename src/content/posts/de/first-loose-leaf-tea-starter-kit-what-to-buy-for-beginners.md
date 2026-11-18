@@ -39,7 +39,7 @@ Fünfzig Gramm sind ungefähr fünfzehn bis zwanzig Tassen bei der unten angegeb
 
 **Heben Sie sich diese für später auf.** Weißer Tee ist teuer, delikat und leicht zu überbrühen, während Sie noch lernen. Pu-erh ist gepresst, oft ein erworbener Geschmack und erfordert eine andere Aufbrühmethode. Aromatisierte und geräucherte Mischungen verbergen das Blatt, was den Zweck des Blattkaufs zunichtemacht. Matcha braucht einen Besen und eine eigene Technik. Premium-Lots von einzelnen Gärten sind Geldverschwendung, bevor Ihr Gaumen etwas zum Vergleichen hat.
 
-![](https://s.coze.cn/image/IS7A7mMxX4w/)
+![](/images/mirrored/988043d2331b387e.jpg)
 
 ## Das Gefäß: Platz ist wichtiger als Material
 

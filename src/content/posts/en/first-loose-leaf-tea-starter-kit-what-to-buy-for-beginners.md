@@ -43,7 +43,7 @@ Fifty grams is roughly fifteen to twenty mugs at the three-gram dose below, whic
 
 **Leave these for later.** White tea is expensive, delicate, and easy to over-steep while you are still learning. Pu-erh is compressed, often an acquired taste, and needs a different brewing approach. Flavored and smoked blends hide the leaf, which defeats the purpose of buying leaf. Matcha needs a whisk and a technique of its own. Single-estate premium lots are wasted money before your palate has anything to compare them against.
 
-![](https://s.coze.cn/image/IS7A7mMxX4w/)
+![](/images/mirrored/988043d2331b387e.jpg)
 
 ## The Vessel: Room Matters More Than Material
 

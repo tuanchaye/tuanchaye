@@ -85,7 +85,7 @@ Leaves left in the pitcher keep extracting; the tea turns bitter and cloudy with
 
 **Hojicha, genmaicha, bancha** — either. Roasted, stem-heavy teas are hard to ruin and take well to being brewed strong over ice.
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## Sweetening and Finishing
 

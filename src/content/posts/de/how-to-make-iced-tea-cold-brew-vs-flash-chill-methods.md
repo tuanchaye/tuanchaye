@@ -81,7 +81,7 @@ Blätter, die in der Kanne bleiben, extrahieren weiter; der Tee wird innerhalb e
 
 **Hojicha, Genmaicha, Bancha** – beides. Geröstete, stängelreiche Tees sind schwer zu verderben und vertragen es gut, stark über Eis gebrüht zu werden.
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## Süßen und Veredeln
 

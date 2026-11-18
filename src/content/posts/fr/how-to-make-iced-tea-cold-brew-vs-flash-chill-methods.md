@@ -81,7 +81,7 @@ Les feuilles laissées dans la carafe continuent d'infuser ; le thé devient ame
 
 **Hojicha, genmaicha, bancha** — l'une ou l'autre. Les thés torréfiés, riches en tiges, sont difficiles à gâcher et supportent bien d'être infusés forts sur glace.
 
-![](https://s.coze.cn/image/1Egf5fCqs8U/)
+![](/images/mirrored/8bc4004db8ce8f03.jpg)
 
 ## Sucrer et finir
 

@@ -39,7 +39,7 @@ Cincuenta gramos son aproximadamente quince a veinte tazas con la dosis de tres 
 
 **Deja estos para más adelante.** El té blanco es caro, delicado y fácil de infusionar en exceso mientras aún estás aprendiendo. El pu-erh es comprimido, a menudo un gusto adquirido y necesita un enfoque de preparación diferente. Las mezclas aromatizadas y ahumadas ocultan la hoja, lo que frustra el propósito de comprar hoja. El matcha necesita un batidor y una técnica propia. Los lotes premium de un solo estado son dinero desperdiciado antes de que tu paladar tenga algo con qué compararlos.
 
-![](https://s.coze.cn/image/IS7A7mMxX4w/)
+![](/images/mirrored/988043d2331b387e.jpg)
 
 ## El recipiente: el espacio importa más que el material
 

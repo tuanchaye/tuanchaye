@@ -55,7 +55,7 @@ Tabelle
 | Mitte | Scones mit Clotted Cream und Marmelade                                                       |
 | Oben    | Kleine Gebäckstücke und Kuchen                                                                |
 
-![](https://s.coze.cn/image/e_Yit7S4CVc/)
+![](/images/mirrored/a867cae1d0d72911.jpg)
 
 Cream Tea ist die reduzierte Version: Scones, Clotted Cream, Marmelade und Tee, assoziiert mit Devon und Cornwall. Er trägt auch Großbritanniens beständigsten Essensstreit aus – ob zuerst Sahne oder Marmelade daraufkommt. Devon streicht zuerst Sahne, Cornwall zuerst Marmelade. Es gibt keine Einigung.
 
@@ -67,7 +67,7 @@ High Tea war die Abendmahlzeit von Menschen, die den ganzen Tag gearbeitet hatte
 
 Sie war nicht fein und nicht erstrebenswert. Sie war das Abendessen. Die National Food Survey, die seit 1940 verfolgt, was britische Haushalte kaufen, verzeichnet „Schinkensalat zum High Tea an Sonntagen“ als gewöhnlichen Familienbestandteil der 1950er Jahre – ein Jahrhundert nach dem viktorianischen Höhepunkt dieser Mahlzeit.
 
-![](https://s.coze.cn/image/ZfRQyymQcrk/)
+![](/images/mirrored/131086e3d716ce37.jpg)
 
 Der Sprachgebrauch lebt fort. In weiten Teilen Nordenglands und Schottlands bedeutet „Tea“ noch immer die Abendmahlzeit, sodass „Tea Time“ Essenszeit ist. Ein Besucher, der in Manchester zum Tee eingeladen wird, sollte keine dreistöckige Etagere erwarten.
 

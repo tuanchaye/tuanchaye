@@ -39,7 +39,7 @@ Cinquante grammes représentent environ quinze à vingt tasses à la dose de tro
 
 **Laissez ceux-ci pour plus tard.** Le thé blanc est cher, délicat et facile à trop infuser quand on débute. Le pu-erh est compressé, souvent un goût acquis et nécessite une approche d'infusion différente. Les mélanges aromatisés et fumés masquent la feuille, ce qui va à l'encontre du but recherché. Le matcha nécessite un fouet et une technique propre. Les lots premium de domaine unique sont de l'argent gaspillé avant que votre palais ait de quoi les comparer.
 
-![](https://s.coze.cn/image/IS7A7mMxX4w/)
+![](/images/mirrored/988043d2331b387e.jpg)
 
 ## Le récipient : l'espace compte plus que la matière
 

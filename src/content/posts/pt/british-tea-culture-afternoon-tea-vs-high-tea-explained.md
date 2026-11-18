@@ -55,7 +55,7 @@ Tabela
 | Média | Scones com creme de leite e geleia                                                       |
 | Superior    | Pequenos doces e bolos                                                                |
 
-![](https://s.coze.cn/image/e_Yit7S4CVc/)
+![](/images/mirrored/a867cae1d0d72911.jpg)
 
 Cream tea é a versão simplificada: scones, creme de leite, geleia e chá, associada a Devon e Cornwall. Também carrega a mais duradoura discussão gastronômica britânica — se o creme ou a geleia vai primeiro. Devon espalha o creme primeiro, Cornwall a geleia primeiro. Não há resolução.
 
@@ -67,7 +67,7 @@ O high tea era a refeição noturna de pessoas que haviam trabalhado o dia todo,
 
 Não era delicado nem aspiracional. Era o jantar. O National Food Survey, que acompanha o que as famílias britânicas compram desde 1940, registra "salada de presunto para o high tea aos domingos" como um item básico comum das famílias nos anos 1950 — um século após o auge vitoriano da refeição.
 
-![](https://s.coze.cn/image/ZfRQyymQcrk/)
+![](/images/mirrored/131086e3d716ce37.jpg)
 
 O uso sobrevive. Em grande parte do norte da Inglaterra e na Escócia, "tea" ainda significa a refeição noturna, então "hora do chá" é hora do jantar. Um visitante convidado para o chá em Manchester não deve esperar um suporte de três camadas.
 
