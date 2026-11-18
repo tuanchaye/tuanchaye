@@ -18,7 +18,7 @@ Sobald sich die Knospen öffnen, werden Tee und Blüten geschichtet und 10 bis 1
 
 Eine Runde heißt *yin*. Nichts daran ist schnell: Ein erstklassiger Jasmintee kann sechs Monate und über hundert einzelne Behandlungsschritte dauern, bevor er verpackt wird.
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## Die Zahl, die den Preis bestimmt
 

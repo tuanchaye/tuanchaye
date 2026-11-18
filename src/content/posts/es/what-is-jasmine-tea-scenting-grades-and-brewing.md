@@ -18,7 +18,7 @@ Una vez que los capullos se abren, el té y las flores se colocan en capas y se 
 
 Una ronda se llama *yin*. Nada de esto es rápido: un té de jazmín de grado superior puede tardar seis meses y más de cien pasos de manipulación separados antes de ser envasado.
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## El número que fija el precio
 

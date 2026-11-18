@@ -16,7 +16,7 @@ La extracción es un problema de velocidad. El calor acelera el movimiento de lo
 
 Los aminoácidos y los azúcares simples se disuelven con facilidad incluso en agua fría. La cafeína y las catequinas necesitan más energía para salir de la hoja. Esa es la base del cold brew: doce horas a 4 °C extraen el material dulce, sabroso y de cuerpo lleno y dejan atrás gran parte de la fracción amarga. El resultado se percibe como suave, pero suave describe el equilibrio, no la intensidad. En algunas mediciones, el té preparado en frío contiene más de un compuesto que el té preparado en caliente.
 
-![](https://s.coze.cn/image/9HJTZACzflY/)
+![](/images/mirrored/af597cf3e068b3c0.jpg)
 
 ## Lo que realmente encontraron los estudios comparativos
 

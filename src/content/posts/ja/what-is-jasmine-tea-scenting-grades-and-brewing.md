@@ -18,7 +18,7 @@ cover: "/images/uploads/d5f76f1e89894c7eb6dbd71f8c15e1da~tplv-jv50ctfexx-compres
 
 1回の工程は*yin*と呼ばれます。何も速くはありません。最高級のジャスミン茶は、箱詰めされるまでに6ヶ月と100以上の別々の処理工程を要することがあります。
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## 価格を決める数字
 

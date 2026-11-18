@@ -18,7 +18,7 @@ cover: "/images/uploads/d5f76f1e89894c7eb6dbd71f8c15e1da~tplv-jv50ctfexx-compres
 
 一轮称为一个*窨*。整个过程绝不快速：顶级茉莉花茶在装箱前可能需要六个月和一百多道独立处理工序。
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## 决定价格的数字
 

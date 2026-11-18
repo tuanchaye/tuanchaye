@@ -22,7 +22,7 @@ Once the buds open, tea and flowers are layered together and left for 10 to 12 h
 
 One round is called a *yin*. Nothing about this is fast: a top-grade jasmine tea can take six months and over a hundred separate handling steps before it is boxed.
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## The Number That Sets the Price
 

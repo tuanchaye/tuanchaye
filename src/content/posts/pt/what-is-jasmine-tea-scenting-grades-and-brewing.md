@@ -18,7 +18,7 @@ Assim que os botões se abrem, chá e flores são dispostos em camadas e deixado
 
 Uma rodada é chamada de *yin*. Nada disso é rápido: um chá de jasmim de alto grau pode levar seis meses e mais de cem etapas de manuseio separadas antes de ser embalado.
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## O número que define o preço
 

@@ -16,7 +16,7 @@ L'extraction est un problème de vitesse. La chaleur accélère le mouvement des
 
 Les acides aminés et les sucres simples se dissolvent facilement même dans l'eau froide. La caféine et les catéchines ont besoin de plus d'énergie pour quitter la feuille. C'est la base de l'infusion à froid : douze heures à 4 °C extraient les matières sucrées, savoureuses et enveloppantes et laissent une grande partie de la fraction amère derrière. Le résultat paraît doux — mais doux décrit l'équilibre, pas la force. Selon certaines mesures, le thé infusé à froid contient plus d'un composé que le thé infusé à chaud.
 
-![](https://s.coze.cn/image/9HJTZACzflY/)
+![](/images/mirrored/af597cf3e068b3c0.jpg)
 
 ## Ce que les études comparatives ont réellement trouvé
 

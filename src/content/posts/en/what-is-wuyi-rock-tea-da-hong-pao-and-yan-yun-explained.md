@@ -40,7 +40,7 @@ Whether that produces a distinct cup has been tested. A 2019 study sampled 112 g
 
 That last number is the one worth holding on to. Origin is real and measurable — but it accounts for about a third of the difference. The rest comes from cultivar, processing, and roast. Anyone selling you a tea on the canyon name alone is selling you a third of the story at full price.
 
-![](https://s.coze.cn/image/mKtUfnAGFso/)
+![](/images/mirrored/1333fcf82ce81c02.jpg)
 
 ## Zhengyan, Banyan, Zhou Cha
 

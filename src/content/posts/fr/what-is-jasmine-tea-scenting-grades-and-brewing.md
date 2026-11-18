@@ -18,7 +18,7 @@ Une fois les boutons ouverts, thé et fleurs sont superposés et laissés pendan
 
 Un cycle s'appelle un *yin*. Rien ici n'est rapide : un thé au jasmin de qualité supérieure peut prendre six mois et plus d'une centaine d'étapes de manipulation distinctes avant d'être emballé.
 
-![](https://s.coze.cn/image/XpRU7b_grZo/)
+![](/images/mirrored/20c48f5b15885cdc.jpg)
 
 ## Le nombre qui fixe le prix
 

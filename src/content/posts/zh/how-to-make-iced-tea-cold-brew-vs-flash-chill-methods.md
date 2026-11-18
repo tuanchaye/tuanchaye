@@ -16,7 +16,7 @@ cover: "/images/uploads/e7237e4db7e84d789cf411b7e1cb1e7b~tplv-jv50ctfexx-compres
 
 氨基酸和单糖即使在冷水中也容易溶解。咖啡因和儿茶素需要更多能量才能离开茶叶。这就是冷萃的基础：在4°C下十二小时，提取出甜味、鲜味和饱满口感物质，而将大部分苦味部分留下。结果喝起来顺滑——但顺滑描述的是平衡，不是强度。在某些测量中，冷萃茶中某种化合物的含量比热萃茶更高。
 
-![](https://s.coze.cn/image/9HJTZACzflY/)
+![](/images/mirrored/af597cf3e068b3c0.jpg)
 
 ## 对比研究实际发现了什么
 

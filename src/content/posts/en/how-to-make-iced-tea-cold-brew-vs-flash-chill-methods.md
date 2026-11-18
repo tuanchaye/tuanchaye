@@ -20,7 +20,7 @@ Extraction is a rate problem. Heat speeds the movement of compounds out of the l
 
 Amino acids and simple sugars dissolve readily even in cold water. Caffeine and the catechins need more energy to leave the leaf. That is the basis of cold brewing: twelve hours at 4 °C pulls out the sweet, savory, mouth-filling material and leaves much of the bitter fraction behind. The result reads as smooth — but smooth describes balance, not strength. In some measures cold-brewed tea contains more of a compound than hot-brewed tea does.
 
-![](https://s.coze.cn/image/9HJTZACzflY/)
+![](/images/mirrored/af597cf3e068b3c0.jpg)
 
 ## What the Comparison Studies Actually Found
 

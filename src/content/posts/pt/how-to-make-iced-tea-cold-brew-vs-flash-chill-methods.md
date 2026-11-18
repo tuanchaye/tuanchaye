@@ -16,7 +16,7 @@ A extração é um problema de taxa. O calor acelera o movimento dos compostos p
 
 Aminoácidos e açúcares simples se dissolvem prontamente mesmo em água fria. A cafeína e as catequinas precisam de mais energia para sair da folha. Essa é a base do cold brew: doze horas a 4 °C extraem o material doce, salgado e encorpado e deixam grande parte da fração amarga para trás. O resultado parece suave — mas suave descreve equilíbrio, não força. Em algumas medidas, o chá feito por cold brew contém mais de um composto do que o chá feito a quente.
 
-![](https://s.coze.cn/image/9HJTZACzflY/)
+![](/images/mirrored/af597cf3e068b3c0.jpg)
 
 ## O que os Estudos Comparativos Realmente Descobriram
 

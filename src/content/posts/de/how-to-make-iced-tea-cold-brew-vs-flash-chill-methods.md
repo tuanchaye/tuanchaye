@@ -16,7 +16,7 @@ Extraktion ist ein Geschwindigkeitsproblem. Hitze beschleunigt die Bewegung von 
 
 Aminosäuren und einfache Zucker lösen sich auch in kaltem Wasser leicht. Koffein und die Catechine brauchen mehr Energie, um das Blatt zu verlassen. Das ist die Grundlage des Kaltbrühens: zwölf Stunden bei 4 °C ziehen das süße, herzhafte, mundfüllende Material heraus und lassen einen Großteil der bitteren Fraktion zurück. Das Ergebnis liest sich als sanft – aber sanft beschreibt Balance, nicht Stärke. In einigen Messungen enthält kalt gebrühter Tee mehr einer Verbindung als heiß gebrühter Tee.
 
-![](https://s.coze.cn/image/9HJTZACzflY/)
+![](/images/mirrored/af597cf3e068b3c0.jpg)
 
 ## Was die Vergleichsstudien tatsächlich fanden
 
