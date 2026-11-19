@@ -50,7 +50,7 @@ Die beiden Studien stimmen nicht vollständig darin überein, wie weich zu weich
 
 Hohes Calcium bewirkt etwas Eigenartiges: Es senkt Bitterkeit, Frische und Süße, während es die Adstringenz *erhöht*. Das Ergebnis ist eine Tasse, die gleichzeitig flach und rau ist – keine Süße, die die Kanten abrundet, aber ein trockener Griff auf der Zunge, der spät kommt und bleibt. Es unterdrückt auch die flüchtigen Verbindungen, die Aroma tragen, weshalb stark mineralisiertes Wasser das erzeugt, was die Oolong-Studie ein trübes Aroma nannte: Der Geruch ist da, aber verworren, als würde man durch eine Wand hören.
 
-![](https://s.coze.cn/image/WCdSWNWbM4s/)
+![](/images/mirrored/95b2b46801922e60.jpg)
 
 Hier wird der Kompromiss konkret. Dasselbe mineralarme Wasser, das das Aroma maximiert, extrahiert auch mehr Catechin – die Verbindungen hinter Bitterkeit und Adstringenz. Weiches Wasser gibt Ihnen eine hellere, duftendere, aber auch bitterere und griffigere Tasse. Hartes Wasser gibt das Gegenteil: runder, schwerer, stumpfer. Keines ist abstrakt besser; es sind verschiedene Getränke aus demselben Blatt.
 

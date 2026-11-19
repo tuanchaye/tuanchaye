@@ -50,7 +50,7 @@ Los dos estudios no coinciden del todo en cuán blanda es demasiado blanda: el t
 
 El alto contenido de calcio hace algo peculiar: reduce el amargor, la frescura y el dulzor mientras *aumenta* la astringencia. El resultado es una taza plana y áspera a la vez — sin dulzor para redondear los bordes, pero con un agarre secante en la lengua que llega tarde y se queda. También suprime los compuestos volátiles que portan el aroma, por lo que el agua fuertemente mineralizada produce lo que el estudio del oolong llamó aroma turbio: el olor está ahí, pero confuso, como escuchado a través de una pared.
 
-![](https://s.coze.cn/image/WCdSWNWbM4s/)
+![](/images/mirrored/95b2b46801922e60.jpg)
 
 Aquí el compromiso se vuelve concreto. La misma agua baja en minerales que maximiza el aroma también extrae más catequina — los compuestos detrás del amargor y la astringencia. El agua blanda te da una taza más brillante, más fragante, pero también más amarga y con más cuerpo. El agua dura da lo contrario: más redonda, más pesada, más apagada. Ninguna es mejor en abstracto; son bebidas diferentes de la misma hoja.
 

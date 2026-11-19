@@ -18,7 +18,7 @@ cover: "/images/uploads/32739214474f424b9f6deacdecb7e97f~tplv-jv50ctfexx-compres
 
 茶是珠茶，来自浙江省的紧密卷曲颗粒风格——与我们关于[选择散叶绿茶](<>)的指南中涵盖的风格相同。颗粒形式很重要：它能在长期储存中不失去香气，可以反复煮沸而不解体，并且释放速度足够慢，能够承受糖和薄荷。
 
-![](https://s.coze.cn/image/gI6JJegG3KY/)
+![](/images/mirrored/4842cbdd2ae60f30.jpg)
 
 ## 比美国内战更年轻的国家饮品
 

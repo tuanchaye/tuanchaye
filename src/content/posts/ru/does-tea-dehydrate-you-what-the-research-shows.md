@@ -18,7 +18,7 @@ cover: "/images/uploads/4d64c452e618412bafcfa901a5a55a80~tplv-jv50ctfexx-compres
 
 Для масштаба см. [сколько кофеина на самом деле содержится в чае](<>) — разброс между видами чая шире, чем большинство людей ожидает.
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## Что показали испытания
 

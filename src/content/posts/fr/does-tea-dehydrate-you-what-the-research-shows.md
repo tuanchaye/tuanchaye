@@ -18,7 +18,7 @@ Ce que le conseil omet, c'est la dose. Une tasse de thé contient environ 40 à 
 
 Pour donner une échelle, voir [combien de caféine contient réellement le thé](<>) — la fourchette entre les types de thé est plus large que la plupart des gens ne l'imaginent.
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## Ce que les essais ont trouvé
 

@@ -18,7 +18,7 @@ Não significa qualquer chá com menta. A menta-pimenta (*Mentha × piperita*) n
 
 O chá é gunpowder, o estilo de pérolas firmemente enroladas da província de Zhejiang — o mesmo estilo abordado no nosso guia para [escolher chá verde de folhas soltas](<>). A forma de pérola importa: sobrevive a longos períodos de armazenamento sem perder aroma, pode ser fervida repetidamente sem se desintegrar e libera seus sabores lentamente o suficiente para suportar o açúcar e a menta.
 
-![](https://s.coze.cn/image/gI6JJegG3KY/)
+![](/images/mirrored/4842cbdd2ae60f30.jpg)
 
 ## Uma bebida nacional mais jovem que a Guerra Civil Americana
 

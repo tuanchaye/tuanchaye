@@ -18,7 +18,7 @@ Es bedeutet nicht irgendeinen Tee mit Minze. Pfefferminze (*Mentha × piperita*)
 
 Der Tee ist Gunpowder, die fest gerollte Pellet-Form aus der Provinz Zhejiang – dieselbe Form, die in unserem Leitfaden zur [Auswahl von losem Grüntee](<>) behandelt wird. Die Pelletform ist wichtig: Sie übersteht lange Lagerung ohne Aromaverlust, kann wiederholt gekocht werden, ohne zu zerfallen, und gibt ihre Aromen langsam genug ab, um Zucker und Minze standzuhalten.
 
-![](https://s.coze.cn/image/gI6JJegG3KY/)
+![](/images/mirrored/4842cbdd2ae60f30.jpg)
 
 ## Ein Nationalgetränk, jünger als der Amerikanische Bürgerkrieg
 

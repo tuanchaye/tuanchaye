@@ -18,7 +18,7 @@ O que o conselho omite é a dose. Uma xícara de chá contém cerca de 40 a 50 m
 
 Para comparação, veja [quanta cafeína realmente há no chá](<>) — a variação entre os tipos de chá é maior do que a maioria das pessoas espera.
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## O que os ensaios descobriram
 

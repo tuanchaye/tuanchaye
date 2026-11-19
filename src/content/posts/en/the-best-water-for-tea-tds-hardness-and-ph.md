@@ -53,7 +53,7 @@ The two studies do not fully agree on how soft is too soft: the oolong work foun
 
 High calcium does something peculiar: it lowers bitterness, freshness, and sweetness while *raising* astringency. The result is a cup that is flat and rough at once — no sweetness to round off the edges, but a drying grip on the tongue that arrives late and stays. It also suppresses the volatile compounds that carry aroma, which is why heavily mineralized water produces what the oolong study called a turbid aroma: the smell is there, but muddled, as if heard through a wall.
 
-![](https://s.coze.cn/image/WCdSWNWbM4s/)
+![](/images/mirrored/95b2b46801922e60.jpg)
 
 Here the trade-off becomes concrete. The same low-mineral water that maximizes aroma also extracts more catechin — the compounds behind bitterness and astringency. Soft water gives you a brighter, more fragrant, but also more bitter and grippier cup. Hard water gives the reverse: rounder, heavier, duller. Neither is better in the abstract; they are different drinks from the same leaf.
 

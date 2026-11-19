@@ -18,7 +18,7 @@ Lo que el consejo omite es la dosis. Una taza de té contiene aproximadamente en
 
 Para ponerlo en perspectiva, consulta [cuánta cafeína tiene realmente el té](<>) — la variación entre tipos de té es mayor de lo que la mayoría espera.
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## Qué encontraron los ensayos
 

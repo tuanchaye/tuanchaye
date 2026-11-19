@@ -18,7 +18,7 @@ Was der Rat auslässt, ist die Dosis. Eine Tasse Tee enthält etwa 40 bis 50 mg 
 
 Zum Vergleich: Siehe [wie viel Koffein tatsächlich im Tee steckt](<>) – die Spanne zwischen den Teesorten ist größer, als die meisten erwarten.
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## Was die Studien fanden
 

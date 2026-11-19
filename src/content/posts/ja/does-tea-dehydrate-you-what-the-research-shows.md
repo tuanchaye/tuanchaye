@@ -18,7 +18,7 @@ cover: "/images/uploads/4d64c452e618412bafcfa901a5a55a80~tplv-jv50ctfexx-compres
 
 規模感については、[お茶に実際どれだけカフェインが含まれているか](<>)をご覧ください。茶葉の種類による範囲は、ほとんどの人が予想するより広いです。
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## 試験でわかったこと
 

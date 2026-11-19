@@ -22,7 +22,7 @@ What the advice leaves out is dose. A mug of tea contains roughly 40 to 50 mg of
 
 For scale, see [how much caffeine is actually in tea](<>) — the range between tea types is wider than most people expect.
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## What the Trials Found
 

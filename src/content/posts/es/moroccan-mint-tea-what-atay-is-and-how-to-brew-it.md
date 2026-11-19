@@ -18,7 +18,7 @@ No significa cualquier té con menta. La menta piperita (*Mentha × piperita*) n
 
 El té es gunpowder, el estilo de bolitas apretadas de la provincia de Zhejiang — el mismo estilo que cubrimos en nuestra guía para [elegir té verde de hoja suelta](<>). La forma de bolita importa: sobrevive al almacenamiento prolongado sin perder aroma, se puede hervir repetidamente sin desintegrarse y libera sus sabores lo suficientemente despacio como para soportar el azúcar y la menta.
 
-![](https://s.coze.cn/image/gI6JJegG3KY/)
+![](/images/mirrored/4842cbdd2ae60f30.jpg)
 
 ## Una bebida nacional más joven que la Guerra Civil estadounidense
 

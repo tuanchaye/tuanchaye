@@ -22,7 +22,7 @@ It does not mean any tea with mint. Peppermint (*Mentha × piperita*) is not the
 
 The tea is gunpowder, the tightly rolled pellet style from Zhejiang province — the same style covered in our guide to [choosing loose-leaf green tea](<>). The pellet form matters: it survives long storage without losing aroma, it can be boiled repeatedly without disintegrating, and it releases slowly enough to stand up to sugar and mint.
 
-![](https://s.coze.cn/image/gI6JJegG3KY/)
+![](/images/mirrored/4842cbdd2ae60f30.jpg)
 
 ## A National Drink Younger Than the American Civil War
 

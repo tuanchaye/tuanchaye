@@ -18,7 +18,7 @@ Cela ne signifie pas n'importe quel thé à la menthe. La menthe poivrée (*Ment
 
 Le thé est du gunpowder, le style en pellets finement roulés de la province du Zhejiang — le même style couvert dans notre guide pour [choisir un thé vert en vrac](<>). La forme en pellet importe : elle survit à un long stockage sans perdre son arôme, elle peut être bouillie à plusieurs reprises sans se désintégrer et elle libère ses arômes suffisamment lentement pour tenir tête au sucre et à la menthe.
 
-![](https://s.coze.cn/image/gI6JJegG3KY/)
+![](/images/mirrored/4842cbdd2ae60f30.jpg)
 
 ## Une boisson nationale plus jeune que la guerre de Sécession américaine
 

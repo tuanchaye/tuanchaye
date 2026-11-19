@@ -18,7 +18,7 @@ cover: "/images/uploads/4d64c452e618412bafcfa901a5a55a80~tplv-jv50ctfexx-compres
 
 作为参照，请参阅[茶中究竟含有多少咖啡因](<>)——不同茶类之间的咖啡因含量差异比大多数人想象的要大。
 
-![](https://s.coze.cn/image/lL_s08dLC6I/)
+![](/images/mirrored/16bc23fd6a00cf21.jpg)
 
 ## 试验发现了什么
 

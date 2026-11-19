@@ -50,7 +50,7 @@ Os dois estudos não concordam totalmente sobre quão mole é mole demais: o tra
 
 Alto cálcio faz algo peculiar: reduz o amargor, o frescor e a doçura enquanto *aumenta* a adstringência. O resultado é uma xícara plana e áspera ao mesmo tempo — sem doçura para arredondar as bordas, mas com um aperto secante na língua que chega tarde e fica. Também suprime os compostos voláteis que carregam o aroma, e é por isso que água fortemente mineralizada produz o que o estudo do oolong chamou de aroma turvo: o cheiro está lá, mas confuso, como se ouvido através de uma parede.
 
-![](https://s.coze.cn/image/WCdSWNWbM4s/)
+![](/images/mirrored/95b2b46801922e60.jpg)
 
 Aqui o trade-off se torna concreto. A mesma água de baixo teor mineral que maximiza o aroma também extrai mais catequina — os compostos por trás do amargor e da adstringência. Água mole dá uma xícara mais brilhante, mais fragrante, mas também mais amarga e adstringente. Água dura dá o inverso: mais arredondada, mais pesada, mais opaca. Nenhuma é melhor em abstrato; são bebidas diferentes da mesma folha.
 

@@ -50,7 +50,7 @@ Les deux études ne sont pas entièrement d'accord sur le degré de douceur : l'
 
 Un calcium élevé fait quelque chose de particulier : il réduit l'amertume, la fraîcheur et la douceur tout en *augmentant* l'astringence. Le résultat est une tasse à la fois plate et rugueuse — pas de douceur pour arrondir les angles, mais une sensation desséchante sur la langue qui arrive tard et persiste. Il supprime également les composés volatils qui portent l'arôme, ce qui explique pourquoi une eau fortement minéralisée produit ce que l'étude sur l'oolong a appelé un arôme trouble : l'odeur est là, mais embrouillée, comme entendue à travers un mur.
 
-![](https://s.coze.cn/image/WCdSWNWbM4s/)
+![](/images/mirrored/95b2b46801922e60.jpg)
 
 Ici, le compromis devient concret. La même eau peu minéralisée qui maximise l'arôme extrait aussi plus de catéchines — les composés responsables de l'amertume et de l'astringence. Une eau douce donne une tasse plus vive, plus parfumée, mais aussi plus amère et plus astringente. Une eau dure donne l'inverse : plus ronde, plus lourde, plus terne. Ni l'une ni l'autre n'est meilleure dans l'abstrait ; ce sont des boissons différentes à partir de la même feuille.
 
